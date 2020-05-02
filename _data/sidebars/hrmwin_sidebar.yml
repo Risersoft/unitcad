@@ -1,0 +1,559 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+#    - title: Git collaboration
+#      url: /mydoc_git_collaboration
+#      output: web, pdf
+
+
+
+entries:
+- title: sidebar
+  product: HRM Nirvana
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: web, pdf
+    url: /hrmwin_introduction.html
+    folderitems:
+
+    -
+
+  - title: Company
+    output: web, pdf
+    url: /hrmwin_company.html
+    folderitems:
+    
+       -
+       
+  - title: Campus
+    output: web, pdf
+    url: /hrmwin_campus.html
+    folderitems:
+
+    -
+
+  - title: Company HR Details
+    output: web, pdf
+
+    folderitems:
+    - title: Rate Masters
+      url: /hrmwin_ratemasters.html
+      output: web, pdf
+
+    - title: Leave Balance
+      url: /hrmwin_leavebalance.html
+      output: web, pdf
+      
+    - title: Leave Enchasment(Manual)
+      url: /hrmwin_leaveenchasment.html
+      output: web, pdf
+      
+    - title: Leave Enchasment(Auto)
+      url: /hrmwin_leaveenchasmentauto.html
+      output: web, pdf
+      
+    - title: Loans
+      url: /hrmwin_loans.html
+      output: web, pdf
+      
+    - title: Bonus Master
+      url: /hrmwin_bonusmaster.html
+      output: web, pdf
+      
+    - title: Bonus Full and Final
+      url: /hrmwin_fullnfinal.html
+      output: web, pdf
+      
+    - title: IT Salary Summary
+      url: /hrmwin_summary.html
+      output: web, pdf
+
+    - title: Form 3A
+      url: /hrmwin_3a.html
+      output: web, pdf
+      
+    
+
+  - title: Rate Master
+    output: web, pdf
+    url: /hrmwin_ratemaster.html
+
+    folderitems:
+    
+    -
+
+  - title: Bonus Master
+    output: web, pdf
+    url: /hrmwin_bonusmaster.html
+    folderitems:
+    
+    -
+  
+
+  - title: Leave Master
+    output: web, pdf
+    url: hrmwin_leavemaster.html
+    folderitems:
+    
+    -
+
+  - title: Attendance Type Master
+    output: web, pdf
+    url: /hrmwin_attendance.html
+    folderitems:
+    
+    -
+   
+
+  - title: Department
+    output: web, pdf
+    url: /hrmwin_department.html
+    folderitems:
+    
+    -
+
+  - title: Pay Period
+    output: web, pdf
+    
+    folderitems:
+
+    - title: Attendance
+      url: /hrmwin_att.html
+      output: web, pdf
+      
+    - title: Pending Attendence
+      url: /hrmwin_pendingatt.html
+      output: web, pdf
+      
+    - title: Attendence(Day Wise)
+      url: /hrmwin_dayatt.html
+      output: web, pdf
+      
+    - title: Today's Punches
+      url: /hrmwin_todays.html
+      output: web, pdf
+      
+    - title: Punched Attendence
+      url: /hrmwin_punched.html
+      output: web, pdf
+      
+    - title: Roster
+      url: /hrmwin_roster.html
+      output: web, pdf
+      
+    - title: Form 12A
+      url: /hrmwin_form12a.html
+      output: web, pdf
+      
+    - title: Leave Balance@ End Date
+      url: /hrmwin_leavebal.html
+      output: web, pdf
+      
+    - title: Advance
+      url: /hrmwin_advance.html
+      output: web, pdf
+      
+    - title: Salary Summary
+      url: /hrmwin_salsum.html
+      output: web, pdf
+      
+    - title: Salary Summary(Campus Wise)
+      url: /hrmwin_campsalsum.html
+      output: web, pdf
+      
+    - title: Salary
+      url: /hrmwin_salary.html
+      output: web, pdf
+      
+    - title: Salary Components
+      url: /hrmwin_salcomp.html
+      output: web, pdf
+      
+    - title: TDS
+      url: /hrmwin_tds.html
+      output: web, pdf
+      
+    - title: Professional Tax
+      url: /hrmwin_prof.html
+      output: web, pdf
+      
+    - title: Loans
+      url: /hrmwin_loans1.html
+      output: web, pdf
+      
+    - title: Allowances
+      url: /hrmwin_allowances.html
+      output: web, pdf
+      
+    - title: Salary Payments
+      url: /hrmwin_salarypayments.html
+      output: web, pdf
+      
+    - title: Bonus
+      url: /hrmwin_bonus.html
+      output: web, pdf
+      
+    - title: Salary Rates
+      url: /hrmwin_salaryrates.html
+      output: web, pdf
+      
+    - title: Categorization
+      url: /hrmwin_cat.html
+      output: web, pdf
+      
+    - title: Incentive
+      url: /hrmwin_incentive.html
+      output: web, pdf
+      
+    - title: Incentive Details
+      url: /hrmwin_incentivedetails.html
+      output: web, pdf
+      
+    - title: Incentive Payments
+      url: /hrmwin_incentivepayments.html
+      output: web, pdf
+      
+    - title: Payment HR Vouchers
+      url: /hrmwin_paymenthr.html
+      output: web, pdf
+      
+    - title: Salary Details
+      url: /hrmwin_saldetails.html
+      output: web, pdf
+      
+    - title: Cash Details
+      url: /hrmwin_cash.html
+      output: web, pdf
+      
+      
+    - title: Salary Expense
+      url: /hrmwin_salexpense.html
+      output: web, pdf
+      
+     
+
+  - title: Advance
+    output: web
+    folderitems:
+
+    - title: Advance Monthly
+      url: /hrmwin_advancemonthly.html
+      output: web
+
+      subfolders:
+      - title: Payment
+        output: web
+        url: /hrmwin_payment.html
+        subfolderitems:
+
+        -
+        
+      - title: Invoice
+        output: web
+        url: /hrmwin_invoice.html
+        subfolderitems:
+        -
+        
+  - title: Salary
+    output: web, pdf
+
+    folderitems:
+
+    - title: Calculate Salary
+      url: /hrmwin_calculatesal.html
+      output: web, pdf
+      
+    - title: Change Salary from Particular Date
+      url: /hrmwin_changesal.html
+      output: web, pdf
+      
+    - title: Change Salary Through Pay Proposal
+      url: /hrmwin_changesalpay.html
+      output: web, pdf
+      
+  - title: Incentive
+    output: web, pdf
+
+    folderitems:
+
+    - title: Enter Incentive
+      url: /hrmwin_enterincentive.html
+      output: web, pdf
+      
+    - title: Calculate Incentive
+      url: /hrmwin_calincentive.html
+      output: web, pdf
+   
+  - title: Pay Projection
+    output: web, pdf
+
+    folderitems:
+
+    - title: Projections
+      url: /hrmwin_projections.html
+      output: web, pdf
+      
+    - title: Current Proposal
+      url: /hrmwin_currentprposal.html
+      output: web, pdf
+      
+    - title: Last Salary
+      url: /hrmwin_lastsalary.html
+      output: web, pdf
+      
+    - title: Summary Proposals
+      url: /hrmwin_summaryprop.html
+      output: web, pdf
+      
+  - title: Person(Employee)
+    output: web, pdf
+
+    folderitems:
+
+    - title: Leaves Ledger
+      url: /hrmwin_leavesledger.html
+      output: web, pdf
+      
+    - title: Applications
+      url: /hrmwin_apps.html
+      output: web, pdf
+      
+    - title: Device
+      url: /hrmwin_device.html
+      output: web, pdf
+      
+    - title: Advance
+      url: /hrmwin_advance1.html
+      output: web, pdf
+      
+    - title: Salary
+      url: /hrmwin_salary1.html
+      output: web, pdf
+      
+    - title: Salary Components
+      url: /hrwmwin_salarycomponents.html
+      output: web, pdf
+      
+    - title: Incentive
+      url: /hrmwin_incentive1.html
+      output: web, pdf
+      
+    - title: Extra Days
+      url: /hrmwin_extradays.html
+      output: web, pdf
+      
+    - title: Over Time
+      url: /hrmwin_overtime.html
+      output: web, pdf
+      
+    - title: Allowances
+      url: /hrmwin_allow.html
+      output: web, pdf
+      
+    - title: Loans
+      url: /hrmwin_loans2.html
+      output: web, pdf
+      
+    - title: Salary History
+      url: /hrmwin_salhistory.html
+      output: web, pdf
+      
+  - title: Employee Application
+    url: /hrmwin_employeeapp.html
+    output: web, pdf
+
+    folderitems:
+
+    -
+      
+      
+  - title: Full and Final Settlement
+    url: /hrmwin_fullnfinal.html
+    output: web, pdf
+
+    folderitems:
+
+    - 
+      
+  - title: Leave Enchashment
+    url: /hrmwin_leaveenchas.html
+    output: web, pdf
+
+    folderitems:
+    -
+  - title: Employee Loan
+    url: /hrmwin_emploan.html
+    output: web, pdf
+
+    folderitems:
+
+    - 
+      
+  - title: Add as New Employee
+    url: /hrmwin_newemp.html
+    output: web, pdf
+
+    folderitems:
+
+    - 
+            
+  - title: Training
+    url: /hrmwin_training.html
+    output: web, pdf
+
+    folderitems:
+
+    - 
+  - title: Contractor
+    url: /hrmwin_contractor.html
+    output: web, pdf
+
+    folderitems:
+
+    - 
+     
+  - title: Master Menu
+    output: web, pdf
+
+    folderitems:
+
+    - title: Company
+      url: /hrmwin_comp.html
+      output: web, pdf
+      
+    - title: Campus
+      url: /hrmwin_Camp.html
+      output: web, pdf
+      
+    - title: Attendance Type
+      url: /hrmwin_atttype.html
+      output: web, pdf
+      
+      
+    - title: HR Configuration
+      url: /hrmwin_hrconfig.html
+      output: web, pdf
+      
+      subfolders:
+      - title: Salary Structure
+        url: /hrmwin_salstructure.html
+        output: web
+        subfolderitems:
+
+        -
+        
+      - title: Salary Benefits
+        url: /hrmwin_salbenefits.html
+        output: web
+        subfolderitems:
+         -
+         
+      - title: Attendance Types
+        url: /hrmwin_attendtype
+        output: web
+        subfolderitems:
+         -
+         
+      - title: Shift
+        url: /hrmwin_shift.html
+        output: web
+        subfolderitems:
+         -
+      
+      
+  - title: HRMS Menu
+    output: web, pdf
+
+    folderitems:
+
+    - title: Dashboard
+      url: /hrmwin.dashboard.html
+      output: web, pdf
+      
+    - title: Address Map
+      url: /hrmwin_address.html
+      output: web, pdf
+      
+    - title: Pay Periods
+      url: /hrmwin_payperiods.html
+      output: web, pdf
+      
+    - title: Latecomers and Absentees
+      url: /hrmwin_lateabsent.html
+      output: web, pdf
+      
+    - title: Main Contractors
+      url: /hrmwin_maincontractors.html
+      output: web, pdf
+      
+    - title: Contractors
+      url: /hrmwin_contarctors.html
+      output: web, pdf
+      
+    - title: Comments
+      url: /hrmwin_comments.html
+      output: web, pdf
+      
+    - title: Leave Applications
+      url: /hrmwin_leaveapp.html
+      output: web, pdf
+      
+      
+      
+      
+  - title: Employee Menu
+    output: web, pdf
+
+    folderitems:
+
+    - title: Departments
+      url: /hrmwin_dep.html
+      output: web, pdf
+      
+    - title: List All
+      url: /hrmwin_listall.html
+      output: web, pdf
+      
+    - title: Temporary
+      url: /hrmwin_temp.html
+      output: web, pdf
+      
+    - title: Permanent
+      url: /hrmwin_per.html
+      output: web, pdf
+      
+    - title: Badli
+      url: /hrmwin_Badli.html
+      output: web, pdf
+      
+    - title: Probationer
+      url: /hrmwin_Pro.html
+      output: web, pdf
+      
+    - title: Apprentice
+      url: /hrmwin_Appre.html
+      output: web, pdf
+      
+    - title: Left
+      url: /hrmwin_Left.html
+      output: web, pdf
+      
+    - title: Trainings
+      url: /hrmwin_Train.html
+      output: web, pdf
+      
+      

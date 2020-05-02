@@ -1,0 +1,67 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: ESS
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: web, pdf
+    url: /ess_introduction.html
+    folderitems:
+    -
+
+  - title: Sign In
+    output: web, pdf
+    url: /ess_signin.html
+    folderitems:
+    - 
+  - title: Leave
+    output: web, pdf
+    url: /ess_leave.html
+    folderitems:
+    -
+  - title: Team
+    output: web, pdf
+    url: /ess_team.html
+    folderitems:
+    -
+  - title: Payslip
+    output: web, pdf
+    url: /ess_payslip.html
+    folderitems:
+    -
+  - title: Profile
+    output: web, pdf
+    url: /ess_profile.html
+    folderitems:
+    -
+  - title: Punch
+    output: web, pdf
+    url: /ess_punch.html
+    folderitems:
+    -
+  - title: Signout
+    output: web, pdf
+    url: /ess_signout.html
+    folderitems:
+    -
+    
+    
+    
+    
