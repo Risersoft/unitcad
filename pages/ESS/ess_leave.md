@@ -1,3 +1,12 @@
+---
+title: ESS Leave
+keywords: ESS Leave
+sidebar: ess_sidebar
+permalink: ess_leave.html
+folder: ESS
+---
+
+
 You can see leave balance and apply for leave from this section.
 Step-1: Click on Leaves button. Leave Balance will appear. If there is no leave balance, no record found message will show.
 

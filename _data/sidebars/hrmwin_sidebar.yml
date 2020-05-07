@@ -47,6 +47,7 @@ entries:
     -
 
   - title: Company HR Details
+    url: /hrmwin_companyhrdetails.html
     output: web, pdf
 
     folderitems:
@@ -59,38 +60,38 @@ entries:
       output: web, pdf
       
     - title: Leave Enchasment(Manual)
-      url: /hrmwin_leaveenchasment.html
+      url: /hrmwin_Leave Encashment (Manual).html
       output: web, pdf
       
     - title: Leave Enchasment(Auto)
-      url: /hrmwin_leaveenchasmentauto.html
+      url: /hrmwin_Leave Encashment (Auto).html
       output: web, pdf
       
     - title: Loans
-      url: /hrmwin_loans.html
+      url: /hrmwin_Loans.html
       output: web, pdf
       
     - title: Bonus Master
-      url: /hrmwin_bonusmaster.html
+      url: /hrmwin_Bonus Master.html
       output: web, pdf
       
     - title: Bonus Full and Final
-      url: /hrmwin_fullnfinal.html
+      url: /hrmwin_Bonus Full and Final.html
       output: web, pdf
       
     - title: IT Salary Summary
-      url: /hrmwin_summary.html
+      url: /hrmwin_IT Salary Summary.html
       output: web, pdf
 
     - title: Form 3A
-      url: /hrmwin_3a.html
+      url: /hrmwin_Form 3A.html
       output: web, pdf
       
     
 
   - title: Rate Master
     output: web, pdf
-    url: /hrmwin_ratemaster.html
+    url: /hrmwin_Rate Master.html
 
     folderitems:
     
@@ -127,6 +128,7 @@ entries:
     -
 
   - title: Pay Period
+    url: /hrmwin_payperiod.html
     output: web, pdf
     
     folderitems:
@@ -247,6 +249,7 @@ entries:
      
 
   - title: Advance
+    url: /hrmwin_advance1.html
     output: web
     folderitems:
 
@@ -257,18 +260,19 @@ entries:
       subfolders:
       - title: Payment
         output: web
-        url: /hrmwin_payment.html
+        url: /hrmwin_payment1.html
         subfolderitems:
 
         -
         
       - title: Invoice
         output: web
-        url: /hrmwin_invoice.html
+        url: /hrmwin_invoice1.html
         subfolderitems:
         -
         
   - title: Salary
+    url: /hrmwin_salarymain.html
     output: web, pdf
 
     folderitems:
@@ -286,6 +290,7 @@ entries:
       output: web, pdf
       
   - title: Incentive
+    url: /hrmwin_incentivemain.html
     output: web, pdf
 
     folderitems:
@@ -299,6 +304,7 @@ entries:
       output: web, pdf
    
   - title: Pay Projection
+    url: /hrmwin_payprojectionmain.html
     output: web, pdf
 
     folderitems:
@@ -308,7 +314,7 @@ entries:
       output: web, pdf
       
     - title: Current Proposal
-      url: /hrmwin_currentprposal.html
+      url: /hrmwin_currentproposal.html
       output: web, pdf
       
     - title: Last Salary
@@ -320,9 +326,18 @@ entries:
       output: web, pdf
       
   - title: Person(Employee)
+    url: /hrmwin_personemp.html
     output: web, pdf
 
     folderitems:
+    
+    - title: Current Attendance
+      url: /hrmwin_currentatt.html
+      output: web, pdf
+      
+    - title: Punches
+      url: /hrmwin_punch.html
+      output: web, pdf
 
     - title: Leaves Ledger
       url: /hrmwin_leavesledger.html
@@ -337,7 +352,7 @@ entries:
       output: web, pdf
       
     - title: Advance
-      url: /hrmwin_advance1.html
+      url: /hrmwin_advance2.html
       output: web, pdf
       
     - title: Salary
@@ -427,6 +442,7 @@ entries:
     - 
      
   - title: Master Menu
+    url: /hrmwin_mastermenu.html
     output: web, pdf
 
     folderitems:
@@ -436,7 +452,7 @@ entries:
       output: web, pdf
       
     - title: Campus
-      url: /hrmwin_Camp.html
+      url: /hrmwin_camp.html
       output: web, pdf
       
     - title: Attendance Type
@@ -476,6 +492,7 @@ entries:
       
       
   - title: HRMS Menu
+    url: /hrmwin_hrmsmenu.html
     output: web, pdf
 
     folderitems:
@@ -489,8 +506,16 @@ entries:
       output: web, pdf
       
     - title: Pay Periods
-      url: /hrmwin_payperiods.html
+      url: /hrmwin_payperiods1.html
       output: web, pdf
+      
+    - title: Loans
+      url: /hrmwin_loans3.html
+      output: web, pdf
+
+    - title: Pay Projection
+      url: /hrmwin_payproj.html
+      output: web, pdf    
       
     - title: Latecomers and Absentees
       url: /hrmwin_lateabsent.html
@@ -516,6 +541,7 @@ entries:
       
       
   - title: Employee Menu
+    url: /hrmwin_empmenu.html
     output: web, pdf
 
     folderitems:
@@ -537,7 +563,7 @@ entries:
       output: web, pdf
       
     - title: Badli
-      url: /hrmwin_Badli.html
+      url: /hrmwin_badli.html
       output: web, pdf
       
     - title: Probationer
@@ -545,15 +571,15 @@ entries:
       output: web, pdf
       
     - title: Apprentice
-      url: /hrmwin_Appre.html
+      url: /hrmwin_appre.html
       output: web, pdf
       
     - title: Left
-      url: /hrmwin_Left.html
+      url: /hrmwin_left.html
       output: web, pdf
       
     - title: Trainings
-      url: /hrmwin_Train.html
+      url: /hrmwin_train.html
       output: web, pdf
       
       
