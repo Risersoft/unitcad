@@ -1,30 +1,94 @@
 ---
-title: Introduction
-sidebar: mydoc_sidebar
-permalink: mydoc_introduction.html
-folder: mydoc
+title: HRM Nirvana Windows Introduction
+keywords: HRM Nirvana Windows Introduction
+sidebar: hrmwin_sidebar
+permalink: hrmwin_introduction.html
+folder: HRMWin
 ---
 
-## Overview
 
-This site provides documentation, training, and other notes for the Jekyll Documentation theme. There's a lot of information about how to do a variety of things here, and it's not all unique to this theme. But by and large, understanding how to do things in Jekyll depends on how your theme is coded. As a result, these additional details are provided.
 
-The instructions here are geared towards technical writers working on documentation. You may have a team of one or more technical writers working on documentation for multiple projects. You can use this same theme to author all of your documentation for each of your products. The theme is built to accommodate documentation for multiple products on the same site.
 
-## Survey of features
+# **Introduction**
 
-Some of the more prominent features of this theme include the following:
+HRM Nirvana is a management software that manages employees’ details, leave, attendance, salary details, pay slips, bonus, benefits, training and recruitment etc.
 
-* Bootstrap framework
-* [Navgoco multi-level sidebar](http://www.komposta.net/article/navgoco) for table of contents
-* Ability to specify different sidebars for different products
-* Top navigation bar with drop-down menus
-* Notes, tips, and warning information notes
-* Tags for alternative navigation
-* Advanced landing page layouts from the [Modern Business theme](http://startbootstrap.com/template-overviews/modern-business/).
+[Company]()
 
-## Getting started
+[Campus]()
 
-To get started, see [Getting Started][index].
+[Company HR Details]()
 
-{% include links.html %}
+[Rate Master]()
+
+[Bonus Master]()
+
+[Leave Master]()
+
+[Attendance Type Master]()
+
+[Department]()
+
+
+
+[Pay Period]()
+
+
+
+[Advance]()
+
+
+
+[Salary]()
+
+
+
+[Incentive]()
+
+
+
+[Pay Projection]()
+
+
+
+[Person(Employee)]()
+
+
+
+[Employee Application]()
+
+
+
+[Full and Final Settlement]()
+
+
+
+[Leave Encashment]()
+
+
+
+[Employee Loan]()
+
+
+
+[Add as New Employee]()
+
+
+
+[Training]()
+
+
+
+[Contractor]()
+
+
+
+[Master Menu]()
+
+
+
+[HRMS Menu]()
+
+
+
+[Employee Menu]()
