@@ -4,6 +4,8 @@ keywords: ESS Leave
 sidebar: ess_sidebar
 permalink: ess_leave.html
 folder: ESS
+hide_sidebar: false
+comments: true
 ---
 
 

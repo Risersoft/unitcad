@@ -3,7 +3,8 @@ title: Master Menu
 keywords: Master Menu
 sidebar: hrmwin_sidebar
 permalink: hrmwin_mastermenu.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Master Menu

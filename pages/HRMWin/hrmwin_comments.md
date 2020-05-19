@@ -3,7 +3,8 @@ title: Comments
 keywords: Comments
 sidebar: hrmwin_sidebar
 permalink: hrmwin_comments.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Comments

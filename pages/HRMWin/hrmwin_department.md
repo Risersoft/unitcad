@@ -3,7 +3,8 @@ title: Departments
 keywords: Departments
 sidebar: hrmwin_sidebar
 permalink: hrmwin_department.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Create

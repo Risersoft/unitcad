@@ -3,7 +3,9 @@ title: Campus
 keywords: Campus
 sidebar: hrmwin_sidebar
 permalink: hrmwin_camp.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
+
 ---
 
 ## Campus

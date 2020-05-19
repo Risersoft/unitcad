@@ -3,7 +3,8 @@ title: Roster
 keywords: Roster
 sidebar: hrmwin_sidebar
 permalink: hrmwin_roster.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Roster

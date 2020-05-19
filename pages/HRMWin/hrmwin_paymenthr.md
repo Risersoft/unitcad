@@ -3,7 +3,8 @@ title: Payment HR Vouchers
 keywords: Payment HR Vouchers
 sidebar: hrmwin_sidebar
 permalink: hrmwin_paymenthr.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Payment HR Vouchers

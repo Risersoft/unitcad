@@ -3,7 +3,8 @@ title: Salary Benefits
 keywords: Salary Benefits
 sidebar: hrmwin_sidebar
 permalink: hrmwin_salbenefits.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary Benefits

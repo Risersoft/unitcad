@@ -3,7 +3,8 @@ title: Salary Expense
 keywords: Salary Expense
 sidebar: hrmwin_sidebar
 permalink: hrmwin_salexpense.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary Expense

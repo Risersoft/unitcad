@@ -3,7 +3,8 @@ title: Current Proposal
 keywords: Current Proposal
 sidebar: hrmwin_sidebar
 permalink: hrmwin_currentproposal.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Current Proposal

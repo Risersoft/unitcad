@@ -3,7 +3,8 @@ title: Badli
 keywords: Badli
 sidebar: hrmwin_sidebar
 permalink: hrmwin_badli.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Badli

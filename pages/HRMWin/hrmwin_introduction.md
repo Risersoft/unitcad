@@ -4,6 +4,8 @@ keywords: HRM Nirvana Windows Introduction
 sidebar: hrmwin_sidebar
 permalink: hrmwin_introduction.html
 folder: HRMWin
+hide_sidebar: false
+comments: true
 ---
 
 

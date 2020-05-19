@@ -3,7 +3,8 @@ title: Permanent
 keywords: Permanent
 sidebar: hrmwin_sidebar
 permalink: hrmwin_per.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Permanent

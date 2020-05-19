@@ -3,7 +3,8 @@ title: Allowances
 keywords: Allowances
 sidebar: hrmwin_sidebar
 permalink: hrmwin_allowances.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 

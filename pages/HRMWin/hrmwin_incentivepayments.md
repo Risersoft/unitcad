@@ -3,7 +3,8 @@ title: Incentive Payments
 keywords: Incentive Payments
 sidebar: hrmwin_sidebar
 permalink: hrmwin_incentivepayments.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Incentive Payments

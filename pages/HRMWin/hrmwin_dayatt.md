@@ -3,7 +3,8 @@ title: Attendance(Day Wise)
 keywords: Attendance (Day Wise)
 sidebar: hrmwin_sidebar
 permalink: hrmwin_dayatt.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Attendance (Day Wise)

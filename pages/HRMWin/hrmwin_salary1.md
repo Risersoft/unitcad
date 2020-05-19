@@ -3,7 +3,8 @@ title: Salary
 keywords: Salary
 sidebar: hrmwin_sidebar
 permalink: hrmwin_salary1.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary

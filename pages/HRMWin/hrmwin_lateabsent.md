@@ -3,7 +3,8 @@ title: Latecomers and Absentees
 keywords: Latecomers and Absentees
 sidebar: hrmwin_sidebar
 permalink: hrmwin_lateabsent.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Latecomers and Absentees

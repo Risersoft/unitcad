@@ -3,7 +3,8 @@ title: Leave Master
 keywords: Leave Master
 sidebar: hrmwin_sidebar
 permalink: hrmwin_leavemaster.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Created

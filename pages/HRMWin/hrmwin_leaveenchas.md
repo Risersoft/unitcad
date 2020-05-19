@@ -3,7 +3,8 @@ title: Leave Encashment
 keywords: Leave Encashment
 sidebar: hrmwin_sidebar
 permalink: hrmwin_leaveenchas.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Leave Encashment

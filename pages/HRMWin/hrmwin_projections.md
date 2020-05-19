@@ -3,7 +3,8 @@ title: Projections
 keywords: Projections
 sidebar: hrmwin_sidebar
 permalink: hrmwin_projection.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Projections

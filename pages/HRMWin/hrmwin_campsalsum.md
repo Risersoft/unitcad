@@ -3,7 +3,8 @@ title: Salary Summary (Campus Wise)
 keywords: Salary Summary (Campus Wise)
 sidebar: hrmwin_sidebar
 permalink: hrmwin_campsalsum.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary Summary (Campus Wise)

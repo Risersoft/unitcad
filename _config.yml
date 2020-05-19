@@ -33,18 +33,18 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: HRM Nirvana Documentation
+feedback_subject_line: "HRM Nirvana Documentation"
 
 feedback_email: info@risersoft.com
 # used as a contact email for the Feedback link in the top navigation bar
 
-# feedback_disable: true
+feedback_disable: false
 # if you uncomment the previous line, the Feedback link gets removed
 
-# feedback_text: "Need help?"
+feedback_text: "Feedback"
 # if you uncomment the previous line, it changes the Feedback text
 
-# feedback_link: "http://helpy.io/"
+# feedback_link: "info@risersoft.com"
 # if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
@@ -75,6 +75,7 @@ defaults:
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
+      hide_sidebar: true
       topnav: topnav
   -
     scope:

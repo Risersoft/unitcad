@@ -3,7 +3,8 @@ title: Form 12A
 keywords: Form 12A
 sidebar: hrmwin_sidebar
 permalink: hrmwin_form12a.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Form 12A

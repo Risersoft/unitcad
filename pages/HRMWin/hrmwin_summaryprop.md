@@ -3,7 +3,8 @@ title: Summary Proposals
 keywords: Summary Proposals
 sidebar: hrmwin_sidebar
 permalink: hrmwin_summaryprop.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Summary Proposals

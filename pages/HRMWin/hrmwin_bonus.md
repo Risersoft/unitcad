@@ -3,7 +3,8 @@ title: Bonus
 keywords: Bonus
 sidebar: hrmwin_sidebar
 permalink: hrmwin_bonus.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Bonus

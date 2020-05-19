@@ -24,30 +24,28 @@ entries:
       url: /tocpage.html
       output: pdf
       type: frontmatter
-
+       
   - title: Introduction
-    output: web, pdf
+    output: single    
     url: /hrmwin_introduction.html
     folderitems:
-
-    -
+    - 
 
   - title: Company
-    output: web, pdf
+    output: single   
     url: /hrmwin_company.html
     folderitems:
-    
-       -
+    -   
        
   - title: Campus
-    output: web, pdf
+    output: single
     url: /hrmwin_campus.html
     folderitems:
 
     -
 
   - title: Company HR Details
-    url: /hrmwin_companyhrdetails.html
+    url: /hrmwin_companyhrdetails.html 
     output: web, pdf
 
     folderitems:
@@ -60,7 +58,7 @@ entries:
       output: web, pdf
       
     - title: Leave Enchasment(Manual)
-      url: /hrmwin_Leave Encashment (Manual).html
+      url: /hrmwin_Leave_Encashment_(Manual).html
       output: web, pdf
       
     - title: Leave Enchasment(Auto)
@@ -90,7 +88,7 @@ entries:
     
 
   - title: Rate Master
-    output: web, pdf
+    output: single   
     url: /hrmwin_Rate Master.html
 
     folderitems:
@@ -98,7 +96,7 @@ entries:
     -
 
   - title: Bonus Master
-    output: web, pdf
+    output: single   
     url: /hrmwin_bonusmaster.html
     folderitems:
     
@@ -106,14 +104,14 @@ entries:
   
 
   - title: Leave Master
-    output: web, pdf
+    output: single   
     url: hrmwin_leavemaster.html
     folderitems:
     
     -
 
   - title: Attendance Type Master
-    output: web, pdf
+    output: single   
     url: /hrmwin_attendance.html
     folderitems:
     
@@ -121,7 +119,7 @@ entries:
    
 
   - title: Department
-    output: web, pdf
+    output: single   
     url: /hrmwin_department.html
     folderitems:
     
@@ -389,7 +387,7 @@ entries:
       
   - title: Employee Application
     url: /hrmwin_employeeapp.html
-    output: web, pdf
+    output: single
 
     folderitems:
 
@@ -398,7 +396,7 @@ entries:
       
   - title: Full and Final Settlement
     url: /hrmwin_fullnfinal.html
-    output: web, pdf
+    output: single
 
     folderitems:
 
@@ -406,13 +404,13 @@ entries:
       
   - title: Leave Enchashment
     url: /hrmwin_leaveenchas.html
-    output: web, pdf
+    output: single
 
     folderitems:
     -
   - title: Employee Loan
     url: /hrmwin_emploan.html
-    output: web, pdf
+    output: single
 
     folderitems:
 
@@ -428,14 +426,14 @@ entries:
             
   - title: Training
     url: /hrmwin_training.html
-    output: web, pdf
+    output: single
 
     folderitems:
 
     - 
   - title: Contractor
     url: /hrmwin_contractor.html
-    output: web, pdf
+    output: single
 
     folderitems:
 

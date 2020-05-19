@@ -3,7 +3,8 @@ title: Over Time
 keywords: Over Time
 sidebar: hrmwin_sidebar
 permalink: hrmwin_overtime.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Over Time

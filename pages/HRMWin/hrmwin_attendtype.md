@@ -3,7 +3,8 @@ title: Attendance Types
 keywords: Attendance Types
 sidebar: hrmwin_sidebar
 permalink: hrmwin_attendtype.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Attendance Types

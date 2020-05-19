@@ -3,7 +3,8 @@ title: Temporary
 keywords: Temporary
 sidebar: hrmwin_sidebar
 permalink: hrmwin_temp.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Temporary

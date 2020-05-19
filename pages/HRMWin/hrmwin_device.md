@@ -3,7 +3,8 @@ title: Device
 keywords: Device
 sidebar: hrmwin_sidebar
 permalink: hrmwin_device.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Device

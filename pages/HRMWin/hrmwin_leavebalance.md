@@ -3,7 +3,8 @@ title: Leave Balance
 keywords: Leave Balance
 sidebar: hrmwin_sidebar
 permalink: hrmwin_leavebalance.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Leave Balance

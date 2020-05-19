@@ -3,7 +3,8 @@ title: Calculate Salary
 keywords: Calculate Salary
 sidebar: hrmwin_sidebar
 permalink: hrmwin_calculatesal.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Calculate Salary

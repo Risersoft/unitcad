@@ -3,7 +3,8 @@ title: Punched Attendance
 keywords: Punched Attendance
 sidebar: hrmwin_sidebar
 permalink: hrmwin_punched.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Punched Attendance

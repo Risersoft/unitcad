@@ -3,7 +3,8 @@ title: Leave Ledger
 keywords: Leave Ledger
 sidebar: hrmwin_sidebar
 permalink: hrmwin_leavesledger.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Leaves Ledger

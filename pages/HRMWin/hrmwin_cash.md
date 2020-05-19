@@ -3,7 +3,8 @@ title: Cash Detail
 keywords: Cash Detail
 sidebar: hrmwin_sidebar
 permalink: hrmwin_cash.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Cash Detail

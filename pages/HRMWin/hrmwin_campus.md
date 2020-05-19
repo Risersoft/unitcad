@@ -3,7 +3,8 @@ title: Campus
 keywords: Campus
 sidebar: hrmwin_sidebar
 permalink: hrmwin_campus.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # **Campus**

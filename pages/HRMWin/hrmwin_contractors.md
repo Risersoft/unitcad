@@ -3,7 +3,8 @@ title: Contractors
 keywords: Contractors
 sidebar: hrmwin_sidebar
 permalink: hrmwin_contractors.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Contractors

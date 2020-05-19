@@ -3,7 +3,8 @@ title: Salary Payments
 keywords: Salary Payments
 sidebar: hrmwin_sidebar
 permalink: hrmwin_salarypayments.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary Payments

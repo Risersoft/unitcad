@@ -5,8 +5,8 @@
   {% for entry in sidebar %}
   {% for folder in entry.folders %}
   {% if folder.output contains "web" %}
-  <li>
-      <a title="{{folder.title}}" href="#">{{folder.title}}</a>
+  <li {% if  page.url == folder.url %} class="active" {% endif%}>
+      <a title="{{folder.title}}" {% if folder.url %} href="{{folder.url}}" {% else %}  href="#" {% endif %}  >{{folder.title}} </a>
       <ul>
           {% for folderitem in folder.folderitems %}
           {% if folderitem.output contains "web" %}
@@ -44,8 +44,16 @@
           {% endfor %}
       </ul>
    </li>
-     {% endif %}
+   {% elsif folder.output contains "single" %}
+     
+   <li {% if  page.url == folder.url %} class="active" {% endif%}>
+    <a title="{{folder.title}}"   href="{{folder.url}}" >{{folder.title}}</a>
+    </li>
+
+   {% endif %}
+
       {% endfor %}
+
       {% endfor %}
       <!-- if you aren't using the accordion, uncomment this block:
          <p class="external">

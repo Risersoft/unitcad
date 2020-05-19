@@ -3,7 +3,8 @@ title: Salary Components
 keywords: Salary Components
 sidebar: hrmwin_sidebar
 permalink: hrmwin_salarycomponents.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary Components

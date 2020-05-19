@@ -3,7 +3,8 @@ title: Address Map
 keywords: Address Map
 sidebar: hrmwin_sidebar
 permalink: hrmwin_address.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 

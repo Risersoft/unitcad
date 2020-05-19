@@ -3,7 +3,8 @@ title: Payment
 keywords: Payment
 sidebar: hrmwin_sidebar
 permalink: hrmwin_payment1.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Payment

@@ -3,7 +3,8 @@ title: Shift
 keywords: Shift
 sidebar: hrmwin_sidebar
 permalink: hrmwin_shift.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Shift

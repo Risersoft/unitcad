@@ -3,7 +3,8 @@ title: Pay Projection
 keywords: Pay Projection
 sidebar: hrmwin_sidebar
 permalink: hrmwin_payprojectionmain.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Pay Projection

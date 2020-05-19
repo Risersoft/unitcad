@@ -3,7 +3,8 @@ title: Categorization
 keywords: Categorization
 sidebar: hrmwin_sidebar
 permalink: hrmwin_cat.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Categorization
