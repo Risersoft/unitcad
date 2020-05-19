@@ -3,7 +3,8 @@ title: Advance Monthly
 keywords: Advance Monthly
 sidebar: hrmwin_sidebar
 permalink: hrmwin_advancemonthly.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 

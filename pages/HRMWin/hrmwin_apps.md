@@ -3,7 +3,8 @@ title: Applications
 keywords: Applications
 sidebar: hrmwin_sidebar
 permalink: hrmwin_apps.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Applications

@@ -3,7 +3,8 @@ title: Leave Applications
 keywords: Leave Applications
 sidebar: hrmwin_sidebar
 permalink: hrmwin_leaveapp.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Leave Applications

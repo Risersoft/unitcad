@@ -3,7 +3,8 @@ title: Extra Days
 keywords: Extra Days
 sidebar: hrmwin_sidebar
 permalink: hrmwin_extradays.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Extra Days

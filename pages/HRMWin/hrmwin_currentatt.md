@@ -3,7 +3,8 @@ title: Current Attendance
 keywords: Current Attendance
 sidebar: hrmwin_sidebar
 permalink: hrmwin_currentatt.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Current Attendance

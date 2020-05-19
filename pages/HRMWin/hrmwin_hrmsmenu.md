@@ -3,7 +3,8 @@ title: HRMS Menu
 keywords: HRMS Menu
 sidebar: hrmwin_sidebar
 permalink: hrmwin_hrmsmenu.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # HRMS Menu

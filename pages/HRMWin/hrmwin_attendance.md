@@ -3,7 +3,8 @@ title: Attendance
 keywords: Attendance
 sidebar: hrmwin_sidebar
 permalink: hrmwin_attendance.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Create

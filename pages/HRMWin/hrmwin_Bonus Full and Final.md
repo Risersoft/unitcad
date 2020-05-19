@@ -3,7 +3,8 @@ title: Bonus Full and Final
 keywords: Bonus Full and Final
 sidebar: hrmwin_sidebar
 permalink: hrmwin_Bonus Full and Final.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Bonus Full and Final

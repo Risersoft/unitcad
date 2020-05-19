@@ -3,7 +3,8 @@ title: Advance
 keywords: Advance
 sidebar: hrmwin_sidebar
 permalink: hrmwin_advance.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Advance

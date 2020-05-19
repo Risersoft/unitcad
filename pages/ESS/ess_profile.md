@@ -1,11 +1,14 @@
-
 ---
 title: ESS Profile
 keywords: ESS Profile
 sidebar: ess_sidebar
 permalink: ess_profile.html
 folder: ESS
+hide_sidebar: false
+comments: true
 ---
+
+
 
 
 

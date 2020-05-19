@@ -3,7 +3,8 @@ title: Pay Period
 keywords: Pay Period
 sidebar: hrmwin_sidebar
 permalink: hrmwin_payperiod.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Create

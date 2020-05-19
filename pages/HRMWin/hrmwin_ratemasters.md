@@ -3,7 +3,8 @@ title: Rate Masters
 keywords: Rate Masters
 sidebar: hrmwin_sidebar
 permalink: hrmwin_ratemasters.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Rate Masters

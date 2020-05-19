@@ -3,7 +3,8 @@ title: Invoice
 keywords: Invoice
 sidebar: hrmwin_sidebar
 permalink: hrmwin_invoice1.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Invoice

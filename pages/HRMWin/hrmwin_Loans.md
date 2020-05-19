@@ -3,7 +3,8 @@ title: Loans
 keywords: Loans
 sidebar: hrmwin_sidebar
 permalink: hrmwin_Loans.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Loans

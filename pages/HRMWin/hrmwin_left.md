@@ -3,7 +3,8 @@ title: Left
 keywords: Left
 sidebar: hrmwin_sidebar
 permalink: hrmwin_left.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Left

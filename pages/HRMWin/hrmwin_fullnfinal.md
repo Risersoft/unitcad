@@ -3,7 +3,8 @@ title: Full and Final Settlement
 keywords: Full and Final Settlement
 sidebar: hrmwin_sidebar
 permalink: hrmwin_fullnfinal.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Full and Final Settlement

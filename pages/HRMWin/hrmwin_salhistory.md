@@ -3,7 +3,8 @@ title: Salary History
 keywords: Salary History
 sidebar: hrmwin_sidebar
 permalink: hrmwin_salhistory.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary History

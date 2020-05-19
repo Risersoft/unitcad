@@ -3,7 +3,8 @@ title: Change Salary from Particular Date
 keywords: Change Salary from Particular Date
 sidebar: hrmwin_sidebar
 permalink: hrmwin_changesal.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Change Salary from Particular Date

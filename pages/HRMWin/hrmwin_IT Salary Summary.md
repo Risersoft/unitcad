@@ -3,7 +3,8 @@ title: IT Salary Summary
 keywords: IT Salary Summary
 sidebar: hrmwin_sidebar
 permalink: hrmwin_IT Salary Summary.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## IT Salary Summary

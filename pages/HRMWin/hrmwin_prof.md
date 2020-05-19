@@ -3,7 +3,8 @@ title: Professional Tax
 keywords: Professional Tax
 sidebar: hrmwin_sidebar
 permalink: hrmwin_prof.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Professional Tax

@@ -3,7 +3,8 @@ title: Salary Structure
 keywords: Salary Structure
 sidebar: hrmwin_sidebar
 permalink: hrmwin_salstructure.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary Structure

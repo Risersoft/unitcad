@@ -3,7 +3,8 @@ title: Salary Summary
 keywords: Salary Summary
 sidebar: hrmwin_sidebar
 permalink: hrmwin_salsum.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary Summary

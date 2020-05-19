@@ -3,7 +3,8 @@ title: List All
 keywords: List All
 sidebar: hrmwin_sidebar
 permalink: hrmwin_listall.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## List All

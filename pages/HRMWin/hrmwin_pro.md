@@ -3,7 +3,8 @@ title: Probationer
 keywords: Probationer
 sidebar: hrmwin_sidebar
 permalink: hrmwin_pro.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Probationer

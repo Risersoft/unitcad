@@ -3,7 +3,8 @@ title: Employee Loan
 keywords: Employee Loan
 sidebar: hrmwin_sidebar
 permalink: hrmwin_emploan.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Employee Loan

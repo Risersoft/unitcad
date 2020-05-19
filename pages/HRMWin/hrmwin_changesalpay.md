@@ -3,7 +3,8 @@ title: Change Salary Through Pay Proposal
 keywords: Change Salary Through Pay Proposal
 sidebar: hrmwin_sidebar
 permalink: hrmwin_changesalpay.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Change Salary Through Pay Proposal

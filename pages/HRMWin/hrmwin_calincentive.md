@@ -3,7 +3,8 @@ title: Calculate Incentive
 keywords: Calculate Incentive
 sidebar: hrmwin_sidebar
 permalink: hrmwin_calincentive.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Calculate Incentive

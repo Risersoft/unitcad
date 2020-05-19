@@ -1198,3 +1198,87 @@ h4.panel-title {
         display:block !important;
     }
 }
+
+
+/*****************Sheet As per Design ****************/
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+  .equal .boxtopics{
+      margin-bottom: 30px;
+      height: 100%;
+  }
+  .mb-30{
+      
+    margin-bottom: 30px;
+  }
+
+.section{
+    padding: 60px 0px;
+}
+.blue-section{
+    background: #004880;    
+    padding: 20px 0px;
+    color: #ffffff;
+}
+.highlighted-section{
+    background: #FAFAFA;
+    padding: 20px 0px;
+}
+
+.box-product{
+    padding: 3rem 1.5rem!important;
+    box-shadow: 0 1.6px 3.6px 0 #d7d2d2, 0 0.3px 0.9px 0 #d9d8d8;
+    display: block;
+    overflow: hidden;
+}
+.box-product:hover{        
+    box-shadow: 0 6.4px 14.4px 0 hsla(0,0%,0%,.132),0 1.2px 3.6px 0 hsla(0,0%,0%,.108)!important;
+}
+.box-product h4{
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #5e5e5e;
+    font-size: 1.2rem!important;
+    text-transform: uppercase!important;
+    font-style: normal;
+}
+.box-product p {
+    font-weight: bold;
+}
+
+.topics-section{
+    background:#f2f2f2;
+}
+.topics-section h2{
+    margin-bottom: 20px;
+}
+.topics-section .boxtopics h3{ 
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 15px;
+}
+.topics-section .boxtopics{
+    padding:1.5rem!important;
+    box-shadow: 0 1.6px 3.6px 0 #d7d2d2, 0 0.3px 0.9px 0 #d9d8d8;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+}
+.topics-section .boxtopics ul {
+    margin: 16px 0;
+    margin: 0px;   
+    padding: 0px;
+}
+.topics-section .boxtopics ul li{
+    list-style-type: none;    
+    line-height: 1.8em !important; 
+}
+.topics-section .boxtopics ul li a{
+    color: #0065b3;
+    font-size: 13px;
+}

@@ -3,7 +3,8 @@ title: Incentive Details
 keywords: Incentive Details
 sidebar: hrmwin_sidebar
 permalink: hrmwin_incentivedetails.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Incentive Details

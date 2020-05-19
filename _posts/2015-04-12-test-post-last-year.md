@@ -7,4 +7,3 @@ tags: [blog]
 
 This is just a test post from the previous year.
 
-{% include links.html %}

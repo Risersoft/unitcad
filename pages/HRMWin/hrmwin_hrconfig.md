@@ -3,7 +3,8 @@ title: HR Configuration
 keywords: HR Configuration
 sidebar: hrmwin_sidebar
 permalink: hrmwin_hrconfig.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## HR Configuration

@@ -3,7 +3,8 @@ title: Pending Attendance
 keywords: Pending Attendance
 sidebar: hrmwin_sidebar
 permalink: hrmwin_pendingatt.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Pending Attendance

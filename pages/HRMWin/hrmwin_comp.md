@@ -3,7 +3,8 @@ title: Company
 keywords: Company
 sidebar: hrmwin_sidebar
 permalink: hrmwin_comp.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Company

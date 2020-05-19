@@ -3,7 +3,8 @@ title: Add as New Employee
 keywords: Add as New Employee
 sidebar: hrmwin_sidebar
 permalink: hrmwin_newemp.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Add as New Employee

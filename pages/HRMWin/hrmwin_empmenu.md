@@ -3,7 +3,8 @@ title: Employee Menu
 keywords: Employee Menu
 sidebar: hrmwin_sidebar
 permalink: hrmwin_empmenu.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Employee Menu

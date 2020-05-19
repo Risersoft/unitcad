@@ -3,7 +3,8 @@ title: Leave Balance @ End Date
 keywords: Leave Balance @ End Date
 sidebar: hrmwin_sidebar
 permalink: hrmwin_leavebal.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Leave Balance @ End Date

@@ -3,7 +3,8 @@ title: Company HR Details
 keywords: Company HR Details
 sidebar: hrmwin_sidebar
 permalink: hrmwin_companyhrdetails.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Company HR Details

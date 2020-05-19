@@ -3,7 +3,8 @@ title: Rate Master
 keywords: Rate Master
 sidebar: hrmwin_sidebar
 permalink: hrmwin_Rate Master.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Create

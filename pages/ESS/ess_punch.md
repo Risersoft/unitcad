@@ -4,14 +4,15 @@ keywords: ESS Punch
 sidebar: ess_sidebar
 permalink: ess_punch.html
 folder: ESS
+hide_sidebar: false
+comments: true
 ---
 
-## Punch
 
 
-**Step-1**: Click on Punch button on dashboard. Before opening app, your mobile GPS should open.
 
-**Step-2**: Date, Time, GPS Co-ordinates and Location will display. Click on Punch button again. Punch successfully message will show. This information will be saved in windows app. You can see all information on punched attendance form.
+Step-1: Click on Punch button on dashboard. Before opening app, your mobile GPS should open.
+Step-2: Date, Time, GPS Co-ordinates and Location will display. Click on Punch button again. Punch successfully message will show. This information will be saved in windows app. You can see all information on punched attendance form.
 
 
 

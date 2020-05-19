@@ -3,7 +3,8 @@ title: Salary Rates
 keywords: Salary Rates
 sidebar: hrmwin_sidebar
 permalink: hrmwin_salaryrates.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Salary Rates

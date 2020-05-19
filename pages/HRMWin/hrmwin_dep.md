@@ -3,7 +3,8 @@ title: Departments
 keywords: Departments
 sidebar: hrmwin_sidebar
 permalink: hrmwin_dep.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Departments

@@ -3,7 +3,8 @@ title: Pay Periods
 keywords: Pay Periods
 sidebar: hrmwin_sidebar
 permalink: hrmwin_payperiods1.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Pay Periods

@@ -3,7 +3,8 @@ title: Dashboard
 keywords: Dashboard
 sidebar: hrmwin_sidebar
 permalink: hrmwin_dashboard.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 

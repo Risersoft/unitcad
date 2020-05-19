@@ -3,7 +3,8 @@ title: Training
 keywords: Training
 sidebar: hrmwin_sidebar
 permalink: hrmwin_training.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Training

@@ -3,7 +3,8 @@ title: Employee Application
 keywords: Employee Application
 sidebar: hrmwin_sidebar
 permalink: hrmwin_employeeapp.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Employee Application

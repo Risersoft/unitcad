@@ -3,7 +3,8 @@ title: Apprentice
 keywords: Apprentice
 sidebar: hrmwin_sidebar
 permalink: hrmwin_appre.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Apprentice

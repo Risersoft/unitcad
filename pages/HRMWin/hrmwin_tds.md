@@ -3,7 +3,8 @@ title: TDS
 keywords: TDS
 sidebar: hrmwin_sidebar
 permalink: hrmwin_tds.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## TDS

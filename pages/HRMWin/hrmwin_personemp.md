@@ -3,7 +3,8 @@ title: Person (Employee)
 keywords: Person (Employee)
 sidebar: hrmwin_sidebar
 permalink: hrmwin_personemp.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 # Person (Employee)

@@ -3,7 +3,8 @@ title: Today's Punches
 keywords: Today's Punches
 sidebar: hrmwin_sidebar
 permalink: hrmwin_todays.html
-folder: HRMWIN
+folder: HRMWin   
+hide_sidebar: false
 ---
 
 ## Today’s Punches
