@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/tomjoht/documentation-theme-jekyll
+      external_url: https://github.com/risersoft/hrm
     - title: Blog
       url: /blog
 
@@ -14,14 +14,13 @@ topnav_dropdowns:
   folders:
     - title: Help
       folderitems:
-        - title: Talk
-          external_url: https://talk.jekyllrb.com
-        - title: Documentation
-          external_url: http://jekyllrb.com/docs/home/
-        - title: Stack Overflow
-          external_url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: Blog
-          external_url: http://idratherbewriting.com/category-jekyll/
+        - title: HRM Nirvana Web 
+          external_url: http://www.hrmnirvana.com/
+        - title: ESS Android
+          external_url: https://play.google.com/store/apps/details?id=com.risersoft.ess&hl=en_IN
+        - title: Publisher
+          external_url: http://www.risersoft.com/
+        
     - title: Products
       folderitems:
         - title: HRM Nirvana Windows 

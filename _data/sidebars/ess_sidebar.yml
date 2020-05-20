@@ -41,7 +41,7 @@ entries:
     url: /ess_team.html
     folderitems:
     -
-  - title: Payslip
+  - title: Pay Slip
     output: single
     url: /ess_payslip.html
     folderitems:

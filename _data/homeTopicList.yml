@@ -97,7 +97,7 @@ entries:
         url: /hrmwin_payproj.html
         output: web, pdf 
         
-      - title: Latevomers and Adbsentees
+      - title: Latecomers and Absentees
         url: /hrmwin_lateadsent.html
         output: web, pdf 
         
@@ -148,7 +148,7 @@ entries:
   topicList: 
   - name: ESS Mobile App
     list:
-      - title: Inroduction
+      - title: Introduction
         url: /ess_introduction.html
         output: web, pdf
         

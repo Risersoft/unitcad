@@ -5,92 +5,60 @@ sidebar: hrmwin_sidebar
 permalink: hrmwin_introduction.html
 folder: HRMWin
 hide_sidebar: false
-comments: true
+comments: false
 ---
 
 
 
 
-# **Introduction**
+## Introduction
 
 HRM Nirvana is a management software that manages employees’ details, leave, attendance, salary details, pay slips, bonus, benefits, training and recruitment etc.
 
-[Company]()
+[Company](./hrmwin_company.html)
 
-[Campus]()
+[Campus](./hrmwin_campus.html)
 
-[Company HR Details]()
+[Company HR Details](./hrmwin_companyhrdetails.html)
 
-[Rate Master]()
+[Rate Master](./hrmwin_Rate Master.html)
 
-[Bonus Master]()
+[Bonus Master](./hrmwin_bonusmaster.html)
 
-[Leave Master]()
+[Leave Master](./hrmwin_leavemaster.html)
 
-[Attendance Type Master]()
+[Attendance Type Master](./hrmwin_attendance.html)
 
-[Department]()
+[Department](./hrmwin_department.html)
 
+[Pay Period](./hrmwin_payperiod.html)
 
+[Advance](./hrmwin_advance1.html)
 
-[Pay Period]()
+[Salary](./hrmwin_salarymain.html)
 
+[Incentive](./hrmwin_incentivemain.html)
 
+[Pay Projection](./hrmwin_payprojectionmain.html)
 
-[Advance]()
+[Person(Employee)](./hrmwin_personemp.html)
 
+[Employee Application](./hrmwin_employeeapp.html)
 
+[Full and Final Settlement](./hrmwin_fullnfinal.html)
 
-[Salary]()
+[Leave Encashment](./hrmwin_leaveenchas.html)
 
+[Employee Loan](./hrmwin_emploan.html)
 
+[Add as New Employee](./hrmwin_newemp.html)
 
-[Incentive]()
+[Training](./hrmwin_training.html)
 
+[Contractor](./hrmwin_contractor.html)
 
+[Master Menu](./hrmwin_mastermenu.html)
 
-[Pay Projection]()
+[HRMS Menu](./hrmwin_hrmsmenu.html)
 
-
-
-[Person(Employee)]()
-
-
-
-[Employee Application]()
-
-
-
-[Full and Final Settlement]()
-
-
-
-[Leave Encashment]()
-
-
-
-[Employee Loan]()
-
-
-
-[Add as New Employee]()
-
-
-
-[Training]()
-
-
-
-[Contractor]()
-
-
-
-[Master Menu]()
-
-
-
-[HRMS Menu]()
-
-
-
-[Employee Menu]()
+[Employee Menu](./hrmwin_empmenu.html)
