@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/risersoft/hrm
+      external_url: https://github.com/Risersoft/Appfx
     - title: Blog
       url: /blog
 
@@ -14,18 +14,22 @@ topnav_dropdowns:
   folders:
     - title: Help
       folderitems:
-        - title: HRM Nirvana Web 
-          external_url: http://www.hrmnirvana.com/
-        - title: ESS Android
-          external_url: https://play.google.com/store/apps/details?id=com.risersoft.ess&hl=en_IN
+        - title: Registration Portal 
+          external_url: http://appsframework.com/
+        - title: Admin Portal
+          external_url: http://appsframework.com/
+        - title: AppSystemDeveloper
+          external_url: http://appsframework.com/
         - title: Publisher
           external_url: http://www.risersoft.com/
         
     - title: Products
       folderitems:
-        - title: HRM Nirvana Windows 
-          url: /hrmwin_introduction.html
-        - title: ESS Mobile 
-          url: /ess_introduction.html
+        - title: Registration Portal 
+          url: /reg_introduction.html
+        - title: Admin Portal
+          url: /admin_introduction.html
+        - title: AppSystemDeveloper
+          url: /appsysdev_introduction.html
         
           

@@ -1,0 +1,80 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: AppSystemDeveloper
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: single
+    url: /appsysdev_introduction.html
+    folderitems:
+    -
+
+  - title: Applications
+    output: single
+    url: /appsysdev_applications.html
+    folderitems:
+    - 
+  - title: Systable ID's
+    output: single
+    url: /appsysdev_systableids.html
+    folderitems:
+    -
+  - title: Entities
+    output: single
+    url: /appsysdev_entities.html
+    folderitems:
+    -
+  - title: Views
+    output: single
+    url: /appsysdev_views.html
+    folderitems:
+    -
+  - title: Browser
+    output: single
+    url: /appsysdev_browser.html
+    folderitems:
+    -
+  - title: Form/Report/Functions
+    output: single
+    url: /appsysdev_form-report-functions.html
+    folderitems:
+    -
+  - title: Navigation
+    output: single
+    url: /appsysdev_navigation.html
+    folderitems:
+    -
+    
+  - title: Filter
+    output: single
+    url: /appsysdev_filter.html
+    folderitems:
+    -
+  - title: Work Flow
+    output: single
+    url: /appsysdev_workflow.html
+    folderitems:
+    -
+  - title: Permissions
+    output: single
+    url: /appsysdev_permission.html
+    folderitems:
+    -
+    

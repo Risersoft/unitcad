@@ -1,0 +1,63 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Registration Portal
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: single
+    url: /reg_introduction.html
+    folderitems:
+    -
+
+  - title: Create Tenant(Account)
+    output: single
+    url: /reg_createtenantaccount.html
+    folderitems:
+    - 
+  - title: Check Points After Tenants Creation
+    output: single
+    url: /reg_checkpointsaftercreation.html
+    folderitems:
+    -
+  - title: Increase Tenant Expiry Date
+    output: single
+    url: /reg_increasetenantexpirydate.html
+    folderitems:
+    -
+  - title: Increase Purchase Users Limit
+    output: single
+    url: /reg_increasepurchaseuserslimit.html
+    folderitems:
+    -
+  - title: User Management (Add Users)
+    output: single
+    url: /reg_usermanagementadduser.html
+    folderitems:
+    -
+  - title: Activate or Deactivate Users
+    output: single
+    url: /reg_activatedeactivateuser.html
+    folderitems:
+    -
+  
+    
+    
+    
+    
