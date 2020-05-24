@@ -1,0 +1,85 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Web Development Workflow
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: single
+    url: /mvcwf_introduction.html
+    folderitems:
+    -
+
+  - title: Model
+    output: single
+    url: /mvcwf_model.html
+    folderitems:
+    - 
+  - title: InitViews
+    output: single
+    url: /mvcwf_initviews.html
+    folderitems:
+    -
+  - title: InitForm
+    output: single
+    url: /mvcwf_initform.html
+    folderitems:
+    -
+  - title: Prepform
+    output: single
+    url: /mvcwf_prepform.html
+    folderitems:
+    -
+  - title: Razorview
+    output: single
+    url: /mvcwf_razorview.html
+    folderitems:
+    -
+  - title: Loadmodel
+    output: single
+    url: /mvcwf_loadmodel.html
+    folderitems:
+    -
+  - title: ParamsOutput
+    output: single
+    url: /mvcwf_paramsoutput.html
+    folderitems:
+    -
+    
+  - title: btnsave
+    output: single
+    url: /mvcwf_btnsave.html
+    folderitems:
+    -
+  - title: Model Validate
+    output: single
+    url: /mvcwf_modelvalidate.html
+    folderitems:
+    -
+  - title: VSave
+    output: single
+    url: /mvcwf_vsave.html
+    folderitems:
+    -
+  - title: Workflow Diagram
+    output: single
+    url: /mvcwf_first.html
+    folderitems:
+    -
+    

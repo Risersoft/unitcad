@@ -31,11 +31,7 @@ entries:
     url: /reg_createtenantaccount.html
     folderitems:
     - 
-  - title: Check Points After Tenants Creation
-    output: single
-    url: /reg_checkpointsaftercreation.html
-    folderitems:
-    -
+  
   - title: Increase Tenant Expiry Date
     output: single
     url: /reg_increasetenantexpirydate.html

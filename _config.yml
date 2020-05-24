@@ -3,10 +3,10 @@ repository: Risersoft/Appfx
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Appsframework Documentation 
+topnav_title: Apps Framework Documentation 
 # this appears on the top navigation bar next to the home button
 
-site_title: Appsframework Documentation
+site_title: Apps Framework Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Risersoft
@@ -33,7 +33,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: "Appsframework Documentation"
+feedback_subject_line: "Apps Framework Documentation"
 
 feedback_email: info@risersoft.com
 # used as a contact email for the Feedback link in the top navigation bar
@@ -105,6 +105,7 @@ sidebars:
 - reg_sidebar
 - admin_sidebar
 - appsysdev_sidebar
+- mvcwf-sidebar
 - other
 
 description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
