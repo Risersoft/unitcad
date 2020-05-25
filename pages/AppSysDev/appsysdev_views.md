@@ -18,19 +18,19 @@ There are two options to create views:
 
 After choosing any one option, the View form will appear.
 
-![](images/image8_17.jpg)
+![](/images/image8_17.jpg)
 
 **Product** -> Firstly select product in which views to be created.
 
     E.g- ASP
 
-![](images/image8_18.jpg)
+![](/images/image8_18.jpg)
 
 **Applications** ->  After select product than select applications.
 
     E.g-Kasp
 
-![](images/image8_19.png)
+![](/images/image8_19.png)
 
 **View Key** ->User can assign view key it is should be unique for Publisher and Product
 
@@ -42,38 +42,38 @@ After choosing any one option, the View form will appear.
 
 **Visualizations** ->User can select grid visualization for View output.
 
-![](images/image8_20.png)
+![](/images/image8_20.png)
 
 **Grid**->
 
-![](images/image8_21.png)
+![](/images/image8_21.png)
 
 **Chart**->
 
-![](images/image8_22.png)
+![](/images/image8_22.png)
 
 **Dash**->
 
-![](images/image8_23.png)
+![](/images/image8_23.png)
 
 **HTML**->
 
-![](images/image8_24.jpg)
+![](/images/image8_24.jpg)
 
 **Visualization Small** -> User can select grid visualization small for Mobile’s View output.
 
-![](images/image8_25.png)
+![](/images/image8_25.png)
 
 **Grid**->                          **Chart**->
 
-![](images/image8_26.jpg)
+![](/images/image8_26.jpg)
 
 
 
 
 **Dash**->     **List**->                   
 
-![](images/image8_27.jpg)
+![](/images/image8_27.jpg)
 
 
 
@@ -81,7 +81,7 @@ After choosing any one option, the View form will appear.
 
     E.g-ID_SaleInvoices
 
-![](images/image8_28.png)
+![](/images/image8_28.png)
 
 Default value is zero.
 
@@ -89,16 +89,16 @@ Default value is zero.
 
 User can set data source SQL for view output in this section.
 
-![](images/image8_29.jpg)
+![](/images/image8_29.jpg)
 
 **AppliFilters** ->User can set list of filters which are applicable on this view.
 
     E.g- Comp,Campus ..etc
-![](images/image8_30.jpg)
+![](/images/image8_30.jpg)
 
 **Type** ->User can set Data source query type Default value is Fields but user can it to Template as per requirement.
 
-![](images/image8_31.jpg)
+![](/images/image8_31.jpg)
 
 **View Width Percent** ->User can set view’s output percentage.
 
@@ -106,49 +106,49 @@ User can set data source SQL for view output in this section.
 
 **Ignore Paging** ->Default value for this is False but user can set True if paging require on view output.
 
-![](images/image8_32.jpg)
+![](/images/image8_32.jpg)
 
 **Fields Tab** ->
 
-![](images/image8_33.jpg)
+![](/images/image8_33.jpg)
 
 **Select**-> User can set fields of Data source Query without select and Form keywords.
 
-![](images/image8_34.jpg)
+![](/images/image8_34.jpg)
 
 **From**-> User can set Data Source Tables or Functions.
 
-![](images/image8_35.png)
+![](/images/image8_35.png)
 
 **Client**-> User can use Client if DataSoursce is PDCClientView
 
-![](images/image8_36.png)
+![](/images/image8_36.png)
 
 **Group By**-> User can set Group by Fields of select query.
 
-![](images/image8_37.jpg)
+![](/images/image8_37.jpg)
 
 **Having**-> If SQL query included Having Condition then user can set having condition in this section.
 
-![](images/image8_38.png)
+![](/images/image8_38.png)
 
 **Order BY**-> User can set Order columns in this section.
 
-![](images/image8_39.png)
+![](/images/image8_39.png)
 
 **Fixed Where**-> User can set fixed where conditions in this section.
 
-![](images/image8_40.jpg)
+![](/images/image8_40.jpg)
 
 **ObjPermission**-> User can set Object which must be present in that Product.
 
 >Generate->User can verify output of views after entered SQL query go to Grid available after Common tab then clicking on Generate Button and showing output.
 
-![](images/image8_41.jpg)
+![](/images/image8_41.jpg)
 
 **Parameters Tab** ->
 
-![](images/image8_42.jpg)
+![](/images/image8_42.jpg)
 
 **FiltParam**-> User can set fixed filter with default value in this block.
 
@@ -156,7 +156,7 @@ User can set data source SQL for view output in this section.
 
     E.g.
 
-![](images/image8_43.png)
+![](/images/image8_43.png)
 
 **&lt;FILTER>** ->Starting Tag.
 
@@ -172,25 +172,25 @@ User can set data source SQL for view output in this section.
 
 **Output**->
 
-![](images/image8_44.jpg)
+![](/images/image8_44.jpg)
 
 **WhereParam** ->User can create Owen where conditions as per requirement and apply particular on menu’s in menu definition.
 
-![](images/image8_45.png)
+![](/images/image8_45.png)
 
     E.g. Use WhereParam conditions in MenuDefination
 
-![](images/image8_46.jpg)
+![](/images/image8_46.jpg)
 
 **TransformBefore**-> TransformBefore worked before view output generated.
 
-![](images/image8_47.jpg)
+![](/images/image8_47.jpg)
 
     E.g. View Output before transformation.
 
-![](images/image8_48.png)
+![](/images/image8_48.png)
 
-![](images/image8_49.jpg)
+![](/images/image8_49.jpg)
 
 TARGET=0
 
@@ -202,13 +202,13 @@ TARGET=0
 
 _View Output after transformation_:
 
-![](images/image8_50.jpg)
+![](/images/image8_50.jpg)
 
 **TransformAfter**-> TransformAfter worked after view output generate.
 
 _View Output before transformation_ ->
 
-![](images/image8_51.jpg)
+![](/images/image8_51.jpg)
 
 **ADDCOL** ->Column name which is to be added.
 
@@ -216,11 +216,11 @@ _View Output before transformation_ ->
 
 **FORMULA**->Set value for Added column.
 
-![](images/image8_52.jpg)
+![](/images/image8_52.jpg)
 
 _View Output after transformation_ ->
 
-![](images/image8_53.jpg)
+![](/images/image8_53.jpg)
 
 >Common Tab
 
@@ -228,19 +228,19 @@ _View Output after transformation_ ->
 
 User can set print layout as per view output known as MMR.it is define in XML and follow below syntax.
 
-![](images/image8_54.jpg)
+![](/images/image8_54.jpg)
 
 **FormatXML** -> User can format of columns of visible column like Caption, Date format etc.
 
-![](images/image8_55.png)
+![](/images/image8_55.png)
 
 **Output**:
 
-![](images/image8_56.jpg)
+![](/images/image8_56.jpg)
 
 **Print**->
 
-![](images/image8_57.jpg)
+![](/images/image8_57.jpg)
 
 **Print Vertical Grid Lines** ->Default value is null.
 
@@ -254,7 +254,7 @@ User can set print layout as per view output known as MMR.it is define in XML an
 
     E.g.
 
-![](images/image8_58.jpg)
+![](/images/image8_58.jpg)
 
 **&lt;MMR>**->Starting Tag
 
@@ -276,13 +276,13 @@ User can set print layout as per view output known as MMR.it is define in XML an
 
 **Output**:
 
-![](images/image8_59.jpg)
+![](/images/image8_59.jpg)
 
 >Grid Tab
 
 **Complex** -> User can link multiple views through a key field in this section.
 
-![](images/image8_60.jpg)
+![](/images/image8_60.jpg)
 
 **&lt;DISPGRID>** ->Starting tag
 
@@ -302,11 +302,11 @@ User can set print layout as per view output known as MMR.it is define in XML an
 
  **CHILD** ->Set child using give value 1,2 etc.
 
-![](images/image8_61.jpg)
+![](/images/image8_61.jpg)
 
 **Layout**-> User can define view layout in this section.
 
-![](images/image8_62.jpg)
+![](/images/image8_62.jpg)
 
 **Inverted View**->User can marked if require visibility of columns horizontally.
 
@@ -336,58 +336,58 @@ User can set print layout as per view output known as MMR.it is define in XML an
 
 **Summary**->User can define summary totals for views in this block
 
-![](images/image8_63.jpg)
+![](/images/image8_63.jpg)
 
 **Output** ->
 
-![](images/image8_64.jpg)
+![](/images/image8_64.jpg)
 
 >Chart Tab
 
 **ChartXML**->
 
-![](images/image8_65.jpg)
+![](/images/image8_65.jpg)
 
 >Dashboard Tab
 
 **HTML**->
 
-![](images/image8_66.jpg)
+![](/images/image8_66.jpg)
 
 **DashBoardXML**->
 
-![](images/image8_67.png)
+![](/images/image8_67.png)
 
 >Totals Tab
 
 **TotalsXML**->
 
-![](images/image8_68.jpg)
+![](/images/image8_68.jpg)
 
 **Output** ->
 
-![](images/image8_69.jpg)
+![](/images/image8_69.jpg)
 
 >List Tab
 
 User can define mobile views output in this block.
 
-![](images/image8_70.jpg)
+![](/images/image8_70.jpg)
 
 >Children Tab
 
 
-![](images/image8_71.jpg)
+![](/images/image8_71.jpg)
 
 ## List
 
 Click on AppSystem -> Applications->Views
 
-![](images/image8_72.jpg)
+![](/images/image8_72.jpg)
 
 
 ## Edit
 
 Click on AppSystem -> Applications->Right Click->Edit In View Designer
 
-![](images/image8_73.jpg)
+![](/images/image8_73.jpg)

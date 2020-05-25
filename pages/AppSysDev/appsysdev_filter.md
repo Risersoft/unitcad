@@ -15,7 +15,7 @@ comments: false
 
 Click on New->New Filter
 
-![](images/image8_99.jpg)
+![](/images/image8_99.jpg)
 
 >Filter Tab
 
@@ -29,7 +29,7 @@ Click on New->New Filter
 
 **Filter Type** ->User can set Filter type in this block
 
-![](images/image8_100.jpg)
+![](/images/image8_100.jpg)
 
 **Display Name** ->User Can set Filter name for display in this block.
 
@@ -39,41 +39,41 @@ Click on New->New Filter
 
 **Is Displayed** ->User can marked if filter should be display with condition.
 
-![](images/image8_101.jpg)
+![](/images/image8_101.jpg)
 
 **User Can Set** ->User can marked if it’s value editable.
 
 **LookupSQL** ->User can set Lookup SQL query in this block.
 
-![](images/image8_102.jpg)
+![](/images/image8_102.jpg)
 
 **Generate** ->User can verify filter output click on Generate Button.
 
 **StrENum** ->User can set filter data source without sql query.
 
-![](images/image8_103.jpg)
+![](/images/image8_103.jpg)
 
 **View Override** ->User can set formatting for filter output.
 
-![](images/image8_104.jpg)
+![](/images/image8_104.jpg)
 
 > Children Tab
 
-![](images/image8_105.jpg)
+![](/images/image8_105.jpg)
 
 **Output** ->
 
-![](images/image8_106.png)
+![](/images/image8_106.png)
 
 
 ## List
 
 Click on Appsystem->Filters
 
-![](images/image8_107.jpg)
+![](/images/image8_107.jpg)
 
 ## Edit
 
 Click on Appsystem->Filters->Right->Click->Edit Filters
 
-![](images/image8_108.jpg)
+![](/images/image8_108.jpg)

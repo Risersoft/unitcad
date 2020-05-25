@@ -13,4 +13,4 @@ comments: false
 
 If tenant has expired and you want to increase the tenant expiry date, you have to edit the ExpireDate in Account table for particular tenant.
 
-![](images/15.png)
+![](/images/15.png)

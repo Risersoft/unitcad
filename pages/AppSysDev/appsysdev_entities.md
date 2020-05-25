@@ -15,7 +15,7 @@ comments: false
 
 Click on AppSystem ->New->New Entity
 
-![](images/image8_12.jpg)
+![](/images/image8_12.jpg)
 
 >Entity Tab
 
@@ -48,22 +48,22 @@ User can set conditions which should be available on view’s Grid. Conditions s
     E.g-<COL KEY="PartyType"><VALUE VALUE1="C"/></COL>
     PartyType-column name and C it’s value
 
-![](images/image8_13.jpg)
+![](/images/image8_13.jpg)
 
 >Children Tab
 
 User can add accessibility of Systableid for other Products.
 
-![](images/image8_14.jpg)
+![](/images/image8_14.jpg)
 
 ## List
 
 Click on AppSystem -> Entities
 
-![](images/image8_15.jpg)
+![](/images/image8_15.jpg)
 
 ## Edit
 
 Click on AppSystem -> Entities->Right Click->Edit Entity
 
-![](images/image8_16.jpg)
+![](/images/image8_16.jpg)

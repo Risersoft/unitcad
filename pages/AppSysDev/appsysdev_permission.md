@@ -13,7 +13,7 @@ comments: false
 
 Click on New->Permission
 
-![](images/image8_116.jpg)
+![](/images/image8_116.jpg)
 
 **Applications** ->User can set application for created permission.
 
@@ -27,10 +27,10 @@ Click on New->Permission
 
 Click on Appsystem->Permissions
 
-![](images/image8_117.jpg)
+![](/images/image8_117.jpg)
 
 ##  Edit
 
 Click on Appsystem->Permissions->Right Click->Edit Permission
 
-![](images/image8_118.jpg)
+![](/images/image8_118.jpg)

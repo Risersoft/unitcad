@@ -15,4 +15,4 @@ This AppSystemDeveloper App is used to create menus, views and navigation etc. Y
 
 Here we are going to discuss AppSystem and New menu content.
 
-![](images/image8_0.jpg)
+![](/images/image8_0.jpg)

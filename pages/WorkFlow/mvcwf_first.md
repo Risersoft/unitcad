@@ -12,4 +12,4 @@ comments: false
 
 # Framework workflow for Web App in MVC
 
-![](images/image0.png)
+![](/images/image0.png)

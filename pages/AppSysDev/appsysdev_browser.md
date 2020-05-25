@@ -18,7 +18,7 @@ There are two options to create browser:
 
 After choosing any one option, the browser form will appear.
 
-![](images/image8_74.jpg)
+![](/images/image8_74.jpg)
 
 >Browser Options Tab
 
@@ -48,7 +48,7 @@ After choosing any one option, the browser form will appear.
 
 >Browser Definition Tab
 
-![](images/image8_75.jpg)
+![](/images/image8_75.jpg)
 
 **&lt;ROOT>**->Starting Tag Browse definition.
 
@@ -89,28 +89,28 @@ After choosing any one option, the browser form will appear.
 
 **SysEntXML** -> _>
 
-![](images/image8_76.jpg)
+![](/images/image8_76.jpg)
 
 **IDSecXML** ->
 
-![](images/image8_77.jpg)
+![](/images/image8_77.jpg)
 
 **GridCondition** ->
 
-![](images/image8_78.jpg)
+![](/images/image8_78.jpg)
 
 >Children Tab
 
-![](images/image8_79.jpg)
+![](/images/image8_79.jpg)
 
 ## List
 
 Click on AppSystem -> Browsers
 
-![](images/image8_80.jpg)
+![](/images/image8_80.jpg)
 
 ## Edit
 
 Click on AppSystem -> Browsers->Edit Browser
 
-![](images/image8_81.jpg)
+![](/images/image8_81.jpg)

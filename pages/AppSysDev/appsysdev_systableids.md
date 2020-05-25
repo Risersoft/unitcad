@@ -15,7 +15,7 @@ comments: false
 
 Click on New->New Sys Table
 
-![](images/image8_8.jpg)
+![](/images/image8_8.jpg)
 
 >SysTable Tab
 
@@ -49,7 +49,7 @@ Click on New->New Sys Table
 
 User can add accessibility of Systableid for other Product.
 
-![](images/image8_9.jpg)
+![](/images/image8_9.jpg)
 
 **Product**->User can set Products for accessibility of systableid.
 
@@ -61,10 +61,10 @@ User can add accessibility of Systableid for other Product.
 
 Click on AppSystem -> Systable ID’s
 
-![](images/image8_10.jpg)
+![](/images/image8_10.jpg)
 
 ## Edit
 
 Click on AppSystem -> SystableID’s->Right Click->Edit SysTable
 
-![](images/image8_11.jpg)
+![](/images/image8_11.jpg)

@@ -14,7 +14,7 @@ comments: false
 
 Click on New->WorkFlow
 
-![](images/image8_109.jpg)
+![](/images/image8_109.jpg)
 
 **Applications** ->User can select application in this block.
 
@@ -38,32 +38,32 @@ Click on New->WorkFlow
 
 >Elems Tab
 
-![](images/image8_110.jpg)
+![](/images/image8_110.jpg)
 
 >DataXML Tab
 
 **SysEntXML** —>User can set sysid field in this block.
 
-![](images/image8_111.jpg)
+![](/images/image8_111.jpg)
 
 **Grid Condition** ->User can set Grid condition on view in this block.
 
-![](images/image8_112.jpg)
+![](/images/image8_112.jpg)
 
 **View Condition** ->user can set view like grid condition in this block.
 
 >Children Tab
 
-![](images/image8_113.jpg)
+![](/images/image8_113.jpg)
 
 ## List
 
 Click on  Appsystem->WorkFlow
 
-![](images/image8_114.jpg)
+![](/images/image8_114.jpg)
 
 ##  Edit
 
 Click on Appsystem->WorkFlows->Right Click->Edit WorkFlow
 
-![](images/image8_115.jpg)
+![](/images/image8_115.jpg)
