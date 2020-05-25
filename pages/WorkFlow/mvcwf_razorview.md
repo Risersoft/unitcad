@@ -18,19 +18,14 @@ After successful execution of prepform() , our view is called/rendered. In our V
 
 ```
 
-@imports AuthorizationFramework.Proxies
-@imports risersoft.shared.portable
 @imports risersoft.app.mxform.gst
-@imports risersoft.shared.portable.Proxies
-@imports risersoft.shared.web.Extensions
-@imports Newtonsoft.Json
 @ModelType frmGstInvoiceSaleModel
 
 @Code
     ViewData("Title") = "Sale Inovice"
     Layout = "~/Views/Shared/_FrameworkLayout.vbhtml"
-    Dim modelJson = JsonConvert.SerializeObject(Model, Formatting.Indented,
-    New JsonSerializerSettings With {.StringEscapeHandling = StringEscapeHan-dling.EscapeHtml, .NullValueHandling = NullValueHandling.Ignore})
+    Dim modelJson = Model.SerializeJson()
 End Code
+
 ```
 
