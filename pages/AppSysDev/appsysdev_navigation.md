@@ -2,7 +2,7 @@
 title: Navigation
 keywords: Navigation
 sidebar: appsysdev_sidebar
-permalink: appsysdev_navigation.html
+permalink: appsystem-developer/navigation.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

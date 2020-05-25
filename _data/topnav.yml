@@ -26,12 +26,12 @@ topnav_dropdowns:
     - title: Products
       folderitems:
         - title: Registration Portal 
-          url: /reg_introduction.html
+          url: /registration-portal/introduction.html
         - title: Admin Portal
-          url: /admin_introduction.html
+          url: /admin-portal/introduction.html
         - title: AppSystem Developer
-          url: /appsysdev_introduction.html
+          url: /appsystem-developer/introduction.html
         - title: Web Development Workflow
-          url: /mvcwf_introduction.html
+          url: /web-development-workflow/introduction.html
         
           

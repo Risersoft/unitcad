@@ -2,7 +2,7 @@
 title: Entities
 keywords: Entities
 sidebar: appsysdev_sidebar
-permalink: appsysdev_entities.html
+permalink: appsystem-developer/entities.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

@@ -2,7 +2,7 @@
 title: Introduction
 keywords: Introduction
 sidebar: reg_sidebar
-permalink: reg_introduction.html
+permalink: registration-portal/introduction.html
 folder: Registration
 hide_sidebar: false
 comments: false

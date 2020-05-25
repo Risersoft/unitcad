@@ -2,7 +2,7 @@
 title: Form/Report/Functions
 keywords: Form/Report/Functions
 sidebar: appsysdev_sidebar
-permalink: appsysdev_form-report-functions.html
+permalink: appsystem-developer/form-report-functions.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

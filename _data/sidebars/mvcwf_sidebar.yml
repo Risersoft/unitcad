@@ -4,7 +4,7 @@
 entries:
 - title: Sidebar
   product: Web Development Workflow
-  version: 1.0
+  
   folders:
 
   - title:
@@ -22,64 +22,64 @@ entries:
 
   - title: Introduction
     output: single
-    url: /mvcwf_introduction.html
+    url: /web-development-workflow/introduction.html
     folderitems:
     -
 
   - title: Model
     output: single
-    url: /mvcwf_model.html
+    url: /web-development-workflow/model.html
     folderitems:
     - 
   - title: InitViews
     output: single
-    url: /mvcwf_initviews.html
+    url: /web-development-workflow/initviews.html
     folderitems:
     -
   - title: InitForm
     output: single
-    url: /mvcwf_initform.html
+    url: /web-development-workflow/initform.html
     folderitems:
     -
   - title: Prepform
     output: single
-    url: /mvcwf_prepform.html
+    url: /web-development-workflow/prepform.html
     folderitems:
     -
   - title: Razorview
     output: single
-    url: /mvcwf_razorview.html
+    url: /web-development-workflow/razorview.html
     folderitems:
     -
   - title: Loadmodel
     output: single
-    url: /mvcwf_loadmodel.html
+    url: /web-development-workflow/loadmodel.html
     folderitems:
     -
   - title: ParamsOutput
     output: single
-    url: /mvcwf_paramsoutput.html
+    url: /web-development-workflow/paramsoutput.html
     folderitems:
     -
     
   - title: btnsave
     output: single
-    url: /mvcwf_btnsave.html
+    url: /web-development-workflow/btnsave.html
     folderitems:
     -
   - title: Model Validate
     output: single
-    url: /mvcwf_modelvalidate.html
+    url: /web-development-workflow/modelvalidate.html
     folderitems:
     -
   - title: VSave
     output: single
-    url: /mvcwf_vsave.html
+    url: /web-development-workflow/vsave.html
     folderitems:
     -
   - title: Workflow Diagram
     output: single
-    url: /mvcwf_first.html
+    url: /web-development-workflow/first.html
     folderitems:
     -
     

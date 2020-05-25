@@ -2,7 +2,7 @@
 title: Introduction
 keywords: Introduction
 sidebar: appsysdev_sidebar
-permalink: appsysdev_introduction.html
+permalink: appsystem-developer/introduction.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

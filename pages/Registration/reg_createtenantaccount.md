@@ -2,7 +2,7 @@
 title: Create Tenant(Account)
 keywords: Create Tenant(Account)
 sidebar: reg_sidebar
-permalink: reg_createtenantaccount.html
+permalink: registration-portal/createtenantaccount.html
 folder: Registration
 hide_sidebar: false
 comments: false

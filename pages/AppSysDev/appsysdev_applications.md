@@ -2,7 +2,7 @@
 title: Applications
 keywords: Applications
 sidebar: appsysdev_sidebar
-permalink: appsysdev_applications.html
+permalink: appsystem-developer/applications.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

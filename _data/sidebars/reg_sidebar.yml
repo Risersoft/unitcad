@@ -4,7 +4,7 @@
 entries:
 - title: Sidebar
   product: Registration Portal
-  version: 1.0
+  
   folders:
 
   - title:
@@ -22,34 +22,34 @@ entries:
 
   - title: Introduction
     output: single
-    url: /reg_introduction.html
+    url: /registration-portal/introduction.html
     folderitems:
     -
 
   - title: Create Tenant(Account)
     output: single
-    url: /reg_createtenantaccount.html
+    url: /registration-portal/createtenantaccount.html
     folderitems:
     - 
   
   - title: Increase Tenant Expiry Date
     output: single
-    url: /reg_increasetenantexpirydate.html
+    url: /registration-portal/increasetenantexpirydate.html
     folderitems:
     -
   - title: Increase Purchase Users Limit
     output: single
-    url: /reg_increasepurchaseuserslimit.html
+    url: /registration-portal/increasepurchaseuserslimit.html
     folderitems:
     -
   - title: User Management (Add Users)
     output: single
-    url: /reg_usermanagementadduser.html
+    url: /registration-portal/usermanagementadduser.html
     folderitems:
     -
   - title: Activate or Deactivate Users
     output: single
-    url: /reg_activatedeactivateuser.html
+    url: /registration-portal/activatedeactivateuser.html
     folderitems:
     -
   

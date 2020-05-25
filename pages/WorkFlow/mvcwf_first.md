@@ -2,7 +2,7 @@
 title: Framework workflow for Web App in MVC
 keywords: Framework workflow for Web App in MVC
 sidebar: mvcwf_sidebar
-permalink: mvcwf_first.html
+permalink: web-development-workflow/first.html
 folder: Workflow
 hide_sidebar: false
 comments: false

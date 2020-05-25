@@ -2,7 +2,7 @@
 title: Filter
 keywords: Filter
 sidebar: appsysdev_sidebar
-permalink: appsysdev_filter.html
+permalink: appsystem-developer/filter.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

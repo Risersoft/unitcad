@@ -2,7 +2,7 @@
 title: Introduction
 keywords: Introduction
 sidebar: admin_sidebar
-permalink: admin_introduction.html
+permalink: admin-portal/introduction.html
 folder: Admin
 hide_sidebar: false
 comments: false

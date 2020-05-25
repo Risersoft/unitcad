@@ -2,7 +2,7 @@
 title: Increase Tenant Expiry Date
 keywords: Increase Tenant Expiry Date
 sidebar: reg_sidebar
-permalink: reg_increasetenantexpirydate.html
+permalink: registration-portal/increasetenantexpirydate.html
 folder: Registration
 hide_sidebar: false
 comments: false

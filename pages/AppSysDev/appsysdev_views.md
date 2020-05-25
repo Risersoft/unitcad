@@ -2,7 +2,7 @@
 title: Views
 keywords: Views
 sidebar: appsysdev_sidebar
-permalink: appsysdev_views.html
+permalink: appsystem-developer/views.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

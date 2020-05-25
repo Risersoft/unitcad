@@ -6,17 +6,17 @@ entries:
   folders:
 
   - title: Products
-    output: web
+    output: single
     folderitems:
-    - title: Blog
-      url: /blog.html
-      output: web
-    - title: HRM Nirvana Introduction
-      url: /hrm_introduction.html
-      output: web
-    - title: HRM Nirvana Windows
-      url: /hrmwin_landing_page.html
-      output: web
-    - title: ESS
-      url: /ess_landing_page.html
-      output: web
+    - title: Registration Portal 
+      url: /registration-portal/introduction.html
+      output: single
+    - title: Admin Portal
+      url: /admin-portal/introduction.html
+      output: single
+    - title: AppSystem Developer
+      url: /appsystem-developer/introduction.html
+      output: single
+    - title: Web Development Workflow
+      url: /web-development-workflow/introduction.html
+      output: single

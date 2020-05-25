@@ -2,7 +2,7 @@
 title: Activate or Deactivate Users
 keywords: Activate or Deactivate Users
 sidebar: reg_sidebar
-permalink: reg_activatedeactivateuser.html
+permalink: registration-portal/activatedeactivateuser.html
 folder: Registration
 hide_sidebar: false
 comments: false

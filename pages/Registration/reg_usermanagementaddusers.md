@@ -2,7 +2,7 @@
 title: User Management (Add Users)
 keywords: User Management (Add Users)
 sidebar: reg_sidebar
-permalink: reg_usermanagementadduser.html
+permalink: registration-portal/usermanagementadduser.html
 folder: Regsitration
 hide_sidebar: false
 comments: false

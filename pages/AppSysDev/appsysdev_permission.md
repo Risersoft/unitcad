@@ -2,7 +2,7 @@
 title: Permission
 keywords: Permission
 sidebar: appsysdev_sidebar
-permalink: appsysdev_permission.html
+permalink: appsystem-developer/permission.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

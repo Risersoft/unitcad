@@ -4,7 +4,7 @@
 entries:
 - title: Sidebar
   product: Admin Portal
-  version: 1.0
+  
   folders:
 
   - title:
@@ -22,7 +22,7 @@ entries:
 
   - title: Introduction
     output: single
-    url: /admin_introduction.html
+    url: /admin-portal/introduction.html
     folderitems:
     -
 

@@ -2,7 +2,7 @@
 title: Work Flow
 keywords: Work Flow
 sidebar: appsysdev_sidebar
-permalink: appsysdev_workflow.html
+permalink: appsystem-developer/workflow.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

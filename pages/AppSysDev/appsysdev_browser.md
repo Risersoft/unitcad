@@ -2,7 +2,7 @@
 title: Browser
 keywords: Browser
 sidebar: appsysdev_sidebar
-permalink: appsysdev_browser.html
+permalink: appsystem-developer/browser.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false

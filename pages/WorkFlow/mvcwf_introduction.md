@@ -2,7 +2,7 @@
 title: Introduction
 keywords: Introduction
 sidebar: mvcwf_sidebar
-permalink: mvcwf_introduction.html
+permalink: web-development-workflow/introduction.html
 folder: Workflow
 hide_sidebar: false
 comments: false

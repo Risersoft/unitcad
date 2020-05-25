@@ -2,7 +2,7 @@
 title: Increase Purchase Users Limit
 keywords: Increase Purchase Users Limit
 sidebar: reg_sidebar
-permalink: reg_increasepurchaseuserslimit.html
+permalink: registration-portal/increasepurchaseuserslimit.html
 folder: Registration
 hide_sidebar: false
 comments: false

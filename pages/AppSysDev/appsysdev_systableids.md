@@ -2,7 +2,7 @@
 title: Systable ID's
 keywords: Systable ID's
 sidebar: appsysdev_sidebar
-permalink: appsysdev_systableids.html
+permalink: appsystem-developer/systableids.html
 folder: AppSysDev
 hide_sidebar: false
 comments: false
