@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/Risersoft/Appfx
+      external_url: https://github.com/Risersoft/Ed
     - title: Blog
       url: /blog
 
@@ -14,24 +14,18 @@ topnav_dropdowns:
   folders:
     - title: Help
       folderitems:
-        - title: Registration Portal 
-          external_url: http://appsframework.com/
-        - title: Admin Portal
-          external_url: http://appsframework.com/
-        - title: AppSystemDeveloper
-          external_url: http://appsframework.com/
+        - title: EdNirvana Web 
+          external_url: http://www.ednirvana.com/
+        
         - title: Publisher
           external_url: http://www.risersoft.com/
         
     - title: Products
       folderitems:
-        - title: Registration Portal 
-          url: /registration-portal/introduction.html
-        - title: Admin Portal
-          url: /admin-portal/introduction.html
-        - title: AppSystem Developer
-          url: /appsystem-developer/introduction.html
-        - title: Web Development Workflow
-          url: /web-development-workflow/introduction.html
+        - title: EdNirvana Web
+          url: /ed-web/introduction.html
+        - title: Learner Mobile
+          url: /learner-mobile/introduction.html
+        
         
           

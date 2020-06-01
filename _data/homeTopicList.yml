@@ -6,9 +6,9 @@
 
 
 entries:
-- topic: HRM
+- topic: EdNirvana
   topicList: 
-  - name: Pay Period
+  - name: Admin
     list:
     - title: Attendance
       url: /hrmwin_att.html
@@ -144,38 +144,12 @@ entries:
         url: /hrmwin_hrconfig.html
         output: web, pdf 
 
-- topic: ESS
+- topic: Learner
   topicList: 
-  - name: ESS Mobile App
+  - name: Learner Mobile App
     list:
       - title: Introduction
-        url: /ess_introduction.html
+        url: /learner-mobile/introduction.html
         output: web, pdf
         
-      - title: Sign In
-        url: /ess_signin.html
-        output: web, pdf 
-        
-      - title: Leave
-        url: /ess_leave.html
-        output: web, pdf 
-        
-      - title: Team
-        url: /ess_team.html
-        output: web, pdf 
-        
-      - title: PaySlip
-        url: /ess_payslip.html
-        output: web, pdf 
-        
-      - title: Profile
-        url: /ess_profile.html
-        output: web, pdf 
-        
-      - title: Punch
-        url: /ess_punch.html
-        output: web, pdf 
-        
-      - title: Sign Out
-        url: /ess_signout.html
-        output: web, pdf 
+      
