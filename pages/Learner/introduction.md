@@ -1,6 +1,6 @@
 ---
-title: Learner Introduction
-keywords: Learner Introduction
+title: Introduction
+keywords: Introduction
 sidebar: learner_sidebar
 permalink: learner-mobile/introduction.html
 folder: Learner
@@ -16,3 +16,5 @@ comments: false
 # Introduction
 
 EdNirvana Mobile app is for Android and IOS users (Learners only) which enables Learners to keep their courses handy. Using the Mobile app, the users can access their courses, consume Assessments and can download the course content as well.
+
+![](/images/homescreen.png)

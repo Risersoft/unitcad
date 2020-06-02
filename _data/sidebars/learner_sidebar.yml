@@ -25,5 +25,25 @@ entries:
     url: /learner-mobile/introduction.html
     folderitems:
     -
+  - title: Dashboard
+    output: single
+    url: /learner-mobile/dashboard.html
+    folderitems:
+    -
+  - title: My Courses
+    output: single
+    url: /learner-mobile/mycourses.html
+    folderitems:
+    -
+  - title: View Course
+    output: single
+    url: /learner-mobile/viewcourse.html
+    folderitems:
+    -
+  - title: View Course Content
+    output: single
+    url: /learner-mobile/viewcoursecontent.html
+    folderitems:
+    -
 
   

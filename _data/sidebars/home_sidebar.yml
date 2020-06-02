@@ -8,15 +8,10 @@ entries:
   - title: Products
     output: single
     folderitems:
-    - title: Registration Portal 
-      url: /registration-portal/introduction.html
+    - title: EdNirvana Web
+      url: /ed-web/introduction.html
       output: single
-    - title: Admin Portal
-      url: /admin-portal/introduction.html
+    - title: Learner Mobile
+      url: /learner-mobile/introduction.html
       output: single
-    - title: AppSystem Developer
-      url: /appsystem-developer/introduction.html
-      output: single
-    - title: Web Development Workflow
-      url: /web-development-workflow/introduction.html
-      output: single
+    
