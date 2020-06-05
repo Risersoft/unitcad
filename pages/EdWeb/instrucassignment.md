@@ -16,18 +16,18 @@ comments: false
 
 To view the List of Assignments assigned to you as an Instructor, navigate **Right click on a Assignment > View Assignment**
 
-![](/images/48.png)
+![](/images/instructorAssignmentMenu.png)
 
 The Assignments assigned to you as an Instructor will appear
 
-![](/images/49.png)
+![](/images/instructorAssignmentList.png)
 
 ## Edit Assignment
 
 To edit an assignment assigned to you as an instructor, navigate **Right click on Assignment > Edit Assignment**
 
-![](/images/50.png)
+![](/images/instructorAssignmentEdit.png)
 
 Fill the fields and upload assignment and **Save**
 
-![](/images/51.png)
+![](/images/instructorAssignmentUploadSave.png)

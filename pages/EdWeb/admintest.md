@@ -12,21 +12,21 @@ comments: false
 
 
 # Test
-## Create Test
+##  Create Test
 To create a new test, navigate **Admin > Test > New Assess Test**
 
-![](/images/14.png)
+![](/images/admincreatetestmenu.png)
 
  Fill all the Details and **Save**, Test will be created
 
-![](/images/15.png)
+![](/images/admincreatetest.png)
 
 ## List of Tests
 
 To view all the tests, navigate **Admin > Test > List of Tests**
 
-![](/images/16.png)
+![](/images/admintestlist.png)
 
 **List of Tests** created by the Admin will appear
 
-![](/images/17.png)
+![](/images/admintestlistview.png)

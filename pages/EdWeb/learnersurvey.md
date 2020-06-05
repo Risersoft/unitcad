@@ -11,24 +11,24 @@ comments: false
 
 
 # My Surveys
-## List of Surveys
+##  List of Surveys
 
 To view the List of Surveys assigned to you as a Learner, navigate **Learner > My Surveys**
 
-![](/images/66.png)
+![](/images/learnersurveymenu.png)
 
 **List of Surveys** assigned to you as a Learner will appear
 
 
-![](/images/67.png)
+![](/images/learnersurveyview.png)
 
 ## Start Survey
 
 To start attempting a survey assigned to you as a Learner, navigate **Right click on a Survey > View Survey**
 
-![](/images/68.png)
+![](/images/learnersurveypath.png)
 
 To Start a Survey as a Learner, select the **“Start”** option
 
 
-![](/images/69.png)
+![](/images/learnersurveystart.png)

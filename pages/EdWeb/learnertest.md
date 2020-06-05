@@ -14,18 +14,18 @@ comments: false
 
 To view all the Tests as a leaner, navigate **Learner > My Tests**
 
-![](/images/62.png)
+![](/images/learnertestmenu.png)
 
 List of Tests assigned to you as a Learner will appear
 
-![](/images/63.png)
+![](/images/learnertestview.png)
 
 ## Start Test
 
 To start a Test assigned to you as a learner, navigate **Right click on Test > View Test**
 
-![](/images/64.png)
+![](/images/learnerstarttestpath.png)
 
 To Start the Test as Learner, select the **“Start”** option
 
-![](/images/65.png)
+![](/images/learnerstarttest.png)

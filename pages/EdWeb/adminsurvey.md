@@ -11,21 +11,21 @@ comments: false
 
 
 # Survey
-## Create Survey
+##   Create Survey
 To create a survey, navigate **Admin > Survey > New Survey**
 
-![](/images/18.png)
+![](/images/admincreatesurveymenu.png)
 
  Fill all the details and **Save**
 
-![](/images/19.png)
+![](/images/admincreatesurvey.png)
 
 ## List of Surveys
 
 To view all surveys, navigate **Admin > Survey > List of Surveys**.
 
-![](/images/20.png)
+![](/images/adminsurveylist.png)
 
 **List of Surveys** created by the Admin will appear
 
-![](/images/21.png)
+![](/images/adminsurveyview.png)

@@ -14,9 +14,9 @@ comments: false
 
  To view the Dashboard as an Admin, navigate **Admin > Dashboard**
 
-![](/images/2.png)
+![](/images/admindashboardmenu.png)
 
 
 Different types of Data views will appear for different Courses, Assessments created by Admin.
 
-![](/images/3.png)
+![](/images/admindashboard.png)
