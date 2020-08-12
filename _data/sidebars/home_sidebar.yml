@@ -2,14 +2,22 @@
 
 entries:
 - title: Sidebar
-  levels: one
+  levels: two
   folders:
 
   - title: Products
-    output: single
+    output: web,pdf
     folderitems:
-    - title: MPCNirvana Windows
-      url: /mpc-nirvana-win/introduction.html
-      output: single
+    - title: UnitCAD for Inventor
+      url: /unitcad-inventor/introduction.html
+      output: web
+      
+    - title: UnitCAD for Inventor Tutorials
+      url: /unitcad-inventor-tutorial/introduction.html
+      output: web
+      
+    - title: UnitCAD for AutoCAD
+      url: /unitcad-autocad/introduction.html
+      output: web
     
     

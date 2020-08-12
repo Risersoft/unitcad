@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/Risersoft/MPC
+      external_url: https://github.com/Risersoft/Unitcad
     - title: Blog
       url: /blog
 
@@ -20,8 +20,14 @@ topnav_dropdowns:
         
     - title: Products
       folderitems:
-        - title: MPCNirvana Windows
-          url: /mpc-nirvana-win/introduction.html
+        - title: UnitCAD for Inventor
+          url: /unitcad-inventor/introduction.html
+          
+        - title: UnitCAD for Inventor Tutorials
+          url: /unitcad-inventor-tutorial/introduction.html
+          
+        - title: UnitCAD for AutoCAD
+          url: /unitcad-autocad/introduction.html
         
         
         
