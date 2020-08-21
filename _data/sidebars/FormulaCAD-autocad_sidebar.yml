@@ -1,0 +1,299 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: FormulaCAD for AutoCAD
+  
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+       
+  - title: Introduction
+    url: /FormulaCAD-autocad/introduction.html
+    output: web, pdf
+    
+    folderitems:
+    - title: Parametric 2D – First Class
+      url: /FormulaCAD-autocad/parametric-2d-first-class.html
+      output: web, pdf
+      
+    - title: Power without Scripting
+      url: /FormulaCAD-autocad/power-without-scripting.html
+      output: web, pdf
+      
+    - title: Manageability
+      url: /FormulaCAD-autocad/manageability.html
+      output: web, pdf
+
+  - title: Terminology
+    output: single   
+    url: /FormulaCAD-autocad/terminology.html
+    folderitems:
+    -   
+       
+  - title: Quick Start Tutorials
+    url: /FormulaCAD-autocad/quick-start-tutorials.html
+    output: web, pdf
+    folderitems:
+    - title: Tutorial 1 - Using AutoCAD parametric blocks
+      url: /FormulaCAD-autocad/tutorial1-using-autocad-parametric-blocks.html
+      output: web, pdf
+
+    - title: Tutorial 2 - Building from Scratch
+      url: /FormulaCAD-autocad/tutorial2-building-from-scratch.html
+      output: web, pdf
+      
+    - title: Tutorial 3 - Mix and Match (Children, Actions)
+      url: /FormulaCAD-autocad/tutorial3-mix-and-match.html
+      output: web, pdf  
+
+  - title: General Environment
+    url: /FormulaCAD-autocad/general-environment.html 
+    output: web, pdf
+
+    folderitems:
+    - title: Main Screen
+      url: /FormulaCAD-autocad/main-screen.html
+      output: web, pdf
+
+    - title: Menu Commands
+      url: /FormulaCAD-autocad/menu-commands.html
+      output: web, pdf
+      
+    - title: Toolbar Commands
+      url: /FormulaCAD-autocad/toolbar-commands.html
+      output: web, pdf
+      
+    - title: Filtering System
+      url: /FormulaCAD-autocad/filtering-system.html
+      output: web, pdf
+           
+    - title: Printing
+      url: /FormulaCAD-autocad/printing.html
+      output: web, pdf
+      
+    - title: Collaboration Features
+      url: /FormulaCAD-autocad/collaboration-features.html
+      output: web, pdf
+      
+    - title: Data Entry Screens
+      url: /FormulaCAD-autocad/data-entry-screens.html
+      output: web, pdf
+
+  - title: Global Parameters
+    url: /FormulaCAD-autocad/global-parameters.html
+    output: web, pdf
+    folderitems:
+    
+    - title: Data Types
+      url: /FormulaCAD-autocad/data-types.html
+      output: web, pdf 
+      
+    - title: Design Table Reference
+      url: /FormulaCAD-autocad/design-table-reference.html 
+      output: web, pdf    
+    
+          
+  - title: Design Tables
+    url: /FormulaCAD-autocad/design-tables.html     
+    output: web, pdf 
+    folderitems:      
+      
+    - title: Design Table Structure
+      url: /FormulaCAD-autocad/design-table-structure.html
+      output: web, pdf  
+      
+    - title: Design Table Data
+      url: /FormulaCAD-autocad/design-table-data.html
+      output: web, pdf 
+
+    - title: Design Table Export and Import
+      url: /FormulaCAD-autocad/design-table-export-and-import.html
+      output: web, pdf    
+          
+  - title: Components
+    output: web, pdf
+    url: /FormulaCAD-autocad/components.html
+    folderitems:
+    
+    - title: Local Parameters
+      url: /FormulaCAD-autocad/local-parameters.html
+      output: web, pdf  
+      
+    - title: Formula Authoring
+      url: /FormulaCAD-autocad/formula-authoring.html
+      output: web, pdf   
+      
+  - title: Parametric Blocks
+    output: single
+    url: /FormulaCAD-autocad/parameteric-blocks.html
+    folderitems:
+    -
+    
+  - title: Parametric Drawing as a Technology   
+    url: /FormulaCAD-autocad/parametric-drawing-is-a-technology-that-is-used-for-designing-with-constraints.-constraints-are-associations-and-restrictions-applied-to-2D-geometry.html
+    output: web, pdf
+    folderitems:
+    
+    - title: How to define in FormulaCAD
+      url: /FormulaCAD-autocad/how-to-define-in-autocad.html
+      output: web, pdf
+      
+    - title: FormulaCAD Name Property
+      url: /FormulaCAD-autocad/FormulaCAD-name-property.html
+      output: web, pdf
+
+    - title: Parametric Block Authoring Guidelines
+      url: /FormulaCAD-autocad/parametric-block-authoring-guidelines.html
+      output: web, pdf  
+      
+    - title: How to define and link in FormulaCAD
+      url: /FormulaCAD-autocad/how-to-define-and-link-in-FormulaCAD.html
+      output: web, pdf 
+      
+    - title: Parameter Matching
+      url: /FormulaCAD-autocad/parameter-matching.html
+      output: web, pdf 
+
+    - title: Attributes
+      url: /FormulaCAD-autocad/attributes.html
+      output: web, pdf   
+
+  - title: Component Tree  
+    url: /FormulaCAD-autocad/component-tree.html
+    output: web, pdf
+    folderitems:  
+  
+    - title: Mommy Calling – Parent Components
+      url: /FormulaCAD-autocad/mommy-calling-parent-components.html
+      output: web, pdf  
+      
+ 
+    - title: Calling Children in base component vs parent component
+      url: /FormulaCAD-autocad/calling-children-in-base-component-vs-parent-component.html
+      output: web, pdf
+
+    - title: Testing Components
+      url: /FormulaCAD-autocad/testing-components.html
+      output: web, pdf 
+
+    - title: Parameter Groups
+      url: /FormulaCAD-autocad/parameter-groups.html
+      output: web, pdf
+
+    - title: Exporting and Importing
+      url: /FormulaCAD-autocad/exporting-and-importing.html
+      output: web, pdf
+      
+  - title: Internal Entities
+    url: /FormulaCAD-autocad/internal-entities.html
+    output: web, pdf
+    folderitems:
+    - title: Curves
+      url: /FormulaCAD-autocad/curves.html
+      output: web, pdf    
+
+    - title: Dimensions
+      url: /FormulaCAD-autocad/dimensions.html
+      output: web, pdf
+
+
+    - title: Annotations
+      url: /FormulaCAD-autocad/annotations.html
+      output: web, pdf  
+  
+    - title: Arrays
+      url: /FormulaCAD-autocad/arrays.html
+      output: web, pdf  
+      
+   
+  - title: Lights Camera Action!
+    url: /FormulaCAD-autocad/light-camera-action.html
+    output: web, pdf  
+    folderitems:
+    
+    - title: Child Referencing
+      url: /FormulaCAD-autocad/child-referencing.html
+      output: web, pdf
+      
+    - title: Move
+      url: /FormulaCAD-autocad/move.html
+      output: web, pdf
+
+    - title: Move All
+      url: /FormulaCAD-autocad/move-all.html
+      output: web, pdf
+
+    - title: Mirroring – Mirror, MirDel
+      url: /FormulaCAD-autocad/mirroring-mirror-mirdel.html
+      output: web, pdf
+
+    - title: Rotate
+      url: /FormulaCAD-autocad/rotate.html
+      output: web, pdf
+
+    - title: Trim
+      url: /FormulaCAD-autocad/trim.html
+      output: web, pdf  
+      
+  - title: Work Orders – Putting it all together 
+    url: /FormulaCAD-autocad/work-orders-putting-it-all-together.html
+    output: web, pdf
+    folderitems:
+    
+    - title: Basic Information
+      url: /FormulaCAD-autocad/basic-information.html
+      output: web, pdf
+      
+    - title: Entering Parameters
+      url: /FormulaCAD-autocad/entering-parameters.html
+      output: web, pdf
+
+    - title: Setting Tree Root and Template
+      url: /FormulaCAD-autocad/setting-tree-root-and-template.html
+      output: web, pdf
+
+    - title: Generating
+      url: /FormulaCAD-autocad/generating.html
+      output: web, pdf
+
+     
+    
+  - title: Advanced Topics  
+    
+    output: web, pdf
+    folderitems:
+    
+    - title: Inheriting components
+      url: /FormulaCAD-autocad/inheriting-components.html
+      output: web, pdf
+    
+ 
+      
+    - title: Design table based components
+      url: /FormulaCAD-autocad/design-table-based-components.html
+      output: web, pdf  
+    
+   
+     
+    
+      
+    
+      
+  
+
+      
+      
