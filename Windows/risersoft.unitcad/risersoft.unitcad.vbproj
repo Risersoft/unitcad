@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>risersoft.unitcad</RootNamespace>
+    <AssemblyName>risersoft.unitcad</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>risersoft.unitcad.xml</DocumentationFile>
+    <NoWarn>42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>risersoft.unitcad.xml</DocumentationFile>
+    <NoWarn>42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug2|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>risersoft.unitcad.xml</DocumentationFile>
+    <NoWarn>42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics.Documents.Core,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Documents.Core.dll</HintPath>
+      <Name>Infragistics4.Documents.Core.v15.2</Name>
+    </Reference>
+    <Reference Include="Infragistics.Documents.Excel,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Documents.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.Design">
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinCalcManager,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinCalcManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Shared,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.Misc,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.Misc.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinEditors,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinExplorerBar,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinExplorerBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinGrid,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinTabControl,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinToolbars,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinToolbars.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinTree,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinStatusBar,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinStatusBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinDock,Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Win.UltraWinCalcManager.FormulaBuilder, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Common\lib\Infragistics\Infragistics.Win.UltraWinCalcManager.FormulaBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.DWGTHUMBNAILLib, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\common\lib\setup\interop\AxInterop.DWGTHUMBNAILLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DWGTHUMBNAILLib, Version=3.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\..\common\lib\setup\interop\Interop.DWGTHUMBNAILLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Xml.ReaderWriter.4.3.1\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="AutoCAD" />
+    <Import Include="AXDBLib" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="risersoft" />
+    <Import Include="risersoft.app.mxengg" />
+    <Import Include="risersoft.app.mxform.ucad" />
+    <Import Include="risersoft.app.shared.mxengg" />
+    <Import Include="risersoft.shared" />
+    <Import Include="risersoft.shared.dotnetfx" />
+    <Import Include="risersoft.shared.portable" />
+    <Import Include="risersoft.shared.portable.Models.Nav" />
+    <Import Include="risersoft.shared.win" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoCAD\clsCADHostBase.vb" />
+    <Compile Include="AutoCAD\frmDwgDoc.Designer.vb">
+      <DependentUpon>frmDwgDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AutoCAD\frmDwgDoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Action\frmTFCompDefActConstraint.Designer.vb">
+      <DependentUpon>frmTFCompDefActConstraint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Action\frmTFCompDefActConstraint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Action\frmTFCompDefAction.Designer.vb">
+      <DependentUpon>frmTFCompDefAction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Action\frmTFCompDefAction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Action\frmTFCompDefActPack.Designer.vb">
+      <DependentUpon>frmTFCompDefActPack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Action\frmTFCompDefActPack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Action\frmTFCompDefActPattern.Designer.vb">
+      <DependentUpon>frmTFCompDefActPattern.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Action\frmTFCompDefActPattern.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefBase.Designer.vb">
+      <DependentUpon>frmTFCompDefBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefBOM.Designer.vb">
+      <DependentUpon>frmTFCompDefBOM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefBOM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefCalcItemArea.Designer.vb">
+      <DependentUpon>frmTFCompDefCalcItemArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefCalcItemArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefCalcItemWV.Designer.vb">
+      <DependentUpon>frmTFCompDefCalcItemWV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefCalcItemWV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefShotChild.Designer.vb">
+      <DependentUpon>frmTFCompDefShotChild.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefShotChild.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefChild.Designer.vb">
+      <DependentUpon>frmTFCompDefChild.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefChild.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefDTR.Designer.vb">
+      <DependentUpon>frmTFCompDefDTR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefDTR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefShot.Designer.vb">
+      <DependentUpon>frmTFCompDefShot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\frmTFCompDefShot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Param\frmTFCompDefParamGrp.Designer.vb">
+      <DependentUpon>frmTFCompDefParamGrp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Param\frmTFCompDefParamGrp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Param\frmTFCompDefParamList.Designer.vb">
+      <DependentUpon>frmTFCompDefParamList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Param\frmTFCompDefParamList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Explore\frmDWGPanel.Designer.vb">
+      <DependentUpon>frmDWGPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Explore\frmDWGPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Explore\frmExplore.Designer.vb">
+      <DependentUpon>frmExplore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Explore\frmExplore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Explore\myFXPL.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Params\frmTFCompDefChildParam.Designer.vb">
+      <DependentUpon>frmTFCompDefChildParam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Params\frmTFCompDefChildParam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Params\frmTFCompDefParam.Designer.vb">
+      <DependentUpon>frmTFCompDefParam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Params\frmTFCompDefParam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitCAD\frmParamEditor.Designer.vb">
+      <DependentUpon>frmParamEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnitCAD\frmParamEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitCAD\ctlParamEditor.Designer.vb">
+      <DependentUpon>ctlParamEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnitCAD\ctlParamEditor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitCAD\frmTCMake.Designer.vb">
+      <DependentUpon>frmTCMake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnitCAD\frmTCMake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitCAD\frmGloParam.Designer.vb">
+      <DependentUpon>frmGloParam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnitCAD\frmGloParam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitCAD\frmPIDUParamsUc.Designer.vb">
+      <DependentUpon>frmPIDUParamsUc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnitCAD\frmPIDUParamsUc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitCAD\frmTCPIDU.Designer.vb">
+      <DependentUpon>frmTCPIDU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnitCAD\frmTCPIDU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitCAD\CustomPartEditorControl.vb" />
+    <None Include="app.config" />
+    <None Include="Params\frmCostOld.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AutoCAD\frmDwgDoc.resx">
+      <DependentUpon>frmDwgDoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Action\frmTFCompDefActConstraint.resx">
+      <DependentUpon>frmTFCompDefActConstraint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Action\frmTFCompDefAction.resx">
+      <DependentUpon>frmTFCompDefAction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Action\frmTFCompDefActPack.resx">
+      <DependentUpon>frmTFCompDefActPack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Action\frmTFCompDefActPattern.resx">
+      <DependentUpon>frmTFCompDefActPattern.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\frmTFCompDefBase.resx">
+      <DependentUpon>frmTFCompDefBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\frmTFCompDefBOM.resx">
+      <DependentUpon>frmTFCompDefBOM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\frmTFCompDefCalcItemArea.resx">
+      <DependentUpon>frmTFCompDefCalcItemArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\frmTFCompDefCalcItemWV.resx">
+      <DependentUpon>frmTFCompDefCalcItemWV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\frmTFCompDefShotChild.resx">
+      <DependentUpon>frmTFCompDefShotChild.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\frmTFCompDefChild.resx">
+      <DependentUpon>frmTFCompDefChild.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\frmTFCompDefDTR.resx">
+      <DependentUpon>frmTFCompDefDTR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\frmTFCompDefShot.resx">
+      <DependentUpon>frmTFCompDefShot.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Param\frmTFCompDefParamGrp.resx">
+      <DependentUpon>frmTFCompDefParamGrp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Param\frmTFCompDefParamList.resx">
+      <DependentUpon>frmTFCompDefParamList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Explore\frmDWGPanel.resx">
+      <DependentUpon>frmDWGPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Explore\frmExplore.resx">
+      <DependentUpon>frmExplore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Params\frmCostOld.resx">
+      <DependentUpon>frmCostOld.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Params\frmTFCompDefChildParam.resx">
+      <DependentUpon>frmTFCompDefChildParam.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Params\frmTFCompDefParam.resx">
+      <DependentUpon>frmTFCompDefParam.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitCAD\frmParamEditor.resx">
+      <DependentUpon>frmParamEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitCAD\ctlParamEditor.resx">
+      <DependentUpon>ctlParamEditor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitCAD\frmTCMake.resx">
+      <DependentUpon>frmTCMake.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitCAD\frmGloParam.resx">
+      <DependentUpon>frmGloParam.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitCAD\frmPIDUParamsUc.resx">
+      <DependentUpon>frmPIDUParamsUc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitCAD\frmTCPIDU.resx">
+      <DependentUpon>frmTCPIDU.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Components\notes.txt" />
+    <Content Include="Components\RefCode.txt" />
+    <Content Include="Params\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Forms\risersoft.app.mxform.eto\risersoft.app.mxform.eto.vbproj">
+      <Project>{1369917e-2571-46f6-89a4-56826252d4e6}</Project>
+      <Name>risersoft.app.mxform.eto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\risersoft.app.mxform.ucad\risersoft.app.mxform.ucad.vbproj">
+      <Project>{d3973229-8c02-4d9d-be84-a5225feacbfb}</Project>
+      <Name>risersoft.app.mxform.ucad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CefSharp.WinForms">
+      <Version>85.3.130</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.ClearScript">
+      <Version>6.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="System.Data.Common">
+      <Version>4.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Drawing.Primitives">
+      <Version>4.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Xml.XPath.XmlDocument">
+      <Version>4.3.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(Configuration)' == 'Debug2'">
+      <ItemGroup>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.app.mxengg\risersoft.app.mxengg.vbproj">
+          <Project>{4a71d8b3-6c50-42fa-b4c1-cf9aaf4b9652}</Project>
+          <Name>risersoft.app.mxengg</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.app.mxent\risersoft.app.mxent.vbproj">
+          <Project>{2693738b-de66-476d-afda-fd39e4579f27}</Project>
+          <Name>risersoft.app.mxent</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.cloud\risersoft.shared.cloud.vbproj">
+          <Project>{f5b5afa9-af4a-4b86-8d8d-502976813633}</Project>
+          <Name>risersoft.shared.cloud</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.dal\risersoft.shared.dal.vbproj">
+          <Project>{68b77483-9004-404b-b649-0e8bb780158e}</Project>
+          <Name>risersoft.shared.dal</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.lm\risersoft.shared.lm.csproj">
+          <Project>{2a4a24c0-7357-4ea4-84b8-642f07b1fc5f}</Project>
+          <Name>risersoft.shared.lm</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared\risersoft.shared.vbproj">
+          <Project>{678f7367-71bb-425c-a388-b45d25822ca3}</Project>
+          <Name>risersoft.shared</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Win\risersoft.activation\_RSLicenseActivation.vbproj">
+          <Project>{3b0f69db-bfd9-44a3-be20-9dc374aed55c}</Project>
+          <Name>RSLicenseActivation</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Win\risersoft.app.shared.mxengg\risersoft.app.shared.mxengg.vbproj">
+          <Project>{0a72f1e2-b5e0-4a2d-98e7-26a491e784fc}</Project>
+          <Name>risersoft.app.shared.mxengg</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Win\risersoft.app.shared\risersoft.app.shared.vbproj">
+          <Project>{45cc2480-572f-409a-8c7a-30a31d6fe513}</Project>
+          <Name>risersoft.app.shared</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\win\risersoft.app2.shared\risersoft.app2.shared.vbproj">
+          <Project>{b47e653f-a85b-447f-8993-705d82410a95}</Project>
+          <Name>risersoft.app2.shared</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.db\risersoft.shared.db.vbproj">
+          <Project>{093e113d-c44c-404e-9b03-e301dd4da319}</Project>
+          <Name>risersoft.shared.db</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Win\risersoft.shared.win\risersoft.shared.win.vbproj">
+          <Project>{6e272ec6-dc22-46f8-bb94-40780818737b}</Project>
+          <Name>risersoft.shared.win</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.portable\risersoft.shared.portable.csproj">
+          <Project>{1742c540-4c7d-4397-8a46-f6a6ade33c5e}</Project>
+          <Name>risersoft.shared.portable</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.dotnetfx\risersoft.shared.dotnetfx.vbproj">
+          <Project>{3dc06d9d-b9b9-414c-b83c-2b9eeaaf5ea6}</Project>
+          <Name>risersoft.shared.dotnetfx</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.console\risersoft.shared.agent.csproj">
+          <Project>{39e6633f-2d15-4a82-a033-ac89108616e4}</Project>
+          <Name>risersoft.shared.agent</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.app.dataporter\risersoft.app.dataporter.vbproj">
+          <Project>{419585b1-cecd-49bc-a00b-48b0c6725e7f}</Project>
+          <Name>risersoft.app.dataporter</Name>
+        </ProjectReference>
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="risersoft.app.mxent">
+          <HintPath>..\..\..\Common\depends\risersoft.app.mxent.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.app.shared">
+          <HintPath>..\..\..\Common\depends\risersoft.app.shared.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.shared">
+          <HintPath>..\..\..\common\depends\risersoft.shared.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.shared.dotnetfx">
+          <HintPath>..\..\..\common\depends\risersoft.shared.dotnetfx.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.shared.db">
+          <HintPath>..\..\..\Common\depends\risersoft.shared.db.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.shared.dal">
+          <HintPath>..\..\..\Common\depends\risersoft.shared.dal.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.shared.lm">
+          <HintPath>..\..\..\Common\depends\risersoft.shared.lm.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.shared.win">
+          <HintPath>..\..\..\Common\depends\risersoft.shared.win.dll</HintPath>
+        </Reference>
+        <Reference Include="RSLicenseActivation">
+          <HintPath>..\..\..\Common\depends\RSLicenseActivation.exe</HintPath>
+        </Reference>
+        <Reference Include="risersoft.shared.cloud">
+          <HintPath>..\..\..\Common\depends\risersoft.shared.cloud.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.app.mxengg">
+          <HintPath>..\..\..\Common\depends\risersoft.app.mxengg.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.app2.shared">
+          <HintPath>..\..\..\Common\depends\risersoft.app2.shared.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.app.shared.mxengg">
+          <HintPath>..\..\..\Common\depends\risersoft.app.shared.mxengg.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.shared.portable">
+          <HintPath>..\..\..\common\depends\risersoft.shared.portable.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.shared.agent">
+          <HintPath>..\..\..\common\depends\risersoft.shared.agent.dll</HintPath>
+        </Reference>
+        <Reference Include="risersoft.app.dataporter">
+          <HintPath>..\..\..\common\depends\risersoft.app.dataporter.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Reactor_Enabled="0" Reactor_Commands="" Reactor_Project="" Reactor_Configuration="ALL" Reactor_Output="" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>rem xcopy /y/s "$(SolutionDir)..\common\lib\AnyCPU\*.*" "$(TargetDir)"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_AddDynamicChild" xml:space="preserve">
+    <value>Unable to add the dynamic child rule '{0}': {1}</value>
+  </data>
+  <data name="Error_ApplyChanges" xml:space="preserve">
+    <value>Error encountered while applying changes: {0}</value>
+  </data>
+  <data name="PartEditor_ComboBoxWarning" xml:space="preserve">
+    <value>Some choices were not added to the list because they are not valid Intent names: </value>
+  </data>
+  <data name="PartEditor_CustomRefreshException" xml:space="preserve">
+    <value>Caught exception from custom part editor control during Refresh call:
+{0}</value>
+  </data>
+  <data name="PartEditor_DoesNotImplementIPartEditorControl" xml:space="preserve">
+    <value>Specified class, '{0}', does not implement IPartEditorControl.</value>
+  </data>
+  <data name="PartEditor_ErrorLoadingControl" xml:space="preserve">
+    <value>Exception caught loading control {0}. 
+
+{1}</value>
+  </data>
+  <data name="PartEditor_GetTypeFailed" xml:space="preserve">
+    <value>Failed to get type information for '{0}'.</value>
+  </data>
+  <data name="PartEditor_LoadComponentFailed" xml:space="preserve">
+    <value>Unable to load xaml component '{0}'. 
+
+Check to ensure the Assembly exists and the class is derived from FrameworkElement.</value>
+  </data>
+  <data name="PartEditor_ParseError" xml:space="preserve">
+    <value>{0}{0}Please fix the parse error:{0}Row: {1}{0}Column: {2}</value>
+  </data>
+  <data name="PartEditor_SelectFileError" xml:space="preserve">
+    <value>Error opening the Select File dialog: {0}</value>
+  </data>
+  <data name="PartEditor_SelectFileTitle" xml:space="preserve">
+    <value>Select a file</value>
+  </data>
+  <data name="PartEditor_SelectFolderDescription" xml:space="preserve">
+    <value>Select a folder</value>
+  </data>
+  <data name="PartEditor_SelectFolderError" xml:space="preserve">
+    <value>Error opening the Select Folder dialog: {0}</value>
+  </data>
+  <data name="PartEditor_SyntaxError" xml:space="preserve">
+    <value>{0}: '{1}' at position {2} in '{3}'</value>
+  </data>
+  <data name="PartEditor_Title" xml:space="preserve">
+    <value>Intent Part Editor</value>
+  </data>
+  <data name="PartNameInvalid_EmbeddedSpaces" xml:space="preserve">
+    <value>Invalid name - name cannot contain embedded spaces</value>
+  </data>
+  <data name="PartNameInvalid_Empty" xml:space="preserve">
+    <value>Invalid name - name cannot be empty</value>
+  </data>
+  <data name="PartNameInvalid_Generic" xml:space="preserve">
+    <value>Invalid name</value>
+  </data>
+  <data name="PartNameInvalid_InvalidCharacters" xml:space="preserve">
+    <value>Invalid name - one or more characters are not valid</value>
+  </data>
+  <data name="PartNameInvalid_InvalidFirstCharacter" xml:space="preserve">
+    <value>Invalid name - invalid first character</value>
+  </data>
+  <data name="PartWithThisNameAlreadyExists" xml:space="preserve">
+    <value>Part with this name already exists</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ToggleCustomStandardPartEditor" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA9fAAAPXwHXitrJAAABV0lE
+        QVQ4T6WSWVLCQBRFwx5dA9vInwtRNuGHUk5oibM4gIxhEJnJnGC43u6YgZIP0K461fUqN+fdj1Z4VCWT
+        2Z74cFBzRXVn92BjVgVRA0UB77+QUYMlhARsAm7YmFjgLpb/a+D4gcobbALK4Aj8APYPVoQXwIxwA4h/
+        pIAfpED8PDQXyGaz2NvPyTtNd+ajM/PQnobEAsP9kgKxtTf3ZTAd1khr4qFJGmNXUh+5iWDuhAJRUWNI
+        hsferwZpyp9OIpjaoYBNUKO5OgypDByUBQy/kde+g5e+jecPGyUSCybWQgrYRAaj8LrNEfcdKxGMzFDA
+        Jnjq2ZLHro2HriWDgtu2hRuBZuFaM1FsmYlgYIQCNsFdKrxuc0ShYYQC+ZSJGNgEVzQLLpsmLhgSFOoG
+        zskZOa3pOCHHVT0WyCMGNpFBsWHdO8i/68hXdBxV5jgkKwIeMWyJgm8SOzjrKrWYAAAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+</root>

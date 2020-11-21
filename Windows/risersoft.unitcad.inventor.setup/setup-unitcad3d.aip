@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="10.0" version="10.0" Modules="professional" RootPath="." Language="en" Id="{A65A9D2B-3BA9-41AA-AA29-901B50C9E922}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_FINDEXE_TITLE" Value="Select the installation package for [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_MINDOTNETVERSION" MultiBuildValue="DefaultBuild:4.0" ValueLocId="-"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPHELPLINK" Value="http://www.risersoft.com/unitcad/inventor"/>
+    <ROW Property="ARPNOREPAIR" Value="1"/>
+    <ROW Property="ARPPRODUCTICON" Value="icon.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://www.risersoft.com/unitcad/inventor"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="http://www.risersoft.com/unitcad/inventor"/>
+    <ROW Property="Manufacturer" Value="Risersoft"/>
+    <ROW Property="ProductCode" Value="1033:{046FBC8A-24C4-4F90-AE1D-A34B4C787CCE} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="UnitCAD for Inventor"/>
+    <ROW Property="ProductVersion" Value="1.1.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{94C79E71-3DE6-4881-B964-0C182C86C55F}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="Videos_Dir" Directory_Parent="APPDIR" DefaultDir="Videos"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_ExePath" ComponentId="{9C979068-3B04-47D0-B579-5572B6D2429E}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="AdnInvUtilityLib.2.0.dll" ComponentId="{08E0AC2E-7846-418C-9BD8-159863A31BB2}" Directory_="APPDIR" Attributes="0" KeyPath="AdnInvUtilityLib.2.0.dll"/>
+    <ROW Component="Autodesk.AutoCAD.Interop.Common.dll" ComponentId="{76DB638A-C8F8-4ED7-B04C-6A735560D081}" Directory_="APPDIR" Attributes="0" KeyPath="Autodesk.AutoCAD.Interop.Common.dll"/>
+    <ROW Component="Autodesk.AutoCAD.Interop.dll" ComponentId="{B469677D-0FA0-4650-A081-B125FFDF04BC}" Directory_="APPDIR" Attributes="0" KeyPath="Autodesk.AutoCAD.Interop.dll"/>
+    <ROW Component="AxInterop.DWGTHUMBNAILLib.dll" ComponentId="{92B25856-C9E3-47C7-96FB-575FA061D696}" Directory_="APPDIR" Attributes="0" KeyPath="AxInterop.DWGTHUMBNAILLib.dll"/>
+    <ROW Component="AxInterop.InventorViewControlLib.dll" ComponentId="{B94C24C9-D428-4D1D-BAD6-EA008CCBAF3F}" Directory_="APPDIR" Attributes="0" KeyPath="AxInterop.InventorViewControlLib.dll"/>
+    <ROW Component="AxInterop.WMPLib.dll" ComponentId="{5EEA1C19-592C-4CC8-9A71-C39ABC812274}" Directory_="APPDIR" Attributes="0" Condition="NOT VersionNT64" KeyPath="AxInterop.WMPLib.dll"/>
+    <ROW Component="AxInterop.WMPLib.dll.x64" ComponentId="{911FD588-AFE7-4C91-B613-6F3F6FECD5A2}" Directory_="APPDIR" Attributes="256" Condition="VersionNT64" KeyPath="AxInterop.WMPLib.dll.x64"/>
+    <ROW Component="C1.C1Report.2.dll" ComponentId="{7C2EB9E5-F9F8-4985-BE7E-FCCF709F7F46}" Directory_="APPDIR" Attributes="0" KeyPath="C1.C1Report.2.dll"/>
+    <ROW Component="C1.C1Zip.2.dll" ComponentId="{F181E7F5-EAA4-4388-BFB9-6AF80F0DAC34}" Directory_="APPDIR" Attributes="0" KeyPath="C1.C1Zip.2.dll"/>
+    <ROW Component="C1.Win.C1Report.2.dll" ComponentId="{76E23539-7815-483C-9836-EDCA0F8FD692}" Directory_="APPDIR" Attributes="0" KeyPath="C1.Win.C1Report.2.dll"/>
+    <ROW Component="ExplorerControls.dll" ComponentId="{22A95C7F-F25D-4D9A-92D0-1043A407971C}" Directory_="APPDIR" Attributes="0" KeyPath="ExplorerControls.dll"/>
+    <ROW Component="HtmlAgilityPack.dll" ComponentId="{0B447D21-9E34-47F3-AD77-BB9FC233E629}" Directory_="APPDIR" Attributes="0" KeyPath="HtmlAgilityPack.dll"/>
+    <ROW Component="Infragistics2.Shared.v11.2.dll" ComponentId="{8417F5BA-9D13-435F-ACD8-502F355006A3}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Shared.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.Misc.v11.2.dll" ComponentId="{8E361963-BD0C-4E44-A076-AE1B6ABA4F46}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.Misc.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinCalcManager._1" ComponentId="{A96E3394-E673-48C0-97A8-1014A693E39A}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinCalcManager.v11.2.FormulaBuilder.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinCalcManager.v1" ComponentId="{F6C38F99-DA28-406E-BE88-80DB65ED3A51}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinCalcManager.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinChart.v11.2.dl" ComponentId="{16BA1D11-CFC5-4AB6-AF11-9B3B4319B31D}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinChart.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinDataSource.v11" ComponentId="{9768DA7A-5DF7-40D9-8793-B409F7116AF0}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinDataSource.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinDock.v11.2.dll" ComponentId="{D2AC6D93-F218-41E1-8806-35F30F6E57AE}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinDock.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinEditors.v11.2." ComponentId="{0E8DCD51-7288-4D05-8FFF-D3DFB7E54367}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinEditors.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinExplorerBar.v1" ComponentId="{57D10C9C-6FA2-4252-B689-277518661916}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinExplorerBar.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinGrid.v11.2.dll" ComponentId="{36B48D2C-CFC8-40C7-A7C2-CCFEB216C587}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinGrid.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinListView.v11.2" ComponentId="{2DDF46C9-F01F-49FB-9A46-5B7C4647A4E9}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinListView.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinStatusBar.v11." ComponentId="{D3E0D1C3-9BFE-465D-A026-D5A919BAA3E7}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinStatusBar.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinTabControl.v11" ComponentId="{800BDC3E-7EB9-43C2-97BC-B5300C998E9C}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinTabControl.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinToolbars.v11.2" ComponentId="{873172E6-8074-4F91-9D7A-00763EF3AF34}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinToolbars.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinTree.v11.2.dll" ComponentId="{6048680A-2885-47EE-91B6-C7A6B653C5B4}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinTree.v11.2.dll"/>
+    <ROW Component="Infragistics2.Win.v11.2.dll" ComponentId="{E6E8CFAA-D36E-4EAD-B9DC-03AE5FEEB0CF}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.v11.2.dll"/>
+    <ROW Component="Infragistics3.Documents.Excel.v11.2.dll" ComponentId="{F91BA5F5-6561-4C85-912E-5F1EDA1EE4ED}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics3.Documents.Excel.v11.2.dll"/>
+    <ROW Component="Interop.DWGTHUMBNAILLib.dll" ComponentId="{EB2A0DBD-8DDD-4F28-9A79-E1DC339B931B}" Directory_="APPDIR" Attributes="0" KeyPath="Interop.DWGTHUMBNAILLib.dll"/>
+    <ROW Component="Interop.InventorApprentice.dll" ComponentId="{3D0405D6-218F-49BD-A07E-A2F541F62FF1}" Directory_="APPDIR" Attributes="0" KeyPath="Interop.InventorApprentice.dll"/>
+    <ROW Component="Interop.InventorViewControlLib.dll" ComponentId="{A6A49BC5-A2C8-430A-B1B9-B498F5FA802A}" Directory_="APPDIR" Attributes="0" KeyPath="Interop.InventorViewControlLib.dll"/>
+    <ROW Component="Interop.WMPLib.dll" ComponentId="{9FEB5B56-E8E2-452C-965C-2A88AFDD1178}" Directory_="APPDIR" Attributes="0" Condition="NOT VersionNT64" KeyPath="Interop.WMPLib.dll"/>
+    <ROW Component="Interop.WMPLib.dll.x64" ComponentId="{E6D83ACF-3CB2-4459-A766-CFAEE498B4F4}" Directory_="APPDIR" Attributes="256" Condition="VersionNT64" KeyPath="Interop.WMPLib.dll.x64"/>
+    <ROW Component="Microsoft.Data.ConnectionUI.Dialog.dll" ComponentId="{793EC154-2BC8-48B0-99F4-F0BF7E8F5C65}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Data.ConnectionUI.Dialog.dll"/>
+    <ROW Component="Microsoft.Data.ConnectionUI.SqlCeDataPro" ComponentId="{E84DAE15-002E-48E2-A669-C3C277026C29}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll"/>
+    <ROW Component="Microsoft.Data.ConnectionUI.dll" ComponentId="{F966CF93-92A4-44C2-8967-F5C99C2B5874}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Data.ConnectionUI.dll"/>
+    <ROW Component="Microsoft.SqlServerCe.Client.dll" ComponentId="{81000A37-1AAD-44EB-AEB3-044FF6BF63CA}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServerCe.Client.dll"/>
+    <ROW Component="Microsoft.WindowsAPICodePack.Shell.dll" ComponentId="{7FAF5C26-2F07-47F2-9CE3-E86632FF9D78}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.WindowsAPICodePack.Shell.dll"/>
+    <ROW Component="Microsoft.WindowsAPICodePack.dll" ComponentId="{52C59E86-26BB-48C8-A228-3A54DE757D10}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.WindowsAPICodePack.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{06AA15D0-CDF7-4A16-B842-B1D2DAFC8DD1}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="RSLicenseActivation.exe" ComponentId="{D9F7F851-A848-4172-B221-B79243C03861}" Directory_="APPDIR" Attributes="0" KeyPath="RSLicenseActivation.exe"/>
+    <ROW Component="Syncfusion.Core.dll" ComponentId="{F6998321-05FB-4286-8DD1-032F99BD7C59}" Directory_="APPDIR" Attributes="0" KeyPath="Syncfusion.Core.dll"/>
+    <ROW Component="Syncfusion.HTMLUI.Base.dll" ComponentId="{F266EE9B-7EEB-405B-AD75-08B649AF8312}" Directory_="APPDIR" Attributes="0" KeyPath="Syncfusion.HTMLUI.Base.dll"/>
+    <ROW Component="Syncfusion.HTMLUI.Windows.dll" ComponentId="{001A027B-E251-4A5D-ACE1-52C56D0D70CD}" Directory_="APPDIR" Attributes="0" KeyPath="Syncfusion.HTMLUI.Windows.dll"/>
+    <ROW Component="Syncfusion.MIME.Base.dll" ComponentId="{DDD5D127-10E7-49CF-A4A5-1E594E47F0C5}" Directory_="APPDIR" Attributes="0" KeyPath="Syncfusion.MIME.Base.dll"/>
+    <ROW Component="Syncfusion.Pdf.Base.dll" ComponentId="{62712589-CE19-4709-B6EB-E46478168A54}" Directory_="APPDIR" Attributes="0" KeyPath="Syncfusion.Pdf.Base.dll"/>
+    <ROW Component="Syncfusion.Pdf.Windows.dll" ComponentId="{2A7D8D1E-6B32-426C-BA2B-2E1B2921CC0C}" Directory_="APPDIR" Attributes="0" KeyPath="Syncfusion.Pdf.Windows.dll"/>
+    <ROW Component="Syncfusion.PdfViewer.Windows.dll" ComponentId="{60D22809-C1EB-490B-979D-E62DA25BA983}" Directory_="APPDIR" Attributes="0" KeyPath="Syncfusion.PdfViewer.Windows.dll"/>
+    <ROW Component="Syncfusion.Scripting.Base.dll" ComponentId="{69A696D1-720A-4F11-A7B3-90CFE928336D}" Directory_="APPDIR" Attributes="0" KeyPath="Syncfusion.Scripting.Base.dll"/>
+    <ROW Component="Syncfusion.Shared.Base.dll" ComponentId="{915C2D4C-F8B5-4453-96F8-B9C70DB9270E}" Directory_="APPDIR" Attributes="0" KeyPath="Syncfusion.Shared.Base.dll"/>
+    <ROW Component="System.Data.SqlServerCe.dll" ComponentId="{31A151F9-3E67-4C16-931F-BA6F6953147C}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.SqlServerCe.dll"/>
+    <ROW Component="System.Scripting.ActiveScript.dll" ComponentId="{57A83DE1-AB45-4A6B-8252-AE7A00B48462}" Directory_="APPDIR" Attributes="0" KeyPath="System.Scripting.ActiveScript.dll"/>
+    <ROW Component="System.Windows.Forms.DataVisualization.d" ComponentId="{EEC42CCC-6D15-4660-9039-B4A93A1943F3}" Directory_="APPDIR" Attributes="0" KeyPath="System.Windows.Forms.DataVisualization.dll"/>
+    <ROW Component="UnitCAD3D.chm" ComponentId="{BA9F876C-89BB-42AC-9AB9-BAAE315D2B9C}" Directory_="APPDIR" Attributes="0" KeyPath="UnitCAD3D.chm" Type="1"/>
+    <ROW Component="UnitCADIntro.mp4" ComponentId="{FB1130FF-0892-459E-B553-B7B4E1AB014F}" Directory_="Videos_Dir" Attributes="0" KeyPath="UnitCADIntro.mp4" Type="0"/>
+    <ROW Component="risersoft.app.mxent.dll" ComponentId="{60F6A2F1-09AC-48EE-996F-9B037911A3C2}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.app.mxent.dll"/>
+    <ROW Component="risersoft.app.shared.dll" ComponentId="{4AB63512-CC99-4881-A6BE-39F3C06791DF}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.app.shared.dll"/>
+    <ROW Component="risersoft.shared.dal.dll" ComponentId="{DF4D027A-90C0-4ACA-84FD-6A0B45979809}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.shared.dal.dll"/>
+    <ROW Component="risersoft.shared.db.dll" ComponentId="{271063E7-81FA-4CBC-972D-4161979AD18C}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.shared.db.dll"/>
+    <ROW Component="risersoft.shared.dll" ComponentId="{4F617119-A9E8-46F7-9ED5-7CBA27FF4601}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.shared.dll"/>
+    <ROW Component="risersoft.shared.lm.dll" ComponentId="{A822DB14-60A4-41C2-A190-BB163CE11B67}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.shared.lm.dll"/>
+    <ROW Component="risersoft.shared.win.dll" ComponentId="{75CFBA15-4BCD-4D6C-838E-06E3CA53465A}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.shared.win.dll"/>
+    <ROW Component="risersoft.unitcad.dll" ComponentId="{495B1705-4381-46B4-99DE-9BF09D48914A}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.unitcad.dll"/>
+    <ROW Component="risersoft.unitcad.iv.dll" ComponentId="{3DF32A22-D184-4715-B86C-8D410BA49C7D}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.unitcad.iv.dll"/>
+    <ROW Component="xml" ComponentId="{95BC0FB1-51A4-4D78-816C-E28D31DF7625}" Directory_="APPDIR" Attributes="0" KeyPath="risersoft.unitcad.iv.addin" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="AI32BitFiles" Title="32-bit" Description="32-bit Executables and Libraries" Display="5" Level="1" Directory_="APPDIR" Attributes="0" Components="AxInterop.WMPLib.dll Interop.WMPLib.dll"/>
+    <ROW Feature="AI64BitFiles" Title="64-bit" Description="64-bit Executables and Libraries" Display="3" Level="1" Directory_="APPDIR" Attributes="0" Components="AxInterop.WMPLib.dll.x64 Interop.WMPLib.dll.x64"/>
+    <ROW Feature="AIOtherFiles" Title="Common" Description="Shared Resource and Regular Files" Display="7" Level="1" Directory_="APPDIR" Attributes="0" Components="AdnInvUtilityLib.2.0.dll Autodesk.AutoCAD.Interop.Common.dll Autodesk.AutoCAD.Interop.dll AxInterop.DWGTHUMBNAILLib.dll AxInterop.InventorViewControlLib.dll C1.C1Report.2.dll C1.C1Zip.2.dll C1.Win.C1Report.2.dll ExplorerControls.dll HtmlAgilityPack.dll Infragistics2.Shared.v11.2.dll Infragistics2.Win.Misc.v11.2.dll Infragistics2.Win.UltraWinCalcManager._1 Infragistics2.Win.UltraWinCalcManager.v1 Infragistics2.Win.UltraWinChart.v11.2.dl Infragistics2.Win.UltraWinDataSource.v11 Infragistics2.Win.UltraWinDock.v11.2.dll Infragistics2.Win.UltraWinEditors.v11.2. Infragistics2.Win.UltraWinExplorerBar.v1 Infragistics2.Win.UltraWinGrid.v11.2.dll Infragistics2.Win.UltraWinListView.v11.2 Infragistics2.Win.UltraWinStatusBar.v11. Infragistics2.Win.UltraWinTabControl.v11 Infragistics2.Win.UltraWinToolbars.v11.2 Infragistics2.Win.UltraWinTree.v11.2.dll Infragistics2.Win.v11.2.dll Infragistics3.Documents.Excel.v11.2.dll Interop.DWGTHUMBNAILLib.dll Interop.InventorApprentice.dll Interop.InventorViewControlLib.dll Microsoft.Data.ConnectionUI.Dialog.dll Microsoft.Data.ConnectionUI.SqlCeDataPro Microsoft.Data.ConnectionUI.dll Microsoft.SqlServerCe.Client.dll Microsoft.WindowsAPICodePack.Shell.dll Microsoft.WindowsAPICodePack.dll RSLicenseActivation.exe Syncfusion.Core.dll Syncfusion.HTMLUI.Base.dll Syncfusion.HTMLUI.Windows.dll Syncfusion.MIME.Base.dll Syncfusion.Pdf.Base.dll Syncfusion.Pdf.Windows.dll Syncfusion.PdfViewer.Windows.dll Syncfusion.Scripting.Base.dll Syncfusion.Shared.Base.dll System.Data.SqlServerCe.dll System.Scripting.ActiveScript.dll System.Windows.Forms.DataVisualization.d UnitCAD3D.chm UnitCADIntro.mp4 risersoft.app.mxent.dll risersoft.app.shared.dll risersoft.shared.dal.dll risersoft.shared.db.dll risersoft.shared.dll risersoft.shared.lm.dll risersoft.shared.win.dll risersoft.unitcad.dll risersoft.unitcad.iv.dll xml"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="AI_ExePath ProductInformation"/>
+    <ATTRIBUTE name="CurrentFeature" value="AIOtherFiles"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="AdnInvUtilityLib.2.0.dll" Component_="AdnInvUtilityLib.2.0.dll" FileName="AdnInv~1.dll|AdnInvUtilityLib.2.0.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\AdnInvUtilityLib.2.0.dll" SelfReg="false" NextFile="AxInterop.DWGTHUMBNAILLib.dll"/>
+    <ROW File="Autodesk.AutoCAD.Interop.Common.dll" Component_="Autodesk.AutoCAD.Interop.Common.dll" FileName="Autode~1.dll|Autodesk.AutoCAD.Interop.Common.dll" Attributes="1" SourcePath="..\..\..\lib\setup\interop\ACAD 2013\Autodesk.AutoCAD.Interop.Common.dll" SelfReg="false" NextFile="Autodesk.AutoCAD.Interop.dll"/>
+    <ROW File="Autodesk.AutoCAD.Interop.dll" Component_="Autodesk.AutoCAD.Interop.dll" FileName="Autode~2.dll|Autodesk.AutoCAD.Interop.dll" Attributes="1" SourcePath="..\..\..\lib\setup\interop\ACAD 2013\Autodesk.AutoCAD.Interop.dll" SelfReg="false" NextFile="BehindTheScenes1.mp4"/>
+    <ROW File="AxInterop.DWGTHUMBNAILLib.dll" Component_="AxInterop.DWGTHUMBNAILLib.dll" FileName="AxInte~1.dll|AxInterop.DWGTHUMBNAILLib.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\AxInterop.DWGTHUMBNAILLib.dll" SelfReg="false" NextFile="AxInterop.InventorViewControlLib.dll"/>
+    <ROW File="AxInterop.InventorViewControlLib.dll" Component_="AxInterop.InventorViewControlLib.dll" FileName="AxInte~2.dll|AxInterop.InventorViewControlLib.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\AxInterop.InventorViewControlLib.dll" SelfReg="false" NextFile="C1.C1Report.2.dll"/>
+    <ROW File="AxInterop.WMPLib.dll" Component_="AxInterop.WMPLib.dll" FileName="AxInte~3.dll|AxInterop.WMPLib.dll" Attributes="1" SourcePath="..\..\..\lib\File\AxInterop.WMPLib.dll" SelfReg="false" NextFile="Interop.WMPLib.dll"/>
+    <ROW File="AxInterop.WMPLib.dll.x64" Component_="AxInterop.WMPLib.dll.x64" FileName="AxInte~1.x64|AxInterop.WMPLib.dll.x64" Attributes="0" SourcePath="..\..\..\lib\File\x64\AxInterop.WMPLib.dll.x64" SelfReg="false" NextFile="Interop.WMPLib.dll.x64"/>
+    <ROW File="BehindTheScenes1.mp4" Component_="UnitCADIntro.mp4" FileName="Behind~1.mp4|Behind-The-Scenes-1.mp4" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\Videos\Behind-The-Scenes-1.mp4" SelfReg="false" NextFile="BehindTheScenes2.mp4"/>
+    <ROW File="BehindTheScenes2.mp4" Component_="UnitCADIntro.mp4" FileName="Behind~2.mp4|Behind-The-Scenes-2.mp4" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\Videos\Behind-The-Scenes-2.mp4" SelfReg="false" NextFile="UnitCADIntro.mp4"/>
+    <ROW File="C1.C1Report.2.dll" Component_="C1.C1Report.2.dll" FileName="C1C1Re~1.dll|C1.C1Report.2.dll" Attributes="0" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\C1.C1Report.2.dll" SelfReg="false" NextFile="C1.C1Zip.2.dll"/>
+    <ROW File="C1.C1Zip.2.dll" Component_="C1.C1Zip.2.dll" FileName="C1C1Zi~1.dll|C1.C1Zip.2.dll" Attributes="0" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\C1.C1Zip.2.dll" SelfReg="false" NextFile="C1.Win.C1Report.2.dll"/>
+    <ROW File="C1.Win.C1Report.2.dll" Component_="C1.Win.C1Report.2.dll" FileName="C1WinC~1.dll|C1.Win.C1Report.2.dll" Attributes="0" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\C1.Win.C1Report.2.dll" SelfReg="false" NextFile="ExplorerControls.dll"/>
+    <ROW File="ExplorerControls.dll" Component_="ExplorerControls.dll" FileName="Explor~1.dll|ExplorerControls.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\ExplorerControls.dll" SelfReg="false" NextFile="HtmlAgilityPack.dll"/>
+    <ROW File="HtmlAgilityPack.dll" Component_="HtmlAgilityPack.dll" FileName="HtmlAg~1.dll|HtmlAgilityPack.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\HtmlAgilityPack.dll" SelfReg="false" NextFile="Interop.DWGTHUMBNAILLib.dll"/>
+    <ROW File="Infragistics2.Shared.v11.2.dll" Component_="Infragistics2.Shared.v11.2.dll" FileName="Infrag~1.dll|Infragistics2.Shared.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Shared.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.Misc.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.Misc.v11.2.dll" Component_="Infragistics2.Win.Misc.v11.2.dll" FileName="Infrag~2.dll|Infragistics2.Win.Misc.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.Misc.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinCalcManager.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinCalcManager.v11.2.FormulaBuilder.dll" Component_="Infragistics2.Win.UltraWinCalcManager._1" FileName="Infrag~4.dll|Infragistics2.Win.UltraWinCalcManager.v11.2.FormulaBuilder.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinCalcManager.v11.2.FormulaBuilder.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinChart.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinCalcManager.v11.2.dll" Component_="Infragistics2.Win.UltraWinCalcManager.v1" FileName="Infrag~3.dll|Infragistics2.Win.UltraWinCalcManager.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinCalcManager.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinCalcManager.v11.2.FormulaBuilder.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinChart.v11.2.dll" Component_="Infragistics2.Win.UltraWinChart.v11.2.dl" FileName="Infrag~5.dll|Infragistics2.Win.UltraWinChart.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinChart.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinDataSource.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinDataSource.v11.2.dll" Component_="Infragistics2.Win.UltraWinDataSource.v11" FileName="Infrag~6.dll|Infragistics2.Win.UltraWinDataSource.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinDataSource.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinDock.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinDock.v11.2.dll" Component_="Infragistics2.Win.UltraWinDock.v11.2.dll" FileName="Infrag~7.dll|Infragistics2.Win.UltraWinDock.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinDock.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinEditors.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinEditors.v11.2.dll" Component_="Infragistics2.Win.UltraWinEditors.v11.2." FileName="Infrag~8.dll|Infragistics2.Win.UltraWinEditors.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinEditors.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinExplorerBar.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinExplorerBar.v11.2.dll" Component_="Infragistics2.Win.UltraWinExplorerBar.v1" FileName="Infrag~9.dll|Infragistics2.Win.UltraWinExplorerBar.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinExplorerBar.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinGrid.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinGrid.v11.2.dll" Component_="Infragistics2.Win.UltraWinGrid.v11.2.dll" FileName="Infra~10.dll|Infragistics2.Win.UltraWinGrid.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinGrid.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinStatusBar.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinListView.v11.2.dll" Component_="Infragistics2.Win.UltraWinListView.v11.2" FileName="Infra~17.dll|Infragistics2.Win.UltraWinListView.v11.2.dll" Attributes="0" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinListView.v11.2.dll" SelfReg="false" NextFile="Autodesk.AutoCAD.Interop.Common.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinStatusBar.v11.2.dll" Component_="Infragistics2.Win.UltraWinStatusBar.v11." FileName="Infra~11.dll|Infragistics2.Win.UltraWinStatusBar.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinStatusBar.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinTabControl.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinTabControl.v11.2.dll" Component_="Infragistics2.Win.UltraWinTabControl.v11" FileName="Infra~12.dll|Infragistics2.Win.UltraWinTabControl.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinTabControl.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinToolbars.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinToolbars.v11.2.dll" Component_="Infragistics2.Win.UltraWinToolbars.v11.2" FileName="Infra~13.dll|Infragistics2.Win.UltraWinToolbars.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinToolbars.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinTree.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinTree.v11.2.dll" Component_="Infragistics2.Win.UltraWinTree.v11.2.dll" FileName="Infra~14.dll|Infragistics2.Win.UltraWinTree.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.UltraWinTree.v11.2.dll" SelfReg="false" NextFile="Infragistics2.Win.v11.2.dll"/>
+    <ROW File="Infragistics2.Win.v11.2.dll" Component_="Infragistics2.Win.v11.2.dll" FileName="Infra~15.dll|Infragistics2.Win.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics2.Win.v11.2.dll" SelfReg="false" NextFile="Infragistics3.Documents.Excel.v11.2.dll"/>
+    <ROW File="Infragistics3.Documents.Excel.v11.2.dll" Component_="Infragistics3.Documents.Excel.v11.2.dll" FileName="Infra~16.dll|Infragistics3.Documents.Excel.v11.2.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\Infragistics3.Documents.Excel.v11.2.dll" SelfReg="false" NextFile="System.Data.SqlServerCe.dll"/>
+    <ROW File="Interop.DWGTHUMBNAILLib.dll" Component_="Interop.DWGTHUMBNAILLib.dll" FileName="Intero~1.dll|Interop.DWGTHUMBNAILLib.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\Interop.DWGTHUMBNAILLib.dll" SelfReg="false" NextFile="Interop.InventorApprentice.dll"/>
+    <ROW File="Interop.InventorApprentice.dll" Component_="Interop.InventorApprentice.dll" FileName="Intero~2.dll|Interop.InventorApprentice.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\Interop.InventorApprentice.dll" SelfReg="false" NextFile="Interop.InventorViewControlLib.dll"/>
+    <ROW File="Interop.InventorViewControlLib.dll" Component_="Interop.InventorViewControlLib.dll" FileName="Intero~3.dll|Interop.InventorViewControlLib.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\Interop.InventorViewControlLib.dll" SelfReg="false" NextFile="Microsoft.Data.ConnectionUI.Dialog.dll"/>
+    <ROW File="Interop.WMPLib.dll" Component_="Interop.WMPLib.dll" FileName="Intero~4.dll|Interop.WMPLib.dll" Attributes="1" SourcePath="..\..\..\lib\File\Interop.WMPLib.dll" SelfReg="false" NextFile="Syncfusion.Core.dll"/>
+    <ROW File="Interop.WMPLib.dll.x64" Component_="Interop.WMPLib.dll.x64" FileName="Intero~1.x64|Interop.WMPLib.dll.x64" Attributes="0" SourcePath="..\..\..\lib\File\x64\Interop.WMPLib.dll.x64" SelfReg="false" NextFile="risersoft.shared.dal.dll"/>
+    <ROW File="Microsoft.Data.ConnectionUI.Dialog.dll" Component_="Microsoft.Data.ConnectionUI.Dialog.dll" FileName="Micros~1.dll|Microsoft.Data.ConnectionUI.Dialog.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\Microsoft.Data.ConnectionUI.Dialog.dll" SelfReg="false" NextFile="Microsoft.Data.ConnectionUI.dll"/>
+    <ROW File="Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll" Component_="Microsoft.Data.ConnectionUI.SqlCeDataPro" FileName="Micros~3.dll|Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll" SelfReg="false" NextFile="Microsoft.SqlServerCe.Client.dll"/>
+    <ROW File="Microsoft.Data.ConnectionUI.dll" Component_="Microsoft.Data.ConnectionUI.dll" FileName="Micros~2.dll|Microsoft.Data.ConnectionUI.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\Microsoft.Data.ConnectionUI.dll" SelfReg="false" NextFile="Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll"/>
+    <ROW File="Microsoft.SqlServerCe.Client.dll" Component_="Microsoft.SqlServerCe.Client.dll" FileName="Micros~4.dll|Microsoft.SqlServerCe.Client.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\Microsoft.SqlServerCe.Client.dll" SelfReg="false" NextFile="Microsoft.WindowsAPICodePack.dll"/>
+    <ROW File="Microsoft.WindowsAPICodePack.Shell.dll" Component_="Microsoft.WindowsAPICodePack.Shell.dll" FileName="Micros~6.dll|Microsoft.WindowsAPICodePack.Shell.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\Microsoft.WindowsAPICodePack.Shell.dll" SelfReg="false" NextFile="risersoft.app.shared.dll"/>
+    <ROW File="Microsoft.WindowsAPICodePack.dll" Component_="Microsoft.WindowsAPICodePack.dll" FileName="Micros~5.dll|Microsoft.WindowsAPICodePack.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\Microsoft.WindowsAPICodePack.dll" SelfReg="false" NextFile="Microsoft.WindowsAPICodePack.Shell.dll"/>
+    <ROW File="RSLicenseActivation.exe" Component_="RSLicenseActivation.exe" FileName="RSLice~1.exe|RSLicenseActivation.exe" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\RSLicenseActivation.exe" SelfReg="false" NextFile="samples.zip" DigSign="true"/>
+    <ROW File="SetupDB.Zip" Component_="xml" FileName="SetupDB.Zip" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\SetupDB.Zip" SelfReg="false" NextFile="System.Scripting.ActiveScript.dll"/>
+    <ROW File="Syncfusion.Core.dll" Component_="Syncfusion.Core.dll" FileName="Syncfu~1.dll|Syncfusion.Core.dll" Attributes="0" SourcePath="..\..\..\Framework\risersoft.shared.win\bin\Release\Syncfusion.Core.dll" SelfReg="false" NextFile="Syncfusion.HTMLUI.Base.dll"/>
+    <ROW File="Syncfusion.HTMLUI.Base.dll" Component_="Syncfusion.HTMLUI.Base.dll" FileName="Syncfu~2.dll|Syncfusion.HTMLUI.Base.dll" Attributes="0" SourcePath="..\..\..\Framework\risersoft.shared.win\bin\Release\Syncfusion.HTMLUI.Base.dll" SelfReg="false" NextFile="Syncfusion.HTMLUI.Windows.dll"/>
+    <ROW File="Syncfusion.HTMLUI.Windows.dll" Component_="Syncfusion.HTMLUI.Windows.dll" FileName="Syncfu~3.dll|Syncfusion.HTMLUI.Windows.dll" Attributes="0" SourcePath="..\..\..\Framework\risersoft.shared.win\bin\Release\Syncfusion.HTMLUI.Windows.dll" SelfReg="false" NextFile="Syncfusion.Pdf.Base.dll"/>
+    <ROW File="Syncfusion.MIME.Base.dll" Component_="Syncfusion.MIME.Base.dll" FileName="Syncfu~9.dll|Syncfusion.MIME.Base.dll" Attributes="0" SourcePath="..\..\..\Framework\risersoft.shared.win\bin\Release\Syncfusion.MIME.Base.dll" SelfReg="false" NextFile="AxInterop.WMPLib.dll.x64"/>
+    <ROW File="Syncfusion.Pdf.Base.dll" Component_="Syncfusion.Pdf.Base.dll" FileName="Syncfu~4.dll|Syncfusion.Pdf.Base.dll" Attributes="0" SourcePath="..\..\..\Framework\risersoft.shared.win\bin\Release\Syncfusion.Pdf.Base.dll" SelfReg="false" NextFile="Syncfusion.Pdf.Windows.dll"/>
+    <ROW File="Syncfusion.Pdf.Windows.dll" Component_="Syncfusion.Pdf.Windows.dll" FileName="Syncfu~5.dll|Syncfusion.Pdf.Windows.dll" Attributes="0" SourcePath="..\..\..\Framework\risersoft.shared.win\bin\Release\Syncfusion.Pdf.Windows.dll" SelfReg="false" NextFile="Syncfusion.PdfViewer.Windows.dll"/>
+    <ROW File="Syncfusion.PdfViewer.Windows.dll" Component_="Syncfusion.PdfViewer.Windows.dll" FileName="Syncfu~6.dll|Syncfusion.PdfViewer.Windows.dll" Attributes="0" SourcePath="..\..\..\Framework\risersoft.shared.win\bin\Release\Syncfusion.PdfViewer.Windows.dll" SelfReg="false" NextFile="Syncfusion.Scripting.Base.dll"/>
+    <ROW File="Syncfusion.Scripting.Base.dll" Component_="Syncfusion.Scripting.Base.dll" FileName="Syncfu~7.dll|Syncfusion.Scripting.Base.dll" Attributes="0" SourcePath="..\..\..\Framework\risersoft.shared.win\bin\Release\Syncfusion.Scripting.Base.dll" SelfReg="false" NextFile="Syncfusion.Shared.Base.dll"/>
+    <ROW File="Syncfusion.Shared.Base.dll" Component_="Syncfusion.Shared.Base.dll" FileName="Syncfu~8.dll|Syncfusion.Shared.Base.dll" Attributes="0" SourcePath="..\..\..\Framework\risersoft.shared.win\bin\Release\Syncfusion.Shared.Base.dll" SelfReg="false" NextFile="Syncfusion.MIME.Base.dll"/>
+    <ROW File="System.Data.SqlServerCe.dll" Component_="System.Data.SqlServerCe.dll" FileName="System~2.dll|System.Data.SqlServerCe.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\System.Data.SqlServerCe.dll" SelfReg="false" NextFile="System.Windows.Forms.DataVisualization.dll"/>
+    <ROW File="System.Scripting.ActiveScript.dll" Component_="System.Scripting.ActiveScript.dll" FileName="System~1.dll|System.Scripting.ActiveScript.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\System.Scripting.ActiveScript.dll" SelfReg="false" NextFile="ucad3d.appdb"/>
+    <ROW File="System.Windows.Forms.DataVisualization.dll" Component_="System.Windows.Forms.DataVisualization.d" FileName="System~3.dll|System.Windows.Forms.DataVisualization.dll" Attributes="1" SourcePath="..\..\..\lib\setup\UnitCAD-Depends\System.Windows.Forms.DataVisualization.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinListView.v11.2.dll"/>
+    <ROW File="UnitCAD3D.chm" Component_="UnitCAD3D.chm" FileName="UnitCA~1.chm|UnitCAD3D.chm" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\UnitCAD3D.chm" SelfReg="false" NextFile="Infragistics2.Shared.v11.2.dll"/>
+    <ROW File="UnitCADIntro.mp4" Component_="UnitCADIntro.mp4" FileName="UnitCA~1.mp4|UnitCAD-Intro.mp4" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\Videos\UnitCAD-Intro.mp4" SelfReg="false" NextFile="AxInterop.WMPLib.dll"/>
+    <ROW File="risersoft.app.mxent.dll" Component_="risersoft.app.mxent.dll" FileName="risers~9.dll|risersoft.app.mxent.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.app.mxent.dll" SelfReg="false"/>
+    <ROW File="risersoft.app.shared.dll" Component_="risersoft.app.shared.dll" FileName="risers~1.dll|risersoft.app.shared.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.app.shared.dll" SelfReg="false" NextFile="risersoft.shared.db.dll"/>
+    <ROW File="risersoft.shared.dal.dll" Component_="risersoft.shared.dal.dll" FileName="risers~8.dll|risersoft.shared.dal.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.shared.dal.dll" SelfReg="false" NextFile="risersoft.app.mxent.dll"/>
+    <ROW File="risersoft.shared.db.dll" Component_="risersoft.shared.db.dll" FileName="risers~2.dll|risersoft.shared.db.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.shared.db.dll" SelfReg="false" NextFile="risersoft.shared.dll"/>
+    <ROW File="risersoft.shared.dll" Component_="risersoft.shared.dll" FileName="risers~3.dll|risersoft.shared.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.shared.dll" SelfReg="false" NextFile="risersoft.shared.lm.dll"/>
+    <ROW File="risersoft.shared.lm.dll" Component_="risersoft.shared.lm.dll" FileName="risers~4.dll|risersoft.shared.lm.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.shared.lm.dll" SelfReg="false" NextFile="risersoft.shared.win.dll"/>
+    <ROW File="risersoft.shared.win.dll" Component_="risersoft.shared.win.dll" FileName="risers~5.dll|risersoft.shared.win.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.shared.win.dll" SelfReg="false" NextFile="risersoft.unitcad.dll"/>
+    <ROW File="risersoft.unitcad.dll" Component_="risersoft.unitcad.dll" FileName="risers~6.dll|risersoft.unitcad.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.unitcad.dll" SelfReg="false" NextFile="risersoft.unitcad.iv.addin"/>
+    <ROW File="risersoft.unitcad.iv.addin" Component_="xml" FileName="risers~1.add|risersoft.unitcad.iv.addin" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.unitcad.iv.addin" SelfReg="false" NextFile="risersoft.unitcad.iv.dll"/>
+    <ROW File="risersoft.unitcad.iv.dll" Component_="risersoft.unitcad.iv.dll" FileName="risers~7.dll|risersoft.unitcad.iv.dll" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\risersoft.unitcad.iv.dll" SelfReg="false" NextFile="RSLicenseActivation.exe"/>
+    <ROW File="samples.zip" Component_="xml" FileName="samples.zip" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\samples.zip" SelfReg="false" NextFile="SetupDB.Zip"/>
+    <ROW File="ucad3d.appdb" Component_="xml" FileName="ucad3d~1.app|ucad3d.appdb" Attributes="0" SourcePath="..\risersoft.unitcad.inventor\bin\ucad3d.appdb" SelfReg="false" NextFile="UnitCAD3D.chm"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="setup-files" PackageFileName="setup-unitcadiv" Languages="en" InstallationType="2" CabsLocation="1" CompressCabs="false" UseLzma="true" LzmaMethod="2" LzmaCompressionLevel="2" PackageType="1" FilesInsideExe="true" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" ExtUI="true" UseLargeSchema="true" MsiPackageType="AI_ALL"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;air\fragments\FolderDlg.aip"/>
+    <ROW Fragment="LicenseAgreementDlg.aip" Path="&lt;AI_THEMES&gt;air\fragments\LicenseAgreementDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;air\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;air\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;air\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;air\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;air\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;air\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;air\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_DOTNET40_SEARCH" Signature_="AI_DotNet40SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="dotNetCustAct.dll" SourcePath="&lt;AI_CUSTACTS&gt;dotNetCustAct.dll"/>
+    <ROW Name="dotNetCustAct.dll_1" SourcePath="&lt;AI_CUSTACTS64&gt;dotNetCustAct.dll"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiConditionComponent">
+    <ROW Feature_="AI64BitFiles" Level="0" Condition="NOT VersionNT64"/>
+    <ROW Feature_="AI32BitFiles" Level="0" Condition="VersionNT64"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="35" Y="127" Width="321" Height="132" Attributes="3" Property="EulaRead" Text="..\..\EULA.rtf" Order="900" MsiKey="LicenseAgreementDlg#AgreementText"/>
+    <ATTRIBUTE name="FixedSizeBitmaps" value="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="102"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_AppSearchEx" Type="1" Source="Prereq.dll" Target="DoAppSearchEx"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="AI_ExtractFiles" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER_1" Type="51" Source="NetInstallerClass" Target="/LogFile= /ReqVersion=4.0.30319 /InstallType=notransaction /Action=Install &quot;[#risersoft.unitcad.iv.dll]&quot; &quot;[TempFolder]NetInstallerClass_Config.xml&quot;"/>
+    <ROW Action="AI_DATA_SETTER_2" Type="51" Source="NetInstallerClass_x64" Target="/LogFile= /ReqVersion=4.0.30319 /InstallType=notransaction /Action=Install &quot;[#risersoft.unitcad.iv.dll]&quot; &quot;[TempFolder]NetInstallerClass_Config.xml&quot;"/>
+    <ROW Action="AI_DATA_SETTER_3" Type="51" Source="NetInstallerClass_Un" Target="/LogFile= /ReqVersion=4.0.30319 /InstallType=notransaction /Action=Uninstall &quot;[#risersoft.unitcad.iv.dll]&quot; &quot;[TempFolder]NetInstallerClass_1_Config.xml&quot;"/>
+    <ROW Action="AI_DATA_SETTER_4" Type="51" Source="NetInstallerClass_x64_Un" Target="/LogFile= /ReqVersion=4.0.30319 /InstallType=notransaction /Action=Uninstall &quot;[#risersoft.unitcad.iv.dll]&quot; &quot;[TempFolder]NetInstallerClass_1_Config.xml&quot;"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_EstimateExtractFiles" Type="1" Source="Prereq.dll" Target="EstimateExtractFiles"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1025" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Type="1" Source="aicustact.dll" Target="GetLocalizedCredentials"/>
+    <ROW Action="AI_SETPROGRAMFILES" Type="51" Source="AI_ProgramFiles" Target="[ProgramFilesFolder]"/>
+    <ROW Action="AI_SETPROGRAMFILES64" Type="51" Source="AI_ProgramFiles" Target="[ProgramFiles64Folder]"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="NetInstallerClass" Type="3073" Source="dotNetCustAct.dll" Target="LaunchDotNetCustomAction" Options="3" AdditionalSeq="AI_DATA_SETTER_1"/>
+    <ROW Action="NetInstallerClass_Un" Type="3073" Source="dotNetCustAct.dll" Target="LaunchDotNetCustomAction" Options="3" AdditionalSeq="AI_DATA_SETTER_3"/>
+    <ROW Action="NetInstallerClass_x64" Type="3073" Source="dotNetCustAct.dll_1" Target="LaunchDotNetCustomAction" Options="3" AdditionalSeq="AI_DATA_SETTER_2"/>
+    <ROW Action="NetInstallerClass_x64_Un" Type="3073" Source="dotNetCustAct.dll_1" Target="LaunchDotNetCustomAction" Options="3" AdditionalSeq="AI_DATA_SETTER_4"/>
+    <ROW Action="RSLicenseActivation.exe" Type="1106" Source="RSLicenseActivation.exe" Target="/p=ucad3d.1.0"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[AI_ProgramFiles][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDuplicateFileComponent">
+    <ROW FileKey="AxInterop.WMPLib.dll.x64" Component_="AxInterop.WMPLib.dll.x64" File_="AxInterop.WMPLib.dll.x64" DestName="AxInte~1.dll|AxInterop.WMPLib.dll" DestFolder="APPDIR"/>
+    <ROW FileKey="Interop.WMPLib.dll.x64" Component_="Interop.WMPLib.dll.x64" File_="Interop.WMPLib.dll.x64" DestName="Intero~1.dll|Interop.WMPLib.dll" DestFolder="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="icon.exe" SourcePath="..\risersoft.unitcad.inventor\Addin\icon.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="747"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="102" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (NOT PATCH)" Sequence="6598" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="3998" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="3997"/>
+    <ROW Action="AI_EstimateExtractFiles" Sequence="3999" Builds="DefaultBuild"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+    <ROW Action="AI_SETPROGRAMFILES64" Condition="VersionNT64" Sequence="748"/>
+    <ROW Action="AI_SETPROGRAMFILES" Condition="NOT VersionNT64" Sequence="749"/>
+    <ROW Action="InstallFinalize" Sequence="6599" SeqType="0" MsiKey="InstallFinalize"/>
+    <ROW Action="NetInstallerClass" Condition="( ( NOT Installed ) OR ( Installed AND REMOVE &lt;&gt; &quot;ALL&quot; AND AI_INSTALL_MODE &lt;&gt; &quot;Remove&quot; ) ) AND ( NOT (VersionNT64) )" Sequence="6405"/>
+    <ROW Action="NetInstallerClass_x64" Condition="( ( NOT Installed ) OR ( Installed AND REMOVE &lt;&gt; &quot;ALL&quot; AND AI_INSTALL_MODE &lt;&gt; &quot;Remove&quot; ) ) AND ( VersionNT64 )" Sequence="6403"/>
+    <ROW Action="AI_DATA_SETTER_1" Condition="( ( NOT Installed ) OR ( Installed AND REMOVE &lt;&gt; &quot;ALL&quot; AND AI_INSTALL_MODE &lt;&gt; &quot;Remove&quot; ) ) AND ( NOT (VersionNT64) )" Sequence="6404"/>
+    <ROW Action="AI_DATA_SETTER_2" Condition="( ( NOT Installed ) OR ( Installed AND REMOVE &lt;&gt; &quot;ALL&quot; AND AI_INSTALL_MODE &lt;&gt; &quot;Remove&quot; ) ) AND ( VersionNT64 )" Sequence="6401"/>
+    <ROW Action="NetInstallerClass_Un" Condition="( Installed AND ( REMOVE = &quot;ALL&quot; OR AI_INSTALL_MODE = &quot;Remove&quot; ) ) AND ( NOT (VersionNT64) )" Sequence="1604"/>
+    <ROW Action="NetInstallerClass_x64_Un" Condition="( Installed AND ( REMOVE = &quot;ALL&quot; OR AI_INSTALL_MODE = &quot;Remove&quot; ) ) AND ( VersionNT64 )" Sequence="1602"/>
+    <ROW Action="AI_DATA_SETTER_3" Condition="( Installed AND ( REMOVE = &quot;ALL&quot; OR AI_INSTALL_MODE = &quot;Remove&quot; ) ) AND ( NOT (VersionNT64) )" Sequence="1603"/>
+    <ROW Action="AI_DATA_SETTER_4" Condition="( Installed AND ( REMOVE = &quot;ALL&quot; OR AI_INSTALL_MODE = &quot;Remove&quot; ) ) AND ( VersionNT64 )" Sequence="1601"/>
+    <ROW Action="RSLicenseActivation.exe" Condition="( NOT Installed )" Sequence="6402"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="747"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+    <ROW Action="AI_SETPROGRAMFILES64" Condition="VersionNT64" Sequence="748"/>
+    <ROW Action="AI_SETPROGRAMFILES" Condition="NOT VersionNT64" Sequence="749"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(AI_DOTNET40_SEARCH = &quot;#1&quot;) OR (AI_DOTNET45_SEARCH &gt;= &quot;4.5&quot;)" Description="[ProductName] cannot be installed on systems with .NET Framework version lower than [AI_MINDOTNETVERSION]" DescriptionLocId="AI.LaunchCondition.DotNET" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]" DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_DotNet40SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" Name="Install" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="air"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMax="[|ProductVersion]" Attributes="1025" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D62CCA_449F_4EB4_AA2F_C4376D7FBDAD" DisplayName=".NET Framework 4.0" VersionMin="4.0" SetupFileUrl="http://download.microsoft.com/download/1/B/E/1BE39E79-7E39-46A3-96FF-047F95396215/dotNetFx40_Full_setup.exe" Location="1" ExactSize="0" Win9xVersions="Windows 9x/ME" WinNTVersions="Windows NT 4.0, Windows NT 4.0 Service Pack 1, Windows NT 4.0 Service Pack 2, Windows NT 4.0 Service Pack 3, Windows NT 4.0 Service Pack 4, Windows NT 4.0 Service Pack 5, Windows NT 4.0 Service Pack 6, Windows 2000, Windows 2000 Service Pack 1, Windows 2000 Service Pack 2, Windows 2000 Service Pack 3, Windows 2000 Service Pack 4, Windows XP x86, Windows XP x86 Service Pack 1, Windows XP x86 Service Pack 2" Operator="1"/>
+    <ROW PrereqKey="MicrosoftSQLServer" DisplayName="Microsoft SQL Server 2012 Management Objects  (x64)" VersionMin="11.0.2100.60" SetupFileUrl="..\..\packages\dotNetInstaller 2.0\Bin\SupportFiles2\SharedManagementObjects_x64.msi" Location="0" ExactSize="0" Win9xVersions="Windows 9x/ME" WinNTVersions="Windows NT/2000/XP/Vista/Windows 7/Windows 8 x86" Operator="1" TargetName="SharedManagementObjects_x64.msi"/>
+    <ROW PrereqKey="MicrosoftSQLServer_1" DisplayName="Microsoft SQL Server 2012 Management Objects" VersionMin="11.0.2100.60" SetupFileUrl="..\..\packages\dotNetInstaller 2.0\Bin\SupportFiles2\SharedManagementObjects_x86.msi" Location="0" ExactSize="0" Win9xVersions="Windows 9x/ME" WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64" Operator="1" TargetName="SharedManagementObjects_x86.msi"/>
+    <ROW PrereqKey="MicrosoftSystemCLR" DisplayName="Microsoft System CLR Types for SQL Server 2012 (x64)" VersionMin="11.0.2100.60" SetupFileUrl="..\..\packages\dotNetInstaller 2.0\Bin\SupportFiles2\SQLSysClrTypes_x64.msi" Location="0" ExactSize="0" Win9xVersions="Windows 9x/ME" WinNTVersions="Windows NT/2000/XP/Vista/Windows 7/Windows 8 x86" Operator="1" TargetName="SQLSysClrTypes_x64.msi"/>
+    <ROW PrereqKey="MicrosoftSystemCLR_1" DisplayName="Microsoft System CLR Types for SQL Server 2012" VersionMin="11.0.2100.60" SetupFileUrl="..\..\packages\dotNetInstaller 2.0\Bin\SupportFiles2\SQLSysClrTypes_x86.msi" Location="0" ExactSize="0" Win9xVersions="Windows 9x/ME" WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64" Operator="1" TargetName="SQLSysClrTypes_x86.msi"/>
+    <ATTRIBUTE name="PrereqsOrder" value="D62CCA_449F_4EB4_AA2F_C4376D7FBDAD MicrosoftSystemCLR MicrosoftSQLServer MicrosoftSystemCLR_1 MicrosoftSQLServer_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D62CCA_449F_4EB4_AA2F_C4376D7FBDAD_NET_40_SEARCH" Prereq="D62CCA_449F_4EB4_AA2F_C4376D7FBDAD" SearchType="2" SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Version" VerMin="4.0" Order="1" Property="AI_NET_40_ORIGINAL_PREREQSEARCH_PROP"/>
+    <ROW SearchKey="D62CCA_449F_4EB4_AA2F_C4376D7FBDAD_NET_45_SEARCH" Prereq="D62CCA_449F_4EB4_AA2F_C4376D7FBDAD" SearchType="2" SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Version" VerMin="4.5" Order="2" Property="AI_NET_40_45_PREREQSEARCH_PROP"/>
+    <ROW SearchKey="UpgradeCode" Prereq="MicrosoftSystemCLR" SearchType="4" SearchString="{F33D7C5D-99A5-403C-AEA8-BAD7D450DCB5}" VerMin="11.0.2100.60" Order="1" Property="PREREQSEARCH"/>
+    <ROW SearchKey="UpgradeCode_1" Prereq="MicrosoftSQLServer" SearchType="4" SearchString="{00FD3E33-A5FA-47D5-882C-4C6D18DCD662}" VerMin="11.0.2100.60" Order="1" Property="PREREQSEARCH_1"/>
+    <ROW SearchKey="UpgradeCode_2" Prereq="MicrosoftSystemCLR_1" SearchType="4" SearchString="{90F584B3-8EF9-4D5E-BAAC-D84F4CB3B10A}" VerMin="11.0.2100.60" Order="1" Property="PREREQSEARCH_2"/>
+    <ROW SearchKey="UpgradeCode_3" Prereq="MicrosoftSQLServer_1" SearchType="4" SearchString="{650ACDA5-F6D9-4E27-A549-1302AE1393DB}" VerMin="11.0.2100.60" Order="1" Property="PREREQSEARCH_3"/>
+  </COMPONENT>
+</DOCUMENT>

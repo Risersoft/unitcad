@@ -1,0 +1,4 @@
+del  /s/q "$(projectdir)debug"
+del /s/q "$(projectdir)release"
+del  /s/q "$(projectdir)debug 2013"
+del /s/q "$(projectdir)release 2013"

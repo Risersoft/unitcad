@@ -1,0 +1,24 @@
+Questions
+
+
+1. Carryover of attributes to part files of ipt. ref flangeround.ipt
+
+        If (Not rDetBOM Is Nothing) AndAlso (dtParentParams Is Nothing) Then
+
+            'Inherited formulas of parent
+            For Each r1 In dtChildren.Select("tfcompdefid=" & rDetBOM("tfcompdefid") & " and inheritparams=1")
+                For Each r2 As DataRow In dtCompDefParams.Select("tfcompdefid=" & r1("childcompdefid"), "sortindex")
+                    Me.AddUpdCompDefParam(dtf, r2, True)
+                Next
+            Next
+
+            'Local formulas of parent.
+            For Each r1 In dtCompDefParams.Select("tfcompdefid=" & rDetBOM("tfcompdefid"), "sortindex")
+                Me.AddUpdCompDefParam(dtf, r1, True)
+            Next
+
+            'Parameters overridden by parent
+            For Each r2 As DataRow In dtCompDefBOMParams.Select("tfcompdefdetbomid=" & myUtils.cValTN(rDetBOM("tfcompdefdetbomid")))
+                Me.AddUpdCompDefParam(dtf, r2, True)
+            Next
+        End If

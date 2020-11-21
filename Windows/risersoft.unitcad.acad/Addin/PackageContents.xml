@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" ProductType="Application" Name="UnitCAD" AppVersion="1.0.0" Description="UnitCAD" Author="Risersoft" Icon="./icon.bmp" OnlineDocumentation="http://www.unitcad.com" HelpFile="./2012/unitcad.chm">
+  <CompanyDetails Name="Risersoft" Phone=" " Url="http://www.unitcad.com" Email="support@unitcad.com" />
+  <Components>
+    <RuntimeRequirements SupportPath="." OS="Win32|Win64" SeriesMin="R18.0" SeriesMax="R18.2"/>
+    <ComponentEntry AppName="UnitCAD" ModuleName="./2012/risersoft.unitcad.acad.dll" AppDescription="UnitCAD" LoadOnCommandInvocation="True" LoadOnRequest="True">
+      <Commands GroupName="UnitCAD">
+        <Command Local="UnitCAD" Global="UnitCAD" />
+        <Command Local="UNITCAD-OPTIONS" Global="UNITCAD-OPTIONS" />
+        <Command Local="UnitCAD-SETTINGS-PATH" Global="UnitCAD-SETTINGS-PATH" />
+        <Command Local="Unit-GETNAME" Global="Unit-GETNAME" />
+        <Command Local="Unit-SETNAME" Global="Unit-SETNAME" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="UnitCAD CUI" ModuleName="./unitcad.cuix" />
+  </Components>
+  <Components>
+    <RuntimeRequirements SupportPath="." OS="Win32|Win64" SeriesMin="R21.0" SeriesMax="R22.2"/>
+    <ComponentEntry AppName="UnitCAD" ModuleName="./2013/risersoft.unitcad.acad.dll" AppDescription="UnitCAD" LoadOnCommandInvocation="True" LoadOnRequest="True">
+      <Commands GroupName="UnitCAD">
+        <Command Local="UnitCAD" Global="UnitCAD" />
+        <Command Local="UNITCAD-OPTIONS" Global="UNITCAD-OPTIONS" />
+        <Command Local="UnitCAD-SETTINGS-PATH" Global="UnitCAD-SETTINGS-PATH" />
+        <Command Local="Unit-GETNAME" Global="Unit-GETNAME" />
+        <Command Local="Unit-SETNAME" Global="Unit-SETNAME" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="UnitCAD CUI" ModuleName="./unitcad.cuix" />
+  </Components>
+
+</ApplicationPackage>

@@ -1,0 +1,169 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.unitcad", "windows\risersoft.unitcad\risersoft.unitcad.vbproj", "{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.unitcad.iv", "windows\risersoft.unitcad.inventor\risersoft.unitcad.iv.vbproj", "{D395C9D7-1F66-4EED-BDAA-C14121ADF368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Scripting.ActiveScript", "..\Framework\Shared\System.Scripting.ActiveScript\System.Scripting.ActiveScript.csproj", "{B953F872-1C9B-4A62-90B1-2AE8BEFD0565}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExplorerControls", "..\Common\Windows\ExpCombo_src\ExplorerControls.vbproj", "{65DE9FFF-259B-474B-B509-0DC77C8F082E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.app.mxform.eto", "..\Common\Forms\risersoft.app.mxform.eto\risersoft.app.mxform.eto.vbproj", "{1369917E-2571-46F6-89A4-56826252D4E6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.app.mxform", "..\Common\Forms\risersoft.app.mxform\risersoft.app.mxform.vbproj", "{0E5882D2-22B1-4716-99DF-680A77AE3E19}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.app.reports", "..\Common\Reports\risersoft.app.reports.eto\risersoft.app.reports.vbproj", "{D4834A97-3F18-4E9D-A6B4-12A6737A1586}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.app.config", "..\Common\Windows\risersoft.app.config\risersoft.app.config.vbproj", "{6E72E896-AFCE-497C-95ED-676F43B862F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitCAD-API-Sample", "Windows\API-Samples\UnitCAD-API-Sample\UnitCAD-API-Sample.csproj", "{B937396B-BA3E-4854-914B-830DC024776F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Unitcad-Inventor-InstallHelper", "windows\unitcad-inventor-InstallHelper\Unitcad-Inventor-InstallHelper.vbproj", "{88011A3C-333C-463E-B030-D494053CC1DF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.app.mxform.ucad", "Framework\risersoft.app.mxform.ucad\risersoft.app.mxform.ucad.vbproj", "{D3973229-8C02-4D9D-BE84-A5225FEACBFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Debug2|Any CPU = Debug2|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}.All|Any CPU.Build.0 = Release|Any CPU
+		{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}.Debug2|Any CPU.ActiveCfg = Debug2|Any CPU
+		{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}.Debug2|Any CPU.Build.0 = Debug2|Any CPU
+		{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBFAC98-12F3-419B-8583-5F9D4C44E0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D395C9D7-1F66-4EED-BDAA-C14121ADF368}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{D395C9D7-1F66-4EED-BDAA-C14121ADF368}.All|Any CPU.Build.0 = Release|Any CPU
+		{D395C9D7-1F66-4EED-BDAA-C14121ADF368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D395C9D7-1F66-4EED-BDAA-C14121ADF368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D395C9D7-1F66-4EED-BDAA-C14121ADF368}.Debug2|Any CPU.ActiveCfg = Debug2|Any CPU
+		{D395C9D7-1F66-4EED-BDAA-C14121ADF368}.Debug2|Any CPU.Build.0 = Debug2|Any CPU
+		{D395C9D7-1F66-4EED-BDAA-C14121ADF368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D395C9D7-1F66-4EED-BDAA-C14121ADF368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B953F872-1C9B-4A62-90B1-2AE8BEFD0565}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{B953F872-1C9B-4A62-90B1-2AE8BEFD0565}.All|Any CPU.Build.0 = Release|Any CPU
+		{B953F872-1C9B-4A62-90B1-2AE8BEFD0565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B953F872-1C9B-4A62-90B1-2AE8BEFD0565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B953F872-1C9B-4A62-90B1-2AE8BEFD0565}.Debug2|Any CPU.ActiveCfg = Debug|Any CPU
+		{B953F872-1C9B-4A62-90B1-2AE8BEFD0565}.Debug2|Any CPU.Build.0 = Debug|Any CPU
+		{B953F872-1C9B-4A62-90B1-2AE8BEFD0565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B953F872-1C9B-4A62-90B1-2AE8BEFD0565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DE9FFF-259B-474B-B509-0DC77C8F082E}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{65DE9FFF-259B-474B-B509-0DC77C8F082E}.All|Any CPU.Build.0 = Release|Any CPU
+		{65DE9FFF-259B-474B-B509-0DC77C8F082E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DE9FFF-259B-474B-B509-0DC77C8F082E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DE9FFF-259B-474B-B509-0DC77C8F082E}.Debug2|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DE9FFF-259B-474B-B509-0DC77C8F082E}.Debug2|Any CPU.Build.0 = Debug|Any CPU
+		{65DE9FFF-259B-474B-B509-0DC77C8F082E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DE9FFF-259B-474B-B509-0DC77C8F082E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1369917E-2571-46F6-89A4-56826252D4E6}.All|Any CPU.ActiveCfg = Debug2|Any CPU
+		{1369917E-2571-46F6-89A4-56826252D4E6}.All|Any CPU.Build.0 = Debug2|Any CPU
+		{1369917E-2571-46F6-89A4-56826252D4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1369917E-2571-46F6-89A4-56826252D4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1369917E-2571-46F6-89A4-56826252D4E6}.Debug2|Any CPU.ActiveCfg = Debug2|Any CPU
+		{1369917E-2571-46F6-89A4-56826252D4E6}.Debug2|Any CPU.Build.0 = Debug2|Any CPU
+		{1369917E-2571-46F6-89A4-56826252D4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1369917E-2571-46F6-89A4-56826252D4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.All|Any CPU.Build.0 = Release|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Debug2|Any CPU.ActiveCfg = Debug2|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Debug2|Any CPU.Build.0 = Debug2|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4834A97-3F18-4E9D-A6B4-12A6737A1586}.All|Any CPU.ActiveCfg = Debug2|Any CPU
+		{D4834A97-3F18-4E9D-A6B4-12A6737A1586}.All|Any CPU.Build.0 = Debug2|Any CPU
+		{D4834A97-3F18-4E9D-A6B4-12A6737A1586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4834A97-3F18-4E9D-A6B4-12A6737A1586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4834A97-3F18-4E9D-A6B4-12A6737A1586}.Debug2|Any CPU.ActiveCfg = Debug2|Any CPU
+		{D4834A97-3F18-4E9D-A6B4-12A6737A1586}.Debug2|Any CPU.Build.0 = Debug2|Any CPU
+		{D4834A97-3F18-4E9D-A6B4-12A6737A1586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4834A97-3F18-4E9D-A6B4-12A6737A1586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E72E896-AFCE-497C-95ED-676F43B862F1}.All|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E72E896-AFCE-497C-95ED-676F43B862F1}.All|Any CPU.Build.0 = Debug|Any CPU
+		{6E72E896-AFCE-497C-95ED-676F43B862F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E72E896-AFCE-497C-95ED-676F43B862F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E72E896-AFCE-497C-95ED-676F43B862F1}.Debug2|Any CPU.ActiveCfg = Debug2|Any CPU
+		{6E72E896-AFCE-497C-95ED-676F43B862F1}.Debug2|Any CPU.Build.0 = Debug2|Any CPU
+		{6E72E896-AFCE-497C-95ED-676F43B862F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E72E896-AFCE-497C-95ED-676F43B862F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B937396B-BA3E-4854-914B-830DC024776F}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{B937396B-BA3E-4854-914B-830DC024776F}.All|Any CPU.Build.0 = Release|Any CPU
+		{B937396B-BA3E-4854-914B-830DC024776F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B937396B-BA3E-4854-914B-830DC024776F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B937396B-BA3E-4854-914B-830DC024776F}.Debug2|Any CPU.ActiveCfg = Debug2|Any CPU
+		{B937396B-BA3E-4854-914B-830DC024776F}.Debug2|Any CPU.Build.0 = Debug2|Any CPU
+		{B937396B-BA3E-4854-914B-830DC024776F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B937396B-BA3E-4854-914B-830DC024776F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88011A3C-333C-463E-B030-D494053CC1DF}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{88011A3C-333C-463E-B030-D494053CC1DF}.All|Any CPU.Build.0 = Release|Any CPU
+		{88011A3C-333C-463E-B030-D494053CC1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88011A3C-333C-463E-B030-D494053CC1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88011A3C-333C-463E-B030-D494053CC1DF}.Debug2|Any CPU.ActiveCfg = Debug|Any CPU
+		{88011A3C-333C-463E-B030-D494053CC1DF}.Debug2|Any CPU.Build.0 = Debug|Any CPU
+		{88011A3C-333C-463E-B030-D494053CC1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88011A3C-333C-463E-B030-D494053CC1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3973229-8C02-4D9D-BE84-A5225FEACBFB}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{D3973229-8C02-4D9D-BE84-A5225FEACBFB}.All|Any CPU.Build.0 = Release|Any CPU
+		{D3973229-8C02-4D9D-BE84-A5225FEACBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3973229-8C02-4D9D-BE84-A5225FEACBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3973229-8C02-4D9D-BE84-A5225FEACBFB}.Debug2|Any CPU.ActiveCfg = Debug2|Any CPU
+		{D3973229-8C02-4D9D-BE84-A5225FEACBFB}.Debug2|Any CPU.Build.0 = Debug2|Any CPU
+		{D3973229-8C02-4D9D-BE84-A5225FEACBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3973229-8C02-4D9D-BE84-A5225FEACBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {182A259B-5575-47E8-B008-77E3BF1E303B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rsds.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\Common\\lib\\script\\ActiveScriptMod\\System.Scripting.ActiveScript\\System.Scripting.ActiveScript.csproj
+		SccProjectName1 = ../Common/lib/script/ActiveScriptMod/System.Scripting.ActiveScript
+		SccLocalPath1 = ..\\Common\\lib\\script\\ActiveScriptMod\\System.Scripting.ActiveScript
+		SccProjectUniqueName2 = ..\\Common\\lib\\File\\ExpCombo_src\\ExplorerControls.vbproj
+		SccProjectName2 = ../Common/lib/File/ExpCombo_src
+		SccLocalPath2 = ..\\Common\\lib\\File\\ExpCombo_src
+		SccProjectUniqueName3 = ..\\Auth\\Forms\\risersoft.app.mxform.eto\\risersoft.app.mxform.eto.vbproj
+		SccProjectName3 = ../Auth/Forms/risersoft.app.mxform.eto
+		SccLocalPath3 = ..\\Auth\\Forms\\risersoft.app.mxform.eto
+		SccProjectUniqueName4 = ..\\Auth\\Forms\\risersoft.app.mxform\\risersoft.app.mxform.vbproj
+		SccProjectName4 = ../Auth/Forms/risersoft.app.mxform
+		SccLocalPath4 = ..\\Auth\\Forms\\risersoft.app.mxform
+		SccProjectUniqueName5 = ..\\Auth\\Reports\\risersoft.app.reports.eto\\risersoft.app.reports.vbproj
+		SccProjectName5 = ../Auth/Reports/risersoft.app.reports.eto
+		SccLocalPath5 = ..\\Auth\\Reports\\risersoft.app.reports.eto
+		SccProjectUniqueName6 = windows\\risersoft.unitcad\\risersoft.unitcad.vbproj
+		SccProjectName6 = windows/risersoft.unitcad
+		SccLocalPath6 = windows\\risersoft.unitcad
+		SccProjectUniqueName7 = windows\\risersoft.unitcad.inventor\\risersoft.unitcad.iv.vbproj
+		SccProjectName7 = windows/risersoft.unitcad.inventor
+		SccLocalPath7 = windows\\risersoft.unitcad.inventor
+		SccProjectUniqueName8 = ..\\Auth\\Windows\\risersoft.app.config\\risersoft.app.config.vbproj
+		SccProjectName8 = ../Auth/Windows/risersoft.app.config
+		SccLocalPath8 = ..\\Auth\\Windows\\risersoft.app.config
+		SccProjectUniqueName9 = Windows\\API-Samples\\UnitCAD-API-Sample\\UnitCAD-API-Sample.csproj
+		SccProjectName9 = Windows/API-Samples/UnitCAD-API-Sample
+		SccLocalPath9 = Windows\\API-Samples\\UnitCAD-API-Sample
+		SccProjectUniqueName10 = windows\\unitcad-inventor-InstallHelper\\Unitcad-Inventor-InstallHelper.vbproj
+		SccProjectName10 = windows/unitcad-inventor-InstallHelper
+		SccLocalPath10 = windows\\unitcad-inventor-InstallHelper
+		SccProjectUniqueName11 = Framework\\risersoft.app.mxform.ucad\\risersoft.app.mxform.ucad.vbproj
+		SccProjectName11 = Framework/risersoft.app.mxform.ucad
+		SccLocalPath11 = Framework\\risersoft.app.mxform.ucad
+	EndGlobalSection
+EndGlobal

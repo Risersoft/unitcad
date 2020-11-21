@@ -1,0 +1,1 @@
+..\risersoft\risersoft.msi\bin\Release\risersoft.msirename.exe "$(BuildOutputPath)"

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <connstring>Server=DES1-PC\SQLEXPRESS;Database=TCAD;Integrated Security=True;MultipleActiveResultSets=True</connstring>
+  <fileserver>\\test1\file</fileserver>
+  <lastclient>1.0</lastclient>
+</root>

@@ -1,0 +1,63 @@
+<ROOT>
+	<TOOLBAR MAINMENU="1" KEY="mnuMain">
+    <TOOL STYLE="MNU" NAME="View" KEY="ID_View">
+      <TOOL BG="1" STYLE="BUT" NAME="Print" KEY="ID_Print" CAT="ToolBar" />
+      <TOOL STYLE="BUT" NAME="Print Top Level" KEY="ID_PrintTop" CAT="ToolBar" />
+      <TOOL STYLE="MNU" NAME="Generate Format" KEY="ID_PrnFormat" CAT="ToolBar" VISIBLE="False"/>
+      <TOOL BG="1" STYLE="BUT" NAME="Send Mail" KEY="ID_SendMail" CAT="Newfrm">
+        <TAG>
+          <FRM KEY="frmSendMail" />
+        </TAG>
+      </TOOL>
+      <TOOL BG="1" STYLE="MNU" NAME="Browse" KEY="ID_Browse" VISIBLE="False"/>
+      <TOOL STYLE="MNU" NAME="Browse by Filter" KEY="ID_BrowseByFilter"  VISIBLE="False"/>
+      <TOOL BG="1" STYLE="BUT" NAME="Refresh" KEY="ID_Refresh" CAT="Toolbar" />
+      <TOOL BG="1" STYLE="BUT" NAME="Back" KEY="ID_Back" CAT="ToolBar" />
+      <TOOL STYLE="BUT" NAME="Forward" KEY="ID_Forward" CAT="ToolBar" />
+      <TOOL STYLE="BUT" NAME="Home" KEY="ID_Home" CAT="ToolBar" />
+      <TOOL BG="1" STYLE="BUT" NAME="View Browser" KEY="ID_ViewBrowser" CAT="UIView"  VISIBLE="False"/>
+      <TOOL STYLE="BUT" NAME="View Totals" KEY="ID_ViewTotals" CAT="UIView" VISIBLE="False"/>
+    </TOOL>
+    <TOOL STYLE="MNU" NAME="Edit" KEY="ID_Edit">
+			<TOOL STYLE="MNU" NAME="Alter" KEY="ID_Alter" />
+			<TOOL STYLE="MNU" NAME="Delete" KEY="ID_Delete" CAT="ToolBar" />
+			<TOOL BG="1" STYLE="BUT" NAME="Edit Filter Value" KEY="ID_EditFilter" CAT="Filter" />
+			<TOOL STYLE="MNU" NAME="Add Filter" KEY="ID_AddFilter" CAT="Filter" />
+			<TOOL BG="1" STYLE="BUT" NAME="Clear Filter" KEY="ID_ClearFilter" CAT="Filter" />
+			<TOOL STYLE="BUT" NAME="Clear Value" KEY="ID_ClearValue" CAT="Filter" />
+			<TOOL STYLE="BUT" NAME="Clear All" KEY="ID_ClearAll" CAT="Filter" />
+			<TOOL BG="1" STYLE="STA" NAME="Display All" KEY="ID_DisplayAll" CAT="Filter" VISIBLE="False"/>
+			<TOOL BG="1" STYLE="MNU" NAME="Change Status" KEY="ID_Status" />
+		</TOOL>
+		<TOOL STYLE="MNU" NAME="Help" KEY="ID_Help">
+			<TOOL STYLE="BUT" NAME="Contents..." KEY="ID_HContents" CAT="Help" />
+			<TOOL STYLE="BUT" NAME="Index..." KEY="ID_HIndex" CAT="Help" />
+			<TOOL STYLE="BUT" NAME="Search..." KEY="ID_HFind" CAT="Help" />
+			<TOOL BG="1" STYLE="BUT" NAME="About..." KEY="ID_HAbout" CAT="Help" />
+		</TOOL>
+	</TOOLBAR>
+	<TOOLBAR KEY="mnuTool1" Name="Navigation Toolbar">
+		<TOOL KEY="ID_Back" />
+		<TOOL KEY="ID_Forward" />
+		<TOOL KEY="ID_Home" />
+		<TOOL BG="1" KEY="ID_Refresh" />
+    <TOOL BG="1" KEY="ID_Print" />
+    <TOOL KEY="ID_PrintTop" />
+    <TOOL KEY="ID_PrnFormat"/>
+  </TOOLBAR>
+  <TOOLBAR KEY="mnuTool2" NAME="Alteration Toolbar">
+    <TOOL KEY="ID_Alter" />
+    <TOOL STYLE="MNU" NAME="New" KEY="ID_NewTool" />
+    <TOOL KEY="ID_Delete" />
+    <TOOL BG="1" STYLE="MNU" NAME="Add Filter" KEY="ID_AddFilter" CAT="Filter" />
+    <TOOL STYLE="MNU" NAME="Filters" KEY="ID_Filters" CAT="Filter">
+      <TOOL STYLE="BUT" NAME="Edit Filter Value" KEY="ID_EditFilter" CAT="Filter" />
+      <TOOL BG="1" STYLE="BUT" NAME="Clear Value" KEY="ID_ClearValue" CAT="Filter" />
+      <TOOL STYLE="BUT" NAME="Clear Filter" KEY="ID_ClearFilter" CAT="Filter" />
+      <TOOL STYLE="BUT" NAME="Clear All" KEY="ID_ClearAll" CAT="Filter" />
+      <TOOL BG="1" STYLE="STA" NAME="Display All" KEY="ID_DisplayAll" CAT="Filter" VISIBLE="False"/>
+      <TOOL BG="1" KEY="ID_BrowseByFilter"  VISIBLE="False"/>
+    </TOOL>
+  </TOOLBAR>
+  <TOOL STYLE="MNU" NAME="Context" KEY="ID_Context" />
+</ROOT>

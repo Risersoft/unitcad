@@ -1,0 +1,118 @@
+﻿Private Sub cmdBrowse_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdBrowse.Click
+
+        'setup parameters for the open dialog
+        With OpenFileDialog
+            .InitialDirectory = objapprenticeServerApp.FileLocations.Workspace
+            .Title = "Select Assembly file"
+            .DefaultExt = ".iam"
+            .Filter = "Inventor Assembly File (*.iam) | *.iam"
+            .ShowDialog()
+        End With
+
+        'write the filename to the text box
+        txtFileName.Text = OpenFileDialog.FileName
+
+        Dim strReps As String
+        LODRep.Items.Clear()
+        For Each strReps In objapprenticeServerApp.FileManager.GetLevelOfDetailRepresentations(txtFileName.Text)
+            LODRep.Items.Add(strReps)
+        Next
+        InvalidateTrees()
+        LODRep.SelectedIndex = 0
+    End Sub
+
+    ''' <summary>
+    ''' Updates the reference documents and reference files trees
+    ''' </summary>
+    ''' <param name="oApprenticeDoc"></param>
+    ''' <remarks></remarks>
+    Private Sub UpdateReferenceTrees(ByVal oApprenticeDoc As Inventor.ApprenticeServerDocument)
+        RefdFiles.Nodes.Clear()
+        RefdFiles.BeginUpdate()
+        Dim TopTreeNode As TreeNode
+        Dim NewTreeNode As TreeNode
+        TopTreeNode = RefdFiles.Nodes.Add(oApprenticeDoc.File.FullFileName)
+        If Not ShowFlatList.Checked Then
+            UpdateRefdFilesTree(oApprenticeDoc.File, TopTreeNode)
+        Else
+            Dim aReferencedFile As Inventor.File
+            For Each aReferencedFile In oApprenticeDoc.File.AllReferencedFiles
+                NewTreeNode = TopTreeNode.Nodes.Add(aReferencedFile.FullFileName)
+            Next
+        End If
+        TopTreeNode.ExpandAll()
+        RefdFiles.EndUpdate()
+
+        RefdDocs.Nodes.Clear()
+        RefdDocs.BeginUpdate()
+        TopTreeNode = RefdDocs.Nodes.Add(oApprenticeDoc.FullDocumentName)
+        If Not ShowFlatList.Checked Then
+            UpdateRefdDocsTree(oApprenticeDoc, TopTreeNode)
+        Else
+            Dim aReferencedDocument As Inventor.ApprenticeServerDocument
+            For Each aReferencedDocument In oApprenticeDoc.AllReferencedDocuments
+                NewTreeNode = TopTreeNode.Nodes.Add(aReferencedDocument.FullDocumentName)
+            Next
+        End If
+        TopTreeNode.ExpandAll()
+        RefdDocs.EndUpdate()
+    End Sub
+    ''' <summary>
+    ''' Adds the nodes to the reference documents tree for the given Inventor document
+    ''' </summary>
+    ''' <param name="ThisDocument">Given Inventor document</param>
+    ''' <param name="ThisNode">Tree node for this document</param>
+    ''' <remarks></remarks>
+    Private Sub UpdateRefdDocsTree(ByVal ThisDocument As Inventor.ApprenticeServerDocument, ByVal ThisNode As TreeNode)
+        Dim oRefdDocDesc As Inventor.DocumentDescriptor
+        For Each oRefdDocDesc In ThisDocument.ReferencedDocumentDescriptors
+            Dim NewNode As TreeNode
+            NewNode = ThisNode.Nodes.Add(oRefdDocDesc.FullDocumentName)
+            If ShowAllLevels.Checked Then
+                Try
+                    If Not oRefdDocDesc.ReferencedDocument Is Nothing Then
+                        UpdateRefdDocsTree(oRefdDocDesc.ReferencedDocument, NewNode)
+                    End If
+                    If NewNode.Nodes.Count = 0 Then
+                        NewNode.ForeColor = Color.Blue
+                    End If
+                Catch
+                    NewNode.Text = NewNode.Text & "<document not loaded>"
+                    NewNode.ForeColor = Color.Red
+                End Try
+            End If
+        Next
+        If ThisNode.Nodes.Count = 0 Then
+            ThisNode.ForeColor = Color.Blue
+        End If
+    End Sub
+    ''' <summary>
+    ''' Adds the nodes to the reference files tree for the given Inventor file
+    ''' </summary>
+    ''' <param name="ThisFile">Given Inventor File</param>
+    ''' <param name="ThisNode">Tree node for this file</param>
+    ''' <remarks></remarks>
+    Private Sub UpdateRefdFilesTree(ByVal ThisFile As Inventor.File, ByVal ThisNode As TreeNode)
+        Dim oRefdFileDesc As Inventor.FileDescriptor
+        For Each oRefdFileDesc In ThisFile.ReferencedFileDescriptors
+            Dim NewNode As TreeNode
+            NewNode = ThisNode.Nodes.Add(oRefdFileDesc.FullFileName)
+            If ShowAllLevels.Checked Then
+                Try
+                    If Not oRefdFileDesc.ReferencedFile Is Nothing Then
+                        UpdateRefdFilesTree(oRefdFileDesc.ReferencedFile, NewNode)
+                    End If
+                    If NewNode.Nodes.Count = 0 Then
+                        NewNode.ForeColor = Color.Blue
+                    End If
+                Catch
+                    NewNode.Text = NewNode.Text & "<Failed to get the file>"
+                    NewNode.ForeColor = Color.Red
+                End Try
+            End If
+        Next
+        If ThisNode.Nodes.Count = 0 Then
+            ThisNode.ForeColor = Color.Blue
+        End If
+    End Sub
+    

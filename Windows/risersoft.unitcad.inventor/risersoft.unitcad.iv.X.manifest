@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="risersoft.unitcad.iv" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{360db284-d848-45e2-a61c-35c773f061ad}" 
+		progid="risersoft.unitcad.iv.StandardAddInServer" 
+		threadingModel="Both" 
+		name="risersoft.unitcad.iv.StandardAddInServer" 
+		runtimeVersion=""></clrClass>
+
+  <file name="risersoft.unitcad.iv.dll" hashalg="SHA1"></file>
+
+</assembly>

@@ -1,0 +1,14 @@
+﻿'Old CalcFormula:
+                'myParams.AddUpdNamedRef(calc1, r, callfield, valuefield)
+                'Ordering changed because datatype column may be absent ref Max Drawing Std Drawing Params
+
+                str1 = myUtils.cStrTN(r(valuefield)).Trim
+                'Ordering changed because datatype column may be absent ref Max Drawing Std Drawing Params
+                If isnumberfield.Trim.Length = 0 OrElse myUtils.cBoolTN(r(isnumberfield)) Then
+                    str1 = myUtils.cValTN(r(valuefield))
+                ElseIf r("datatype") = 3 Then
+                    str1 = "point(" & str1 & ")"
+                Else
+                    If InStr(str1, """", CompareMethod.Text) > 0 Then str1 = Replace(str1, """", "&quot;")
+                    str1 = """" & str1 & """"
+                End If
